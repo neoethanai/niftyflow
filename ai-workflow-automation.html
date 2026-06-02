@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AI Workflow Automation for Business | NIFTYFLOW</title>
+<meta name="description" content="Automate repetitive tasks across email, documents, CRM, and approvals. Custom AI workflow automation built for your business." />
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Mono:wght@300;400;500&family=Instrument+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="icon" type="image/svg+xml" href="assets/images/logogolden.svg">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { font-size: 16px; }
+  body {
+    font-family: 'Instrument Sans', sans-serif;
+    background: #f6f5f1;
+    color: #0d0d0a;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #b8960c; border-radius: 100px; }
+
+  nav {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1.2rem 5%;
+    background: #f6f5f1;
+    border-bottom: 1px solid #e4e0d8;
+  }
+  .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 1.1rem;
+    color: #0d0d0a;
+    text-decoration: none;
+  }
+  .nav-logo span { color: #b8960c; }
+  .nav-cta {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    background: #0d0d0a;
+    color: #f6f5f1;
+    padding: 0.5rem 1.2rem;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .nav-cta:hover { background: #b8960c; color: #0d0d0a; }
+
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3rem 5% 5rem;
+  }
+
+  .eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #b8960c;
+    margin-bottom: 0.6rem;
+  }
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 900;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    margin-bottom: 1rem;
+  }
+  h1 em { color: #b8960c; font-style: normal; }
+  .lead {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #7a7870;
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 2rem 0 0.6rem;
+  }
+  p {
+    font-size: 0.88rem;
+    line-height: 1.7;
+    color: #3a3835;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+  p strong { font-weight: 600; color: #0d0d0a; }
+
+  ul {
+    list-style: none;
+    margin: 0 0 1.5rem;
+  }
+  ul li {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: #3a3835;
+    padding: 0.3rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    font-weight: 300;
+  }
+  ul li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #b8960c;
+  }
+
+  .cta-box {
+    background: #0d0d0a;
+    color: #f6f5f1;
+    padding: 2.5rem;
+    border-radius: 12px;
+    margin: 2.5rem 0;
+    text-align: center;
+  }
+  .cta-box h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .cta-box p {
+    color: #b5b0a6;
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+  .cta-btn {
+    display: inline-block;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    background: #b8960c;
+    color: #0d0d0a;
+    padding: 0.75rem 1.8rem;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .cta-btn:hover { background: #f6f5f1; }
+
+  .back-link {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.1em;
+    color: #7a7870;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2rem;
+    transition: color 0.2s;
+  }
+  .back-link:hover { color: #b8960c; }
+
+  footer {
+    padding: 1.5rem 5%;
+    border-top: 1px solid #e4e0d8;
+    text-align: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.5rem;
+    letter-spacing: 0.08em;
+    color: #7a7870;
+  }
+
+  @media (max-width: 600px) {
+    nav { padding: 1rem 4%; }
+    .page { padding: 2rem 4% 3rem; }
+    .cta-box { padding: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">Nifty<span>Flow</span></a>
+  <a class="nav-cta" href="index.html#contact">Book a Call</a>
+</nav>
+
+<div class="page">
+  <a href="index.html" class="back-link">&larr; Back to home</a>
+
+  <p class="eyebrow">Service</p>
+  <h1>AI Workflow <em>Automation</em></h1>
+  <p class="lead">Stop doing the work software should do. Connect your tools, automate repetitive tasks, and let your team focus on what actually matters.</p>
+
+  <h2>What is workflow automation?</h2>
+  <p>
+    Every business runs on repetitive processes. Incoming emails that need sorting.
+    Documents that need approval. CRM records that need updating. Invoices that need
+    sending. These tasks don't require human judgment — they just eat human time.
+  </p>
+  <p>
+    AI workflow automation connects your existing tools and handles these tasks
+    automatically. It watches for triggers (an email arrives, a form is submitted, a
+    payment is received) and runs the appropriate actions without anyone lifting a
+    finger.
+  </p>
+
+  <h2>What we build</h2>
+  <p>
+    We build custom automation systems tailored to your specific operations. Here's
+    what that looks like in practice:
+  </p>
+  <ul>
+    <li><strong>Email & document automation</strong> — auto-sort incoming mail, extract key data, generate responses, file documents to the right folders</li>
+    <li><strong>CRM pipeline automation</strong> — auto-create contacts, update stages, log activities, send follow-ups based on behavior</li>
+    <li><strong>Approval workflows</strong> — route purchase orders, leave requests, or contracts to the right person with automated reminders and escalation</li>
+    <li><strong>Notification & alert systems</strong> — real-time alerts on Slack, WhatsApp, or Telegram when specific events occur</li>
+    <li><strong>Cross-tool sync</strong> — keep data consistent between your CRM, accounting software, email platform, and project management tools</li>
+  </ul>
+
+  <h2>Who needs this</h2>
+  <p>
+    If your team spends more than a few hours a week on tasks that follow a
+    predictable pattern, you're a candidate. Common triggers we hear:
+  </p>
+  <ul>
+    <li>"We manually enter every lead from our website into the CRM"</li>
+    <li>"Someone has to forward emails to the right department every morning"</li>
+    <li>"Invoices are created by hand and sent one at a time"</li>
+    <li>"We use three tools that don't talk to each other"</li>
+  </ul>
+
+  <h2>How it works</h2>
+  <p>
+    <strong>1. Audit.</strong> We map your current processes and identify where automation has the highest impact.<br/><br/>
+    <strong>2. Build.</strong> We develop and test the system in your environment, connecting your tools through APIs.<br/><br/>
+    <strong>3. Deploy.</strong> The system goes live. We monitor it and make adjustments as needed.<br/><br/>
+    <strong>4. Support.</strong> Ongoing maintenance and updates as your business evolves.
+  </p>
+
+  <div class="cta-box">
+    <h3>Ready to eliminate manual work?</h3>
+    <p>Book a free 30-minute strategy call. No commitment required.</p>
+    <a class="cta-btn" href="index.html#contact">Book a Free Strategy Call</a>
+  </div>
+
+  <p style="font-size:0.78rem;color:#7a7870;">
+    Also explore: <a href="whatsapp-chatbot.html" style="color:#b8960c;text-decoration:underline;">WhatsApp Chatbots</a> ·
+    <a href="ai-voice-agent.html" style="color:#b8960c;text-decoration:underline;">AI Voice Agents</a> ·
+    <a href="trading-bot-development.html" style="color:#b8960c;text-decoration:underline;">Trading Bots</a>
+  </p>
+</div>
+
+<footer>&copy; 2026 NIFTYFLOW</footer>
+
+</body>
+</html>
