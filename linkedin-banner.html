@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>LinkedIn Banner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Mono:wght@300;400;500&family=Instrument+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #1a1a1a; zoom: 0.6; }
+  .banner {
+    width: 1536px;
+    height: 768px;
+    background: #0a0a08;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  .banner::before {
+    content: '';
+    position: absolute;
+    right: -80px;
+    top: -80px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(212,175,55,0.06), transparent 70%);
+    pointer-events: none;
+  }
+
+  .brand {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 2.8rem;
+    letter-spacing: -0.03em;
+    color: #d4af37;
+    line-height: 1;
+  }
+
+  .tagline {
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    letter-spacing: 0.08em;
+    color: #a09886;
+    margin-top: 12px;
+    padding-right: 0;
+    line-height: 1.6;
+  }
+
+  .hint {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: monospace;
+    font-size: 13px;
+    color: #666;
+    background: #2a2a2a;
+    padding: 8px 20px;
+    border-radius: 8px;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+<div class="banner">
+  <div style="text-align:right">
+    <div class="brand">Niftyflow</div>
+    <div class="tagline">AI Automation Agency</div>
+  </div>
+</div>
+<div class="hint">Right-click banner → Inspect → right-click &lt;div class="banner"&gt; → Capture node screenshot</div>
+</body>
+</html>
