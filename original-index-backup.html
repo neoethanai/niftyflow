@@ -1,0 +1,1625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>NIFTYFLOW | AI Automation Agency &amp; Software Development Studio</title>
+<meta name="description" content="NIFTYFLOW helps businesses automate operations, build AI agents, deploy intelligent assistants, create custom software, and scale faster using AI technology." />
+<meta name="keywords" content="AI automation, business automation, AI agents, trading bots, custom software, AI assistants" />
+<meta name="author" content="NIFTYFLOW" />
+<meta property="og:title" content="NIFTYFLOW — Automate Everything. Scale Anything." />
+<meta property="og:description" content="AI Automation Agency &amp; Software Development Studio. Automate workflows, deploy AI assistants, build intelligent bots." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://niftyflow.in" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="NIFTYFLOW — Automate Everything. Scale Anything." />
+<link rel="canonical" href="https://niftyflow.in" />
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Mono:wght@300;400;500&family=Instrument+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="icon" type="image/svg+xml" href="assets/images/logogolden.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+<script src="https://cdn.sheetjs.com/xlsx-0.20.2/package/dist/xlsx.full.min.js"></script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NIFTYFLOW",
+    "description": "AI Automation & Digital Solutions company",
+    "url": "https://niftyflow.in",
+    "contactPoint": { "@type": "ContactPoint", "telephone": "+91-8087616404", "contactType": "sales" },
+    "sameAs": [
+      "https://linkedin.com/in/nifty-flow-a02b40412/",
+      "https://instagram.com/niftyflow.in",
+      "https://youtube.com/@niftyflow"
+    ]
+  }
+</script>
+<style>
+  :root {
+    --ink: #0a0a0f;
+    --white: #fafaf8;
+    --cream: #f4f1ea;
+    --silver: #e8e4dc;
+    --mist: #c8c4bc;
+    --slate: #8a8680;
+    --gold: #b8960c;
+    --gold-light: #d4af37;
+    --gold-pale: #f0e8c8;
+    --red-alert: #c0392b;
+    --green-signal: #1a6b3a;
+    --green-light: #e8f5ee;
+    --shadow-soft: 0 4px 32px rgba(10,10,15,0.08);
+    --shadow-card: 0 2px 16px rgba(10,10,15,0.06), 0 8px 48px rgba(10,10,15,0.06);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; font-size: 16px; }
+
+  body {
+    font-family: 'Instrument Sans', sans-serif;
+    background: var(--white);
+    color: var(--ink);
+    overflow-x: hidden;
+    cursor: crosshair;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1.2rem 5%;
+    background: rgba(250,250,248,0.92);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--silver);
+  }
+  .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .nav-logo span { color: var(--gold); }
+  .nav-tagline {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    color: var(--slate);
+    text-transform: uppercase;
+  }
+  .nav-links {
+    display: flex; gap: 2rem; list-style: none;
+  }
+  .nav-links a {
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--slate);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--ink); }
+  .nav-cta {
+    background: var(--ink);
+    color: var(--white) !important;
+    padding: 0.5rem 1.2rem;
+    border-radius: 2px;
+    transition: background 0.2s !important;
+  }
+  .nav-cta:hover { background: var(--gold) !important; color: var(--ink) !important; }
+
+  .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 4px; }
+  .hamburger span { display: block; width: 22px; height: 2px; background: var(--ink); transition: all 0.3s; }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    padding: 160px 5% 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    position: relative;
+    background: var(--white);
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 60% 70% at 80% 50%, rgba(184,150,12,0.05) 0%, transparent 70%),
+      repeating-linear-gradient(0deg, transparent, transparent 79px, var(--silver) 79px, var(--silver) 80px),
+      repeating-linear-gradient(90deg, transparent, transparent 79px, var(--silver) 79px, var(--silver) 80px);
+    pointer-events: none;
+  }
+  .hero-left { position: relative; z-index: 1; }
+  .hero-eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1.4rem;
+    display: flex; align-items: center; gap: 0.8rem;
+  }
+  .hero-eyebrow::before {
+    content: '';
+    display: inline-block;
+    width: 32px; height: 1px;
+    background: var(--gold);
+  }
+  .hero-h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.6rem, 5vw, 4.2rem);
+    font-weight: 900;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    color: var(--ink);
+    margin-bottom: 1.6rem;
+  }
+  .hero-h1 em {
+    font-style: italic;
+    color: var(--gold);
+  }
+  .hero-sub {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--slate);
+    max-width: 440px;
+    margin-bottom: 2.4rem;
+    font-weight: 300;
+  }
+  .hero-sub strong { color: var(--ink); font-weight: 500; }
+  .hero-cta-row { display: flex; gap: 1rem; flex-wrap: wrap; align-items: center; }
+  .btn-primary {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    background: var(--ink);
+    color: var(--white);
+    padding: 0.85rem 1.8rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 2px;
+    transition: background 0.2s, transform 0.15s;
+    border: none; cursor: pointer;
+  }
+  .btn-primary:hover { background: var(--gold); color: var(--ink); transform: translateY(-1px); }
+  .btn-ghost {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    background: transparent;
+    color: var(--ink);
+    padding: 0.85rem 1.8rem;
+    font-size: 0.82rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 2px;
+    border: 1px solid var(--silver);
+    transition: border-color 0.2s, background 0.2s;
+    cursor: pointer;
+  }
+  .btn-ghost:hover { border-color: var(--ink); background: var(--cream); }
+  .trust-badges {
+    display: flex; gap: 1.6rem; margin-top: 3rem; flex-wrap: wrap;
+  }
+  .trust-badge {
+    display: flex; align-items: center; gap: 0.5rem;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--slate);
+  }
+  .trust-badge .dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--green-signal);
+    box-shadow: 0 0 0 3px rgba(26,107,58,0.15);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 3px rgba(26,107,58,0.15); }
+    50% { box-shadow: 0 0 0 6px rgba(26,107,58,0.08); }
+  }
+  .hero-right { position: relative; z-index: 1; }
+  .hero-card {
+    background: var(--white);
+    border: 1px solid var(--silver);
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: var(--shadow-card);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+  }
+  .card-header {
+    display: flex; justify-content: space-between; align-items: center;
+    margin-bottom: 1.4rem;
+  }
+  .card-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--slate);
+  }
+  .live-badge {
+    display: flex; align-items: center; gap: 0.4rem;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--green-signal);
+    background: var(--green-light);
+    padding: 0.25rem 0.6rem;
+    border-radius: 20px;
+  }
+  .live-badge::before {
+    content: '';
+    width: 5px; height: 5px;
+    background: var(--green-signal);
+    border-radius: 50%;
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+
+  /* Hero dashboard grid */
+  .dashboard-grid-hero {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-bottom: 1.4rem;
+  }
+  .dashboard-box {
+    background: var(--cream);
+    border: 1px solid var(--silver);
+    border-radius: 4px;
+    padding: 0.875rem;
+    text-align: center;
+  }
+  .dashboard-box .val {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .dashboard-box .val.cyan { color: #0891b2; }
+  .dashboard-box .val.green { color: var(--green-signal); }
+  .dashboard-box .val.gold { color: var(--gold); }
+  .dashboard-box .lbl {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--slate);
+    margin-top: 0.2rem;
+  }
+  .dashboard-bar { margin-top: 0.5rem; }
+  .dashboard-bar .row {
+    display: flex; justify-content: space-between;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--slate);
+    margin-bottom: 0.3rem;
+  }
+  .dashboard-bar .row .pct { color: var(--green-signal); font-weight: 500; }
+  .dashboard-bar .track {
+    height: 4px;
+    background: var(--silver);
+    border-radius: 100px;
+    overflow: hidden;
+    margin-bottom: 0.8rem;
+  }
+  .dashboard-bar .track .fill {
+    height: 100%;
+    border-radius: 100px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+  }
+
+  /* ── SECTION SHARED ── */
+  section { padding: 100px 5%; }
+  .section-eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.8rem;
+  }
+  .section-h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    color: var(--ink);
+    margin-bottom: 1.2rem;
+  }
+  .section-lead {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--slate);
+    max-width: 540px;
+    font-weight: 300;
+    margin-bottom: 3rem;
+  }
+
+  /* ── SERVICES SECTION ── */
+  .services-section { background: var(--cream); }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .service-card {
+    background: var(--white);
+    border: 1px solid var(--silver);
+    border-radius: 6px;
+    padding: 2rem;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  }
+  .service-card:hover {
+    border-color: var(--gold);
+    box-shadow: 0 4px 24px rgba(184,150,12,0.1);
+    transform: translateY(-3px);
+  }
+  .service-icon {
+    width: 2.8rem; height: 2.8rem;
+    border-radius: 6px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1.25rem;
+  }
+  .service-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 0.75rem;
+  }
+  .service-card p {
+    font-size: 0.82rem;
+    color: var(--slate);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-weight: 300;
+  }
+  .service-card ul { list-style: none; }
+  .service-card ul li {
+    font-size: 0.8rem;
+    color: var(--slate);
+    padding: 0.25rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .service-card ul li::before {
+    content: '✦';
+    color: var(--gold);
+    font-size: 0.5rem;
+    flex-shrink: 0;
+  }
+
+  /* ── INDUSTRIES SECTION ── */
+  .industries-section { background: var(--white); }
+  .industries-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+  .industry-card {
+    border: 1px solid var(--silver);
+    border-radius: 6px;
+    padding: 1.5rem 1.2rem;
+    text-align: center;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .industry-card:hover {
+    border-color: var(--gold);
+    box-shadow: 0 4px 20px rgba(184,150,12,0.08);
+  }
+  .industry-card i {
+    font-size: 1.6rem;
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+  .industry-card h3 {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 0.4rem;
+  }
+  .industry-card p {
+    font-size: 0.75rem;
+    color: var(--slate);
+    line-height: 1.5;
+    font-weight: 300;
+  }
+
+  /* ── PROCESS SECTION ── */
+  .process-section { background: var(--ink); color: var(--white); }
+  .process-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 50% 60% at 10% 80%, rgba(184,150,12,0.12) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 50% at 90% 20%, rgba(184,150,12,0.07) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .process-section { position: relative; overflow: hidden; }
+  .process-section .section-eyebrow { color: var(--gold-light); }
+  .process-section .section-h2 { color: var(--white); }
+  .process-section .section-lead { color: var(--mist); }
+  .process-timeline {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
+    position: relative;
+    margin-top: 3rem;
+  }
+  .process-timeline::before {
+    content: '';
+    position: absolute;
+    top: 2rem; left: 3rem; right: 3rem;
+    height: 1px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    opacity: 0.3;
+  }
+  .process-step { text-align: center; position: relative; z-index: 1; }
+  .process-step .circle {
+    width: 4rem; height: 4rem;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(184,150,12,0.3);
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 1rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    transition: all 0.3s;
+  }
+  .process-step:hover .circle {
+    background: var(--gold);
+    color: var(--ink);
+    border-color: var(--gold);
+    box-shadow: 0 0 25px rgba(184,150,12,0.3);
+  }
+  .process-step h4 {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 0.25rem;
+  }
+  .process-step p { font-size: 0.75rem; color: var(--mist); font-weight: 300; }
+
+  /* ── PORTFOLIO SECTION ── */
+  .portfolio-section { background: var(--cream); }
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .portfolio-card {
+    background: var(--white);
+    border: 1px solid var(--silver);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+  }
+  .portfolio-card:hover {
+    border-color: var(--gold);
+    box-shadow: 0 4px 24px rgba(184,150,12,0.1);
+    transform: translateY(-3px);
+  }
+  .portfolio-thumb {
+    height: 140px;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgba(255,255,255,0.2);
+    position: relative;
+  }
+  .portfolio-thumb .overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.1); }
+  .portfolio-body { padding: 1.5rem; }
+  .portfolio-body h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+  }
+  .portfolio-body p {
+    font-size: 0.8rem;
+    color: var(--slate);
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  .portfolio-tags {
+    display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem;
+  }
+  .portfolio-tags span {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.58rem;
+    letter-spacing: 0.08em;
+    padding: 0.2rem 0.6rem;
+    background: var(--cream);
+    border: 1px solid var(--silver);
+    border-radius: 20px;
+    color: var(--slate);
+  }
+
+  /* ── WHY US SECTION ── */
+  .whyus-section { background: var(--white); }
+  .whyus-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  .feature-card {
+    border: 1px solid var(--silver);
+    border-radius: 6px;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .feature-card:hover {
+    border-color: var(--gold);
+    box-shadow: 0 4px 20px rgba(184,150,12,0.08);
+  }
+  .feature-icon {
+    width: 3rem; height: 3rem;
+    border-radius: 8px;
+    background: var(--cream);
+    border: 1px solid var(--silver);
+    display: flex; align-items: center; justify-content: center;
+    margin: 0 auto 1.25rem;
+    font-size: 1.3rem;
+    color: var(--gold);
+    transition: background 0.2s;
+  }
+  .feature-card:hover .feature-icon { background: var(--gold-pale); }
+  .feature-card h3 {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+  }
+  .feature-card p {
+    font-size: 0.82rem;
+    color: var(--slate);
+    line-height: 1.6;
+    font-weight: 300;
+  }
+
+  /* ── STATS SECTION ── */
+  .stats-section { background: var(--ink); }
+  .stats-section .section-eyebrow { color: var(--gold-light); }
+  .stats-section .section-h2 { color: var(--white); }
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  .stat-card {
+    text-align: center;
+    padding: 2rem 1rem;
+    border: 1px solid rgba(184,150,12,0.2);
+    border-radius: 6px;
+    background: rgba(184,150,12,0.04);
+  }
+  .stat-card .num {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: var(--gold-light);
+  }
+  .stat-card .lbl {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--mist);
+    margin-top: 0.5rem;
+  }
+
+  /* ── FAQ SECTION ── */
+  .faq-section { background: var(--cream); }
+  .faq-list { max-width: 720px; margin: 0 auto; }
+  .faq-item {
+    background: var(--white);
+    border: 1px solid var(--silver);
+    border-radius: 4px;
+    margin-bottom: 0.6rem;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+  .faq-item:hover { border-color: var(--gold); }
+  .faq-question {
+    width: 100%;
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 1.2rem 1.5rem;
+    background: none; border: none;
+    color: var(--ink);
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+  }
+  .faq-question i {
+    transition: transform 0.3s;
+    color: var(--slate);
+    font-size: 0.8rem;
+  }
+  .faq-question.open i { transform: rotate(180deg); color: var(--gold); }
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0 1.5rem;
+  }
+  .faq-answer.open {
+    max-height: 300px;
+    padding: 0 1.5rem 1.2rem;
+  }
+  .faq-answer p {
+    font-size: 0.85rem;
+    color: var(--slate);
+    line-height: 1.7;
+    font-weight: 300;
+  }
+
+  /* ── CONTACT / STACK SECTION ── */
+  .contact-section { background: var(--white); }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+  .contact-info-side h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 1rem;
+  }
+  .contact-info-side p {
+    font-size: 0.88rem;
+    color: var(--slate);
+    line-height: 1.7;
+    font-weight: 300;
+    margin-bottom: 2rem;
+  }
+  .contact-detail {
+    border: 1px solid var(--silver);
+    border-radius: 6px;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 1rem;
+    display: flex; align-items: flex-start; gap: 1rem;
+    transition: border-color 0.2s;
+  }
+  .contact-detail:hover { border-color: var(--gold); }
+  .contact-detail i {
+    color: var(--gold);
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    margin-top: 0.15rem;
+  }
+  .contact-detail h4 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 0.3rem;
+  }
+  .contact-detail a {
+    font-size: 0.82rem;
+    color: var(--slate);
+    text-decoration: none;
+    font-weight: 300;
+    transition: color 0.2s;
+  }
+  .contact-detail a:hover { color: var(--gold); }
+
+  /* Contact Card */
+  .contact-card {
+    background: var(--ink);
+    color: var(--white);
+    border-radius: 8px;
+    padding: 2.4rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .contact-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gold), var(--gold-light));
+  }
+  .contact-card::after {
+    content: '';
+    position: absolute;
+    bottom: -60px; right: -60px;
+    width: 180px; height: 180px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(184,150,12,0.1) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .contact-eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold-light);
+    margin-bottom: 0.8rem;
+  }
+  .contact-h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 0.8rem;
+  }
+  .contact-sub {
+    font-size: 0.85rem;
+    color: var(--mist);
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 1.8rem;
+  }
+  .contact-btns { display: flex; flex-direction: column; gap: 0.8rem; }
+  .contact-btn {
+    display: flex; align-items: center; justify-content: center; gap: 0.7rem;
+    padding: 0.9rem 1.4rem;
+    border-radius: 4px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.15s, opacity 0.2s;
+  }
+  .contact-btn:hover { transform: translateY(-1px); opacity: 0.92; }
+  .btn-wa { background: #25D366; color: #fff; }
+  .btn-email {
+    background: transparent;
+    color: var(--white);
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .confidentiality-note {
+    display: flex; align-items: flex-start; gap: 0.6rem;
+    margin-top: 1.4rem;
+    padding: 0.9rem;
+    background: rgba(184,150,12,0.08);
+    border: 1px solid rgba(184,150,12,0.2);
+    border-radius: 4px;
+    font-size: 0.72rem;
+    color: var(--mist);
+    line-height: 1.5;
+  }
+  .conf-icon { color: var(--gold-light); flex-shrink: 0; font-size: 0.9rem; margin-top: 0.05rem; }
+
+  /* Form styles */
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  .form-group { margin-bottom: 1rem; }
+  .form-group label {
+    display: block;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--slate);
+    margin-bottom: 0.4rem;
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: var(--cream);
+    border: 1px solid var(--silver);
+    border-radius: 4px;
+    color: var(--ink);
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 0.88rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus { border-color: var(--gold); }
+  .form-group input.error,
+  .form-group select.error,
+  .form-group textarea.error { border-color: var(--red-alert); }
+  .form-group .error-msg { color: var(--red-alert); font-size: 0.72rem; margin-top: 0.25rem; display: none; }
+  .form-group .error-msg.show { display: block; }
+  .form-group textarea { resize: vertical; min-height: 100px; }
+  .form-full { grid-column: 1 / -1; }
+  .form-group select option { background: var(--white); color: var(--ink); }
+  .success-msg { display: none; text-align: center; padding: 3rem; }
+  .success-msg.show { display: block; }
+  .success-msg i { font-size: 2.5rem; color: var(--green-signal); margin-bottom: 1rem; }
+  .success-msg h3 { font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 0.5rem; color: var(--ink); }
+  .success-msg p { color: var(--slate); font-size: 0.85rem; }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--ink);
+    color: var(--mist);
+    padding: 4rem 5% 2rem;
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  .footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: var(--white);
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+  }
+  .footer-logo span { color: var(--gold); }
+  .footer-tagline {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--slate);
+    margin-bottom: 1rem;
+  }
+  footer p { font-size: 0.82rem; color: var(--mist); line-height: 1.7; max-width: 320px; font-weight: 300; }
+  footer h4 {
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  footer ul { list-style: none; }
+  footer ul li { margin-bottom: 0.6rem; }
+  footer ul li a {
+    font-size: 0.8rem;
+    color: var(--mist);
+    text-decoration: none;
+    font-weight: 300;
+    transition: color 0.2s;
+  }
+  footer ul li a:hover { color: var(--gold); }
+  .social-links { display: flex; gap: 0.75rem; margin-top: 1.5rem; }
+  .social-links a {
+    width: 2.2rem; height: 2.2rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--mist);
+    text-decoration: none;
+    transition: all 0.2s;
+    font-size: 0.9rem;
+  }
+  .social-links a:hover { color: var(--gold); border-color: rgba(184,150,12,0.4); }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding-top: 1.5rem;
+    display: flex; justify-content: space-between; align-items: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    color: var(--slate);
+  }
+  .footer-bottom a { color: var(--slate); text-decoration: none; transition: color 0.2s; }
+  .footer-bottom a:hover { color: var(--mist); }
+
+  /* ── FLOATING CONTACT ── */
+  .float-contact {
+    position: fixed;
+    bottom: 1.8rem; right: 1.8rem;
+    z-index: 200;
+    display: flex; flex-direction: column; align-items: flex-end; gap: 0.7rem;
+  }
+  .float-btn {
+    display: flex; align-items: center; gap: 0.6rem;
+    padding: 0.75rem 1.2rem;
+    border-radius: 30px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+    white-space: nowrap;
+  }
+  .float-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(0,0,0,0.2); }
+  .float-wa { background: #25D366; color: #fff; }
+  .float-email { background: var(--ink); color: var(--white); }
+
+  /* ── SCROLL FADE-IN ── */
+  .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+  /* ── MOBILE ── */
+  @media (max-width: 900px) {
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+    .hero { grid-template-columns: 1fr; padding-top: 140px; }
+    .hero-right { display: none; }
+    .services-grid { grid-template-columns: 1fr 1fr; }
+    .industries-grid { grid-template-columns: repeat(2, 1fr); }
+    .process-timeline { grid-template-columns: repeat(3, 1fr); }
+    .process-timeline::before { display: none; }
+    .portfolio-grid { grid-template-columns: 1fr 1fr; }
+    .whyus-grid { grid-template-columns: 1fr 1fr; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .contact-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .float-contact { bottom: 1rem; right: 1rem; }
+    .float-btn span { display: none; }
+    .float-btn { padding: 0.85rem; border-radius: 50%; }
+  }
+  @media (max-width: 600px) {
+    nav { padding: 1rem 4%; }
+    section { padding: 70px 4%; }
+    .hero { padding: 130px 4% 60px; }
+    .services-grid { grid-template-columns: 1fr; }
+    .industries-grid { grid-template-columns: repeat(2, 1fr); }
+    .portfolio-grid { grid-template-columns: 1fr; }
+    .whyus-grid { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+    .process-timeline { grid-template-columns: 1fr 1fr; }
+    .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .footer-bottom { flex-direction: column; gap: 0.5rem; text-align: center; }
+    .form-grid { grid-template-columns: 1fr; }
+  }
+
+  /* Mobile nav drawer */
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 65px; left: 0; right: 0;
+    background: var(--white);
+    border-bottom: 1px solid var(--silver);
+    padding: 1.5rem 5%;
+    z-index: 99;
+    flex-direction: column; gap: 1.2rem;
+  }
+  .mobile-menu.open { display: flex; }
+  .mobile-menu a {
+    font-size: 0.9rem; font-weight: 500;
+    text-decoration: none; color: var(--ink);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--silver);
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div>
+    <a class="nav-logo" href="#">Nifty<span>Flow</span></a>
+    <div class="nav-tagline">AI Automation Agency</div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#industries">Solutions</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact" class="nav-cta">Book Consultation</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#services" onclick="toggleMenu()">Services</a>
+  <a href="#industries" onclick="toggleMenu()">Solutions</a>
+  <a href="#portfolio" onclick="toggleMenu()">Portfolio</a>
+  <a href="#contact" onclick="toggleMenu()">Book Consultation</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-left fade-in">
+    <div class="hero-eyebrow">AI Automation Agency &amp; Software Studio</div>
+    <h1 class="hero-h1">Automate Your Business<br>With <em>AI.</em></h1>
+    <p class="hero-sub">
+      Custom AI systems for businesses that <strong>refuse to fall behind.</strong>
+      Reduce manual work, scale operations, and deploy intelligent automations — from strategy through full deployment.
+    </p>
+    <div class="hero-cta-row">
+      <a href="#contact" class="btn-primary">▶&nbsp; Get Started Free</a>
+      <a href="#services" class="btn-ghost">View Services →</a>
+    </div>
+    <div class="trust-badges">
+      <div class="trust-badge"><span class="dot"></span>50+ AI Systems Deployed</div>
+      <div class="trust-badge"><span class="dot"></span>Results in Weeks, Not Months</div>
+      <div class="trust-badge"><span class="dot"></span>End-to-End Delivery</div>
+    </div>
+  </div>
+  <div class="hero-right fade-in">
+    <div class="hero-card">
+      <div class="card-header">
+        <div class="card-title">AI Operations — Live Dashboard</div>
+        <div class="live-badge">System Active</div>
+      </div>
+      <div class="dashboard-grid-hero">
+        <div class="dashboard-box"><div class="val cyan">24</div><div class="lbl">Active Agents</div></div>
+        <div class="dashboard-box"><div class="val green">12.4K</div><div class="lbl">Tasks Done</div></div>
+        <div class="dashboard-box"><div class="val gold">99.9%</div><div class="lbl">Uptime</div></div>
+      </div>
+      <div class="dashboard-bar">
+        <div class="row"><span>Workflow Automation</span><span class="pct">+32%</span></div>
+        <div class="track"><div class="fill" style="width:76%"></div></div>
+        <div class="row"><span>AI Lead Generation</span><span class="pct">+47%</span></div>
+        <div class="track"><div class="fill" style="width:63%"></div></div>
+        <div class="row"><span>Cost Reduction</span><span class="pct">-70%</span></div>
+        <div class="track"><div class="fill" style="width:85%"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="section-eyebrow fade-in">What We Do</div>
+  <h2 class="section-h2 fade-in">Comprehensive <em style="color:var(--gold)">AI Services</em></h2>
+  <p class="section-lead fade-in">Seven areas, each solving a distinct set of operational problems. Built for teams ready to move fast, cut waste, and win bigger with AI.</p>
+  <div class="services-grid">
+    <div class="service-card fade-in">
+      <div class="service-icon" style="background:linear-gradient(135deg,#0891b2,#0e7490)"><i class="fas fa-cogs"></i></div>
+      <h3>AI Workflow Automation</h3>
+      <p>Eliminate repetitive manual work across your operations.</p>
+      <ul>
+        <li>Email automation — intelligent monitoring, priority classification, AI-drafted replies, and daily digests</li>
+        <li>Document processing — contracts, invoices, and reports automatically parsed, summarized, and routed</li>
+        <li>Internal workflow automation — approvals, task routing, notifications, and data entry handled by AI agents 24/7</li>
+        <li>CRM &amp; pipeline automation — lead scoring, follow-up sequences, and deal tracking</li>
+      </ul>
+    </div>
+    <div class="service-card fade-in">
+      <div class="service-icon" style="background:linear-gradient(135deg,#7c3aed,#6d28d9)"><i class="fas fa-phone-alt"></i></div>
+      <h3>AI Voice &amp; Communication</h3>
+      <p>Never miss a call or let a lead go cold.</p>
+      <ul>
+        <li>AI voice agents — inbound and outbound call handling, appointment booking, and lead qualification</li>
+        <li>Call transcription &amp; memory systems — every call recorded, transcribed, summarized, and action items extracted</li>
+        <li>AI receptionist — 24/7 call answering with natural conversation, call routing, and message taking</li>
+        <li>Voicemail-to-action — voicemails transcribed and fed to AI for immediate follow-up</li>
+      </ul>
+    </div>
+    <div class="service-card fade-in">
+      <div class="service-icon" style="background:linear-gradient(135deg,#059669,#047857)"><i class="fas fa-file-invoice-dollar"></i></div>
+      <h3>Invoice &amp; Financial Automation</h3>
+      <p>Keep billing accurate and cash flow moving without manual effort.</p>
+      <ul>
+        <li>Automated invoice generation — from deal data, timesheets, or project milestones</li>
+        <li>Payment tracking &amp; reminders — overdue invoices chased automatically</li>
+        <li>Bookkeeping sync — transactions logged to QuickBooks, Xero, or custom systems</li>
+        <li>Financial reporting — AI-generated monthly summaries, cash flow analysis, and expense categorization</li>
+      </ul>
+    </div>
+    <div class="service-card fade-in">
+      <div class="service-icon" style="background:linear-gradient(135deg,#d97706,#b45309)"><i class="fas fa-comments"></i></div>
+      <h3>Customer Support &amp; Engagement</h3>
+      <p>Customers get answers instantly, at any hour.</p>
+      <ul>
+        <li>AI chatbots — website, WhatsApp, Telegram, and SMS for FAQs, booking, and support tickets</li>
+        <li>Knowledge base agents — AI trained on your company documents to answer questions instantly</li>
+        <li>Ticket triage &amp; routing — incoming support requests classified and assigned automatically</li>
+        <li>Sentiment analysis — monitor customer feedback across channels in real time</li>
+      </ul>
+    </div>
+    <div class="service-card fade-in">
+      <div class="service-icon" style="background:linear-gradient(135deg,#db2777,#be185d)"><i class="fas fa-bullhorn"></i></div>
+      <h3>Lead Generation &amp; Marketing Automation</h3>
+      <p>Scale outreach and content without scaling headcount.</p>
+      <ul>
+        <li>AI lead generation — automated prospecting, enrichment, and scoring</li>
+        <li>Cold outreach automation — AI-personalized email and LinkedIn sequences at scale</li>
+        <li>SEO content generation — blog posts, landing pages, and product descriptions optimized for search</li>
+        <li>Social media automation — AI-generated posts, scheduling, engagement monitoring, and trend analysis</li>
+        <li>Reputation management — AI monitors reviews, alerts on negatives, and drafts responses</li>
+        <li>Competitor monitoring — tracks competitor pricing, content, and positioning changes</li>
+      </ul>
+    </div>
+    <div class="service-card fade-in">
+      <div class="service-icon" style="background:linear-gradient(135deg,#2563eb,#1d4ed8)"><i class="fas fa-code"></i></div>
+      <h3>Custom Software &amp; AI Development</h3>
+      <p>Purpose-built systems that fit your workflow, not the other way around.</p>
+      <ul>
+        <li>Custom AI agents — built for your specific business processes</li>
+        <li>Full-stack web and mobile applications with AI integration</li>
+        <li>API integrations — connect any tools in your stack (CRM, ERP, email, calendars, databases, payments)</li>
+        <li>Data pipelines — ETL, data warehousing, and analytics dashboards</li>
+        <li>RAG systems — AI that answers questions from your private documents and knowledge bases</li>
+      </ul>
+    </div>
+    <div class="service-card fade-in" style="grid-column: 1 / -1; max-width: calc(66.66% - 0.75rem);">
+      <div class="service-icon" style="background:linear-gradient(135deg,#475569,#334155)"><i class="fas fa-server"></i></div>
+      <h3>AI Infrastructure &amp; Deployment</h3>
+      <p>Secure, private, and production-ready AI systems.</p>
+      <ul>
+        <li>Local and private AI deployment — models running on your own hardware, zero cloud dependency</li>
+        <li>Hardware configuration — Mac Mini, GPU servers, and NAS setups optimized for AI workloads</li>
+        <li>VPS &amp; cloud infrastructure — architecture design, provider selection, and vendor-negotiated pricing</li>
+        <li>AI security — prompt injection protection, access controls, audit logging, and data isolation</li>
+        <li>Multi-agent orchestration — complex systems with multiple AI agents collaborating on business processes</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- INDUSTRIES -->
+<section class="industries-section" id="industries">
+  <div class="section-eyebrow fade-in">Industries</div>
+  <h2 class="section-h2 fade-in">Serving <em style="color:var(--gold)">Every Industry</em></h2>
+  <p class="section-lead fade-in">Experience across sectors with diverse operational models. Every system is tailored — your workflows, your data, your edge cases.</p>
+  <div class="industries-grid">
+    <div class="industry-card fade-in"><i class="fas fa-landmark" style="color:#2563eb"></i><h3>Finance</h3><p>Trading bots, risk management, portfolio &amp; invoice automation</p></div>
+    <div class="industry-card fade-in"><i class="fas fa-heartbeat" style="color:#dc2626"></i><h3>Healthcare</h3><p>Patient management, AI diagnostic &amp; scheduling assistants</p></div>
+    <div class="industry-card fade-in"><i class="fas fa-shopping-cart" style="color:#d97706"></i><h3>E-commerce</h3><p>Inventory automation, support bots &amp; smart recommendations</p></div>
+    <div class="industry-card fade-in"><i class="fas fa-building" style="color:#7c3aed"></i><h3>Real Estate</h3><p>Lead gen bots, property management &amp; follow-up automation</p></div>
+    <div class="industry-card fade-in"><i class="fas fa-graduation-cap" style="color:#0891b2"></i><h3>Education</h3><p>AI tutoring, automated grading &amp; student engagement</p></div>
+    <div class="industry-card fade-in"><i class="fas fa-truck" style="color:#059669"></i><h3>Logistics</h3><p>Route optimization, fleet management &amp; real-time tracking</p></div>
+    <div class="industry-card fade-in"><i class="fas fa-gavel" style="color:#b8960c"></i><h3>Legal</h3><p>Contract review, document processing &amp; compliance automation</p></div>
+    <div class="industry-card fade-in"><i class="fas fa-industry" style="color:#ea580c"></i><h3>Manufacturing</h3><p>Supply chain, predictive maintenance &amp; quality control</p></div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process-section" id="process">
+  <div class="section-eyebrow fade-in">Our Process</div>
+  <h2 class="section-h2 fade-in">From Idea to <em style="color:var(--gold-light)">Impact.</em></h2>
+  <p class="section-lead fade-in">A battle-tested 6-step framework that delivers results predictably. Not luck — engineered. You'll know exactly what's happening at every stage.</p>
+  <div class="process-timeline">
+    <div class="process-step fade-in">
+      <div class="circle">01</div>
+      <h4>Intro Call</h4>
+      <p>Understand your goals, challenges &amp; current systems — free 30-minute session</p>
+    </div>
+    <div class="process-step fade-in">
+      <div class="circle">02</div>
+      <h4>Discovery</h4>
+      <p>Map your actual workflows — tools, handoffs, bottlenecks &amp; gaps</p>
+    </div>
+    <div class="process-step fade-in">
+      <div class="circle">03</div>
+      <h4>Proposal</h4>
+      <p>Phased plan with clear priorities, timelines &amp; investment — no vague estimates</p>
+    </div>
+    <div class="process-step fade-in">
+      <div class="circle">04</div>
+      <h4>Build</h4>
+      <p>Delivered phase by phase — each produces a working system before we advance</p>
+    </div>
+    <div class="process-step fade-in">
+      <div class="circle">05</div>
+      <h4>Handoff</h4>
+      <p>Full documentation &amp; training — your team stays in control, no black boxes</p>
+    </div>
+    <div class="process-step fade-in">
+      <div class="circle">06</div>
+      <h4>Optimize</h4>
+      <p>Ongoing support, performance tuning &amp; new workflows as your business grows</p>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio-section" id="portfolio">
+  <div class="section-eyebrow fade-in">Our Work</div>
+  <h2 class="section-h2 fade-in">Projects We've <em style="color:var(--gold)">Delivered</em></h2>
+  <p class="section-lead fade-in">Real solutions. Real results. Across industries and operational models — battle-tested and running in production.</p>
+  <div class="portfolio-grid">
+    <div class="portfolio-card fade-in">
+      <div class="portfolio-thumb" style="background:linear-gradient(135deg,#0891b2,#0e7490)"><div class="overlay"></div>💬</div>
+      <div class="portfolio-body">
+        <h3>Personal AI Finance Agent</h3>
+        <p>A conversational AI assistant delivered via Telegram that acts as a personal finance manager — tracks income and expenses, categorizes transactions, generates spending reports, and answers natural-language queries about your money. No spreadsheets, no manual entry; everything runs through a simple chat interface.</p>
+        <div class="portfolio-tags"><span>AI Agent</span><span>Telegram</span><span>Finance</span><span>Automation</span></div>
+      </div>
+    </div>
+    <div class="portfolio-card fade-in">
+      <div class="portfolio-thumb" style="background:linear-gradient(135deg,#d97706,#b45309)"><div class="overlay"></div>📈</div>
+      <div class="portfolio-body">
+        <h3>Fully Autonomous Algorithmic Trading Bot</h3>
+        <p>A self-running trading system that executes its own strategy end-to-end — monitors live market data, generates entry and exit signals, places orders via broker API, and enforces risk rules automatically. Zero manual intervention required once deployed; the bot trades, logs, and reports on its own.</p>
+        <div class="portfolio-tags"><span>Algo Trading</span><span>Automation</span><span>Finance</span><span>Broker API</span></div>
+      </div>
+    </div>
+    <div class="portfolio-card fade-in">
+      <div class="portfolio-thumb" style="background:linear-gradient(135deg,#7c3aed,#6d28d9)"><div class="overlay"></div>🤖</div>
+      <div class="portfolio-body">
+        <h3>AI-Powered Lead Outreach Automation</h3>
+        <p>An end-to-end outreach pipeline that automatically scrapes and enriches prospect data, drafts hyper-personalized cold emails using an AI language model, schedules follow-up sequences, and logs every interaction back to the CRM — all without a human touching a single message.</p>
+        <div class="portfolio-tags"><span>AI</span><span>Lead Gen</span><span>CRM</span><span>Automation</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="whyus-section" id="whyus">
+  <div class="section-eyebrow fade-in">Why Choose Us</div>
+  <h2 class="section-h2 fade-in">Built for <em style="color:var(--gold)">Excellence</em></h2>
+  <p class="section-lead fade-in">What makes this different from hiring a freelancer or bringing in an agency — one point of contact, end-to-end accountability, no handoffs.</p>
+  <div class="whyus-grid">
+    <div class="feature-card fade-in">
+      <div class="feature-icon"><i class="fas fa-route"></i></div>
+      <h3>End-to-End Delivery</h3>
+      <p>Strategy, architecture, build, deployment, training, and support — all under one roof. One point of contact throughout — no agency handoffs.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon"><i class="fas fa-lock"></i></div>
+      <h3>Private &amp; Secure by Default</h3>
+      <p>Self-hosted models, on-prem deployments, enterprise-grade encryption. Your data never leaves your infrastructure unless you choose it to.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+      <h3>Delivered in Weeks, Not Months</h3>
+      <p>Forget 6-month roadmaps. A structured discovery-to-deployment process gets your first working AI system live fast — phased and tested.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon"><i class="fas fa-microchip"></i></div>
+      <h3>AI That Fits Your Industry</h3>
+      <p>Generic tools produce generic results. Every system is tailored — your workflows, your data, your edge cases. Built to fit, not forced to adapt.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon"><i class="fas fa-users"></i></div>
+      <h3>Your Team Stays in Control</h3>
+      <p>Every system ships with full documentation and handoff training. No black boxes, no locked vendor dependencies — your team owns it.</p>
+    </div>
+    <div class="feature-card fade-in">
+      <div class="feature-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+      <h3>Built to Last &amp; Scale</h3>
+      <p>Solutions optimized for cost and longevity, not just the most expensive model. Sustainable systems that grow from startup to enterprise seamlessly.</p>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats-section">
+  <div class="section-eyebrow fade-in" style="text-align:center">Results That Speak</div>
+  <h2 class="section-h2 fade-in" style="text-align:center;color:var(--white)">Proven <em style="color:var(--gold-light)">Impact</em></h2>
+  <div class="stats-grid" style="margin-top:3rem">
+    <div class="stat-card fade-in"><div class="num">50+</div><div class="lbl">AI Systems Deployed</div></div>
+    <div class="stat-card fade-in"><div class="num">5×</div><div class="lbl">Average ROI Per Project</div></div>
+    <div class="stat-card fade-in"><div class="num">70%</div><div class="lbl">Avg. Cost Reduction</div></div>
+    <div class="stat-card fade-in"><div class="num">10+</div><div class="lbl">Industries Transformed</div></div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" id="faq">
+  <div class="section-eyebrow fade-in" style="text-align:center">FAQ</div>
+  <h2 class="section-h2 fade-in" style="text-align:center">Got <em style="color:var(--gold)">Questions?</em></h2>
+  <p class="section-lead fade-in" style="text-align:center;margin-left:auto;margin-right:auto">Everything you need to know about working with NIFTYFLOW.</p>
+  <div class="faq-list">
+    <div class="faq-item fade-in">
+      <button class="faq-question">What services does NIFTYFLOW offer? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer"><p>We provide AI workflow automation, custom AI assistants and agents, trading bots, customer support automation, lead generation systems, full-stack software development, and private AI infrastructure — end-to-end for businesses of all sizes.</p></div>
+    </div>
+    <div class="faq-item fade-in">
+      <button class="faq-question">How quickly can you implement an AI solution? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer"><p>Simple automations can be live in 1–2 weeks. A structured discovery-to-deployment process gets your first working system running fast — phased and tested. Enterprise solutions typically take 4–8 weeks. We provide a clear timeline during the intro call.</p></div>
+    </div>
+    <div class="faq-item fade-in">
+      <button class="faq-question">Do you build custom AI agents? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer"><p>Yes. We build custom AI agents tailored to your specific business processes — from executive assistants to customer support bots, sales agents, voice agents, and multi-agent orchestration systems for complex workflows.</p></div>
+    </div>
+    <div class="faq-item fade-in">
+      <button class="faq-question">Is my data safe and private? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer"><p>Privacy is built in by default. We offer self-hosted models, on-prem deployments, and private AI environments. Enterprise-grade encryption, access controls, audit logging, and prompt injection protection — your data never leaves your infrastructure unless you choose it to.</p></div>
+    </div>
+    <div class="faq-item fade-in">
+      <button class="faq-question">What industries do you serve? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer"><p>We serve finance, healthcare, real estate, e-commerce, education, SaaS, legal, manufacturing, logistics, telecommunications, and professional services. Every system is customizable for any industry — we build to fit, not force you to adapt.</p></div>
+    </div>
+    <div class="faq-item fade-in">
+      <button class="faq-question">How much does it cost to work with NIFTYFLOW? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer"><p>Pricing varies based on project scope and complexity. We provide a phased proposal with clear priorities and investment ranges after a free intro call — no vague estimates. Contact us for a free consultation and tailored roadmap.</p></div>
+    </div>
+    <div class="faq-item fade-in">
+      <button class="faq-question">Do you provide ongoing support? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer"><p>Yes. We offer an optional monthly retainer for maintenance, performance optimization, and new workflows as your business grows. Every system ships with full documentation so your team can operate it independently.</p></div>
+    </div>
+    <div class="faq-item fade-in">
+      <button class="faq-question">Can you integrate with our existing tools? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer"><p>Absolutely. We integrate with CRM systems, ERP platforms, communication tools (WhatsApp, Slack, email), databases, and any API-enabled software — creating seamless automated workflows across your entire stack.</p></div>
+    </div>
+    <div class="faq-item fade-in">
+      <button class="faq-question">Do you offer white-label solutions? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer"><p>Yes. We provide white-label AI automation solutions for agencies and consultancies looking to expand their service offerings under their own brand, with full support and documentation.</p></div>
+    </div>
+    <div class="faq-item fade-in">
+      <button class="faq-question">How do I get started? <i class="fas fa-chevron-down"></i></button>
+      <div class="faq-answer"><p>Start with a free 30-minute intro call via our contact form. We'll discuss your goals, map your workflows, and provide a clear roadmap — no commitment, no pitch, just clarity on where AI can create real leverage for your business.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="section-eyebrow fade-in">Get in Touch</div>
+  <h2 class="section-h2 fade-in">Let's Build Something <em style="color:var(--gold)">Amazing</em></h2>
+  <p class="section-lead fade-in">Book a free 30-minute strategy call. We'll talk through your workflows, bottlenecks, and where AI can create real leverage — no commitment required.</p>
+  <div class="contact-grid">
+    <div class="contact-info-side fade-in">
+      <h3>Reach Out Directly</h3>
+      <p>Tell us your challenge. We handle the engineering. Your logic, our code — deployed and running in weeks, not months. Strategy through deployment, no handoff to someone else.</p>
+      <div class="contact-detail">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h4>Email Us</h4>
+          <a href="mailto:niftyflow.service@gmail.com">niftyflow.service@gmail.com</a>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <i class="fas fa-phone"></i>
+        <div>
+          <h4>Call Us</h4>
+          <a href="tel:+918087616404">+91 80876 16404</a> &nbsp;·&nbsp; <a href="tel:+917016094080">+91 70160 94080</a>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <i class="fab fa-whatsapp"></i>
+        <div>
+          <h4>WhatsApp</h4>
+          <a href="https://wa.me/918087616404?text=Hi%20NiftyFlow%2C%20I%27d%20like%20to%20discuss%20an%20AI%20project." target="_blank">Chat directly on WhatsApp →</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-card fade-in">
+      <div class="contact-eyebrow">Free Strategy Call</div>
+      <div class="success-msg" id="successMsg">
+        <i class="fas fa-check-circle"></i>
+        <h3>Message Sent!</h3>
+        <p>We'll review your request and get back to you within 24 hours.</p>
+      </div>
+      <div id="formFields">
+        <div class="form-grid">
+          <div class="form-group"><label for="name">Name *</label><input type="text" id="name" placeholder="Your name" required /><div class="error-msg">Please enter your name</div></div>
+          <div class="form-group"><label for="email">Email *</label><input type="email" id="email" placeholder="you@company.com" required /><div class="error-msg">Please enter a valid email</div></div>
+        </div>
+        <div class="form-grid">
+          <div class="form-group"><label for="phone">Phone</label><input type="tel" id="phone" placeholder="+91 00000 00000" /></div>
+          <div class="form-group"><label for="company">Company</label><input type="text" id="company" placeholder="Your company" /></div>
+        </div>
+        <div class="form-group form-full"><label for="service">Service Required *</label>
+          <select id="service" required>
+            <option value="">Select a service...</option>
+            <option>AI Workflow Automation</option>
+            <option>AI Assistants &amp; Agents</option>
+            <option>Trading Bots</option>
+            <option>Customer Support Automation</option>
+            <option>Lead Generation &amp; Marketing</option>
+            <option>Custom Software Development</option>
+            <option>AI Infrastructure &amp; Cloud</option>
+            <option>Other</option>
+          </select>
+          <div class="error-msg">Please select a service</div>
+        </div>
+        <div class="form-group form-full"><label for="budget">Project Budget (INR)</label>
+          <select id="budget">
+            <option value="">Select budget...</option>
+            <option>Under ₹50,000</option>
+            <option>₹50,000 – ₹1,50,000</option>
+            <option>₹1,50,000 – ₹5,00,000</option>
+            <option>₹5,00,000 – ₹15,00,000</option>
+            <option>₹15,00,000+</option>
+          </select>
+        </div>
+        <div class="form-group form-full"><label for="message">Message *</label><textarea id="message" rows="4" placeholder="Tell us about your project, workflows, and what you'd like to automate..." required></textarea><div class="error-msg">Please enter your message</div></div>
+        <button type="submit" onclick="handleSubmit(event)" class="btn-primary" style="width:100%;justify-content:center;margin-top:0.5rem">▶&nbsp; Send Message</button>
+        <div class="confidentiality-note" style="margin-top:1rem">
+          <span class="conf-icon">🔒</span>
+          <span>Your business information and strategy details are treated with strict confidentiality. We sign NDAs before any technical discussion begins.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <a href="#" class="footer-logo">Nifty<span>Flow</span></a>
+      <div class="footer-tagline">Automate Everything. Scale Anything.</div>
+      <p>AI Automation Agency &amp; Software Development Studio. We help businesses eliminate repetitive work, deploy AI agents, and scale with custom technology solutions — from strategy through full deployment.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/nifty-flow-a02b40412/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://instagram.com/niftyflow.in" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://youtube.com/@niftyflow" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#industries">Solutions</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">AI Workflow Automation</a></li>
+        <li><a href="#services">AI Assistants &amp; Agents</a></li>
+        <li><a href="#services">Trading Bots</a></li>
+        <li><a href="#services">Custom Software</a></li>
+        <li><a href="#services">AI Infrastructure</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><i class="fas fa-envelope" style="color:var(--gold);margin-right:0.5rem"></i><a href="mailto:niftyflow.service@gmail.com">niftyflow.service@gmail.com</a></li>
+        <li style="margin-top:0.5rem"><i class="fas fa-phone" style="color:var(--gold);margin-right:0.5rem"></i><a href="tel:+918087616404">+91 80876 16404</a></li>
+        <li style="margin-top:0.5rem"><i class="fab fa-whatsapp" style="color:var(--gold);margin-right:0.5rem"></i><a href="https://wa.me/918087616404" target="_blank">WhatsApp Chat</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 NIFTYFLOW. All Rights Reserved.</span>
+    <span><a href="#">Privacy Policy</a> &middot; <a href="#">Terms of Service</a></span>
+  </div>
+</footer>
+
+<!-- FLOATING CONTACT BUTTONS -->
+<div class="float-contact">
+  <a class="float-btn float-wa" href="https://wa.me/918087616404?text=Hi%20NiftyFlow%21" target="_blank">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    <span>WhatsApp Chat</span>
+  </a>
+  <a class="float-btn float-email" href="mailto:niftyflow.service@gmail.com" target="_blank">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
+    <span>Email Inquiry</span>
+  </a>
+</div>
+
+<script>
+  // Intersection Observer for fade-in
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) e.target.classList.add('visible');
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => obs.observe(el));
+
+  // Mobile menu
+  function toggleMenu() {
+    const menu = document.getElementById('mobileMenu');
+    menu.classList.toggle('open');
+  }
+
+  // FAQ Accordion
+  document.querySelectorAll('.faq-question').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const answer = btn.nextElementSibling;
+      const isOpen = answer.classList.contains('open');
+      document.querySelectorAll('.faq-answer.open').forEach(a => {
+        a.classList.remove('open');
+        a.previousElementSibling.classList.remove('open');
+      });
+      if (!isOpen) {
+        answer.classList.add('open');
+        btn.classList.add('open');
+      }
+    });
+  });
+
+  // Telegram config
+  const TELEGRAM_BOT_TOKEN = '8641112703:AAGolAmKS0RcFuZVlpjSo2sKK0PBYrtFWlU';
+  const TELEGRAM_CHAT_ID = '8016061002';
+
+  function validateEmail(email) {
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  }
+
+  function showError(input, msg) {
+    input.classList.add('error');
+    const err = input.closest('.form-group').querySelector('.error-msg');
+    if (err) { err.textContent = msg; err.classList.add('show'); }
+  }
+  function clearError(input) {
+    input.classList.remove('error');
+    const err = input.closest('.form-group')?.querySelector('.error-msg');
+    if (err) err.classList.remove('show');
+  }
+
+  function sendToTelegram(data) {
+    if (!TELEGRAM_BOT_TOKEN || TELEGRAM_BOT_TOKEN === 'YOUR_BOT_TOKEN_HERE') return;
+    const msg = `📨 New Lead from NIFTYFLOW\n\n👤 Name: ${data.name}\n✉️ Email: ${data.email}\n📞 Phone: ${data.phone || '—'}\n🏢 Company: ${data.company || '—'}\n🛠️ Service: ${data.service}\n💰 Budget: ${data.budget}\n📝 Message: ${data.message}\n🕒 Time: ${data.timestamp}`;
+    fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ chat_id: TELEGRAM_CHAT_ID, text: msg })
+    }).catch(() => {});
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    const name = document.getElementById('name');
+    const email = document.getElementById('email');
+    const service = document.getElementById('service');
+    const message = document.getElementById('message');
+
+    [name, email, service, message].forEach(clearError);
+    let valid = true;
+
+    if (!name.value.trim()) { showError(name, 'Please enter your name'); valid = false; }
+    if (!email.value.trim() || !validateEmail(email.value.trim())) { showError(email, 'Please enter a valid email'); valid = false; }
+    if (!service.value) { showError(service, 'Please select a service'); valid = false; }
+    if (!message.value.trim()) { showError(message, 'Please enter your message'); valid = false; }
+
+    if (valid) {
+      const data = {
+        name: name.value.trim(),
+        email: email.value.trim(),
+        phone: document.getElementById('phone').value.trim(),
+        company: document.getElementById('company').value.trim(),
+        service: service.value,
+        budget: document.getElementById('budget').value || 'Not specified',
+        message: message.value.trim(),
+        timestamp: new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
+      };
+      sendToTelegram(data);
+      document.getElementById('formFields').style.display = 'none';
+      document.getElementById('successMsg').classList.add('show');
+      setTimeout(() => {
+        document.getElementById('successMsg').classList.remove('show');
+        document.getElementById('formFields').style.display = 'block';
+        [name, email, service, message, document.getElementById('phone'), document.getElementById('company'), document.getElementById('budget')].forEach(el => { if(el) el.value = ''; });
+      }, 5000);
+    }
+  }
+
+  // Clear errors on input
+  document.querySelectorAll('input, select, textarea').forEach(el => {
+    el.addEventListener('input', () => clearError(el));
+    el.addEventListener('change', () => clearError(el));
+  });
+
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', (e) => {
+      const id = a.getAttribute('href');
+      if (id === '#') return;
+      const target = document.querySelector(id);
+      if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+    });
+  });
+</script>
+</body>
+</html>
