@@ -1,0 +1,2031 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NIFTYFLOW | AI Automation Agency &amp; Software Development Studio</title>
+  <meta name="description" content="NIFTYFLOW helps businesses automate operations, build AI agents, deploy intelligent assistants, create custom software, and scale faster using AI technology." />
+  <meta name="keywords" content="AI automation, business automation, AI agents, trading bots, custom software, AI assistants" />
+  <meta name="author" content="NIFTYFLOW" />
+  <meta property="og:title" content="NIFTYFLOW - Automate Everything. Scale Anything." />
+  <meta property="og:description" content="AI Automation Agency &amp; Software Development Studio. Automate workflows, deploy AI assistants, build intelligent bots." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://niftyflow.in" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NIFTYFLOW - Automate Everything. Scale Anything." />
+  <link rel="canonical" href="https://niftyflow.in" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.2/package/dist/xlsx.full.min.js"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NIFTYFLOW",
+      "description": "AI Automation & Digital Solutions company",
+      "url": "https://niftyflow.in",
+      "contactPoint": { "@type": "ContactPoint", "telephone": "+1-555-000-0000", "contactType": "sales" },
+      "sameAs": [
+        "https://linkedin.com/company/niftyflow",
+        "https://x.com/niftyflow",
+        "https://github.com/niftyflow"
+      ]
+    }
+  </script>
+  <style>
+    :root {
+      --obsidian: #050505;
+      --charcoal: #0A0A0A;
+      --surface: #131313;
+      --surface-dim: #131313;
+      --surface-container: #201f1f;
+      --gold: #D4AF37;
+      --gold-muted: rgba(212, 175, 55, 0.15);
+      --gold-glow: rgba(212, 175, 55, 0.08);
+      --starlight: #F1F5F9;
+      --ash: #94A3B8;
+      --outline: #99907c;
+      --border: rgba(212, 175, 55, 0.12);
+      --error: #ffb4ab;
+      --radius-sm: 0.125rem;
+      --radius: 0.25rem;
+      --radius-md: 0.375rem;
+      --radius-lg: 0.5rem;
+      --transition: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      --container: 1440px;
+      --section-gap: 10rem;
+      --section-gap-mobile: 5rem;
+      --gutter: 2.5rem;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--obsidian);
+      color: var(--starlight);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    ul { list-style: none; }
+
+    .container {
+      max-width: var(--container);
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    .section { padding: var(--section-gap) 0; }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 5rem;
+    }
+
+    .section-title .label {
+      display: inline-block;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.25rem;
+    }
+
+    .section-title h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      font-weight: 600;
+      line-height: 1.2;
+    }
+
+    .section-title h2 .gold {
+      color: var(--gold);
+    }
+
+    .section-title p {
+      color: var(--ash);
+      margin-top: 1rem;
+      font-size: 1.125rem;
+      font-weight: 300;
+      line-height: 1.8;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Card — border-only, no background fill */
+    .card {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      background: transparent;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      transition: all var(--transition);
+    }
+
+    .card:hover {
+      border-color: rgba(212, 175, 55, 0.3);
+    }
+
+    .card-padded {
+      padding: 2.5rem;
+    }
+
+    .glow {
+      box-shadow: 0 0 40px var(--gold-glow);
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.875rem 2rem;
+      border-radius: 2px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      line-height: 1;
+      border: none;
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: #3c2f00;
+    }
+
+    .btn-primary:hover {
+      filter: brightness(1.15);
+    }
+
+    .btn-ghost {
+      background: transparent;
+      color: var(--starlight);
+      border: 1px solid var(--border);
+    }
+
+    .btn-ghost:hover {
+      background: rgba(212, 175, 55, 0.05);
+      border-color: var(--gold);
+    }
+
+    /* Navbar */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      padding: 1.25rem 0;
+      transition: all var(--transition);
+    }
+
+    nav.scrolled {
+      background: rgba(5, 5, 5, 0.88);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    nav .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .nav-links { display: flex; align-items: center; gap: 2.5rem; }
+
+    .nav-links a {
+      font-size: 0.8rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--ash);
+      transition: color var(--transition);
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+
+    .menu-toggle { display: none; background: none; border: none; color: var(--starlight); font-size: 1.5rem; cursor: pointer; padding: 0.25rem; }
+
+    /* Hero */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      padding-top: 6rem;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      width: 600px; height: 600px;
+      border-radius: 50%;
+      background: var(--gold-glow);
+      filter: blur(100px);
+      top: -15%; left: -10%;
+      pointer-events: none;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      background: rgba(212, 175, 55, 0.04);
+      filter: blur(100px);
+      bottom: -10%; right: -10%;
+      pointer-events: none;
+    }
+
+    .hero .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-badge .dot {
+      width: 0.375rem;
+      height: 0.375rem;
+      border-radius: 50%;
+      background: var(--gold);
+      animation: pulse 2s infinite;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 4.5rem;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 .gold {
+      color: var(--gold);
+    }
+
+    .hero p {
+      font-size: 1.125rem;
+      font-weight: 300;
+      line-height: 1.8;
+      letter-spacing: 0.01em;
+      color: var(--ash);
+      max-width: 540px;
+      margin-bottom: 2.5rem;
+    }
+
+    .hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+    .hero-stats {
+      display: flex;
+      gap: 2.5rem;
+      margin-top: 3.5rem;
+    }
+
+    .hero-stats .stat { text-align: center; }
+
+    .hero-stats .stat .num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--gold);
+    }
+
+    .hero-stats .stat .label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--ash);
+    }
+
+    .hero-dashboard { position: relative; }
+
+    .dashboard-card {
+      background: rgba(10, 10, 10, 0.5);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .dashboard-card .dots {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .dashboard-card .dots span {
+      width: 0.5rem; height: 0.5rem;
+      border-radius: 50%;
+    }
+
+    .dashboard-card .dots span:nth-child(1) { background: #ef4444; }
+    .dashboard-card .dots span:nth-child(2) { background: #eab308; }
+    .dashboard-card .dots span:nth-child(3) { background: #22c55e; }
+
+    .dashboard-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+
+    .dashboard-grid .box {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .dashboard-grid .box .val {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.35rem;
+      font-weight: 600;
+    }
+
+    .dashboard-grid .box .val.gold { color: var(--gold); }
+
+    .dashboard-grid .box .lbl {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--ash);
+      margin-top: 0.35rem;
+    }
+
+    .dashboard-bar .row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--ash);
+      margin-bottom: 0.5rem;
+    }
+
+    .dashboard-bar .row .pct { color: #22c55e; }
+
+    .dashboard-bar .track {
+      height: 0.375rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: var(--radius-full, 9999px);
+      overflow: hidden;
+      margin-bottom: 1.25rem;
+    }
+
+    .dashboard-bar .track .fill {
+      height: 100%;
+      border-radius: var(--radius-full, 9999px);
+      background: var(--gold);
+    }
+
+    /* Stats Counter */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--gutter);
+    }
+
+    .stat-card {
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+
+    .stat-card .num {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--gold);
+    }
+
+    .stat-card .lbl {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--ash);
+      margin-top: 0.5rem;
+    }
+
+    /* Grids */
+    .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--gutter); }
+    .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gutter); }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--gutter); }
+
+    /* Service Card */
+    .service-card { padding: 2.5rem; }
+
+    .service-card .icon {
+      width: 2.75rem; height: 2.75rem;
+      border-radius: 2px;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+    }
+
+    .service-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.35rem;
+      font-weight: 600;
+      line-height: 1.3;
+      margin-bottom: 0.75rem;
+    }
+
+    .service-card ul { margin-top: 1rem; }
+
+    .service-card ul li {
+      font-size: 0.85rem;
+      font-weight: 400;
+      color: var(--ash);
+      padding: 0.35rem 0;
+      display: flex;
+      align-items: center;
+      gap: 0.625rem;
+    }
+
+    .service-card ul li i { color: var(--gold); font-size: 0.5rem; }
+
+    /* Semi-Sphere Navigation */
+    .sphere-wrapper {
+      display: flex;
+      gap: 3rem;
+      align-items: stretch;
+      min-height: 480px;
+      position: relative;
+    }
+
+    .sphere-container {
+      position: relative;
+      width: 280px;
+      flex-shrink: 0;
+      aspect-ratio: 280 / 480;
+      align-self: flex-start;
+    }
+
+    .sphere-svg {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0; left: 0;
+      overflow: visible;
+    }
+
+    .sphere-arc-bg {
+      stroke: var(--border);
+      stroke-width: 2;
+      fill: none;
+    }
+
+    .sphere-arc-glow {
+      stroke: url(#arcGradient);
+      stroke-width: 3;
+      fill: none;
+      filter: url(#glow);
+      stroke-dasharray: 800;
+      stroke-dashoffset: 800;
+      transition: stroke-dashoffset 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .sphere-arc-glow.visible {
+      stroke-dashoffset: 0;
+    }
+
+    .sphere-active-dot {
+      fill: #8B5CF6;
+      filter: url(#glow);
+      transition: cx 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+                  cy 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .sphere-nodes {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    .sphere-node {
+      position: absolute;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: rgba(10, 10, 10, 0.85);
+      border: 1.5px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+      z-index: 2;
+      transform: translate(-50%, -50%);
+      backdrop-filter: blur(8px);
+    }
+
+    .sphere-node i {
+      font-size: 1.1rem;
+      color: var(--ash);
+      transition: color 0.4s ease;
+    }
+
+    .sphere-node:hover {
+      width: 54px;
+      height: 54px;
+      border-color: var(--gold);
+      box-shadow: 0 0 25px rgba(139, 92, 246, 0.2), 0 0 50px rgba(139, 92, 246, 0.1);
+    }
+
+    .sphere-node:hover i {
+      color: var(--gold);
+    }
+
+    .sphere-node.active {
+      border-color: #8B5CF6;
+      box-shadow: 0 0 20px rgba(139, 92, 246, 0.3), 0 0 40px rgba(139, 92, 246, 0.15);
+      background: rgba(139, 92, 246, 0.12);
+    }
+
+    .sphere-node.active i {
+      color: #A78BFA;
+    }
+
+    .sphere-node .node-label {
+      position: absolute;
+      left: 60px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      color: var(--ash);
+      white-space: nowrap;
+      opacity: 0;
+      transition: all 0.3s ease;
+      pointer-events: none;
+    }
+
+    .sphere-node:hover .node-label,
+    .sphere-node.active .node-label {
+      opacity: 1;
+      color: var(--starlight);
+    }
+
+    .sphere-node .node-num {
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--obsidian);
+      border: 1px solid var(--border);
+      font-size: 0.55rem;
+      font-weight: 600;
+      color: var(--ash);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Inter', sans-serif;
+      transition: all 0.4s ease;
+    }
+
+    .sphere-node.active .node-num {
+      background: #8B5CF6;
+      border-color: #8B5CF6;
+      color: #fff;
+    }
+
+    .sphere-center-glow {
+      position: absolute;
+      top: 50%;
+      left: 30px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(139, 92, 246, 0.06), transparent 70%);
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      animation: spherePulse 4s ease-in-out infinite;
+    }
+
+    @keyframes spherePulse {
+      0%, 100% { opacity: 0.5; transform: translate(-50%, -50%) scale(1); }
+      50% { opacity: 1; transform: translate(-50%, -50%) scale(1.2); }
+    }
+
+    /* Content Panel */
+    .sphere-content {
+      flex: 1;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem 3rem;
+      background: rgba(10, 10, 10, 0.4);
+      backdrop-filter: blur(20px);
+      display: flex;
+      align-items: center;
+      min-height: 420px;
+    }
+
+    .sphere-content-inner {
+      width: 100%;
+      animation: contentFade 0.5s ease;
+    }
+
+    @keyframes contentFade {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .sphere-content-inner .sc-icon {
+      width: 3rem;
+      height: 3rem;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      color: var(--gold);
+      margin-bottom: 1.25rem;
+    }
+
+    .sphere-content-inner h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+
+    .sphere-content-inner .sc-desc {
+      font-size: 0.9rem;
+      font-weight: 300;
+      line-height: 1.8;
+      color: var(--ash);
+      margin-bottom: 1.25rem;
+    }
+
+    .sphere-content-inner .sc-highlights {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.625rem;
+    }
+
+    .sphere-content-inner .sc-highlights li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.85rem;
+      color: var(--ash);
+    }
+
+    .sphere-content-inner .sc-highlights li i {
+      color: var(--gold);
+      font-size: 0.5rem;
+    }
+
+    /* Mobile: Responsive Semi-Sphere (below 768px) */
+    /* Very Important: Mobile Responsive Behavior */
+    @media (max-width: 768px) {
+      /* Layout: Two-column vertical arrangement (top=semi-sphere, bottom=content) */
+      .sphere-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        min-height: auto;
+        align-items: center;
+        width: 100%;
+        overflow-x: hidden;
+      }
+
+      /* Semi-Sphere Navigation: Top side */
+      .sphere-container {
+        width: 85%;
+        max-width: 360px;
+        aspect-ratio: 280 / 480;
+        margin: 0 auto;
+        height: auto;
+        flex-shrink: 0;
+        position: relative;
+        order: -1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .sphere-svg {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .sphere-nodes {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      }
+
+      /* Touch-friendly navigation nodes: minimum 44px tap targets */
+      .sphere-node {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        min-height: 48px;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        z-index: 2;
+        transform: translate(-50%, -50%);
+      }
+
+      /* Maintain hover state for touch devices */
+      .sphere-node:hover {
+        width: 54px;
+        height: 54px;
+      }
+
+      .sphere-node i {
+        font-size: 1rem;
+        color: var(--ash);
+        transition: color 0.4s ease;
+      }
+
+      .sphere-node:hover i {
+        color: var(--gold);
+      }
+
+      .sphere-node.active i {
+        color: #A78BFA;
+      }
+
+      /* Node labels: hide by default on mobile for clarity */
+      .sphere-node .node-label {
+        opacity: 0;
+        pointer-events: none;
+        left: 58px;
+        font-size: 0.6rem;
+        white-space: nowrap;
+        position: absolute;
+      }
+
+      /* Show label only for active node */
+      .sphere-node.active .node-label {
+        opacity: 1;
+        color: var(--starlight);
+        pointer-events: auto;
+      }
+
+      .sphere-node:hover .node-label {
+        opacity: 0;
+      }
+
+      .sphere-node.active:hover .node-label {
+        opacity: 1;
+      }
+
+      /* Node number badge */
+      .sphere-node .node-num {
+        width: 16px;
+        height: 16px;
+        font-size: 0.5rem;
+        top: -6px;
+        right: -6px;
+      }
+
+      .sphere-node.active .node-num {
+        background: #8B5CF6;
+        border-color: #8B5CF6;
+        color: #fff;
+      }
+
+      /* Hide center glow on mobile for cleaner look */
+      .sphere-center-glow {
+        display: none;
+      }
+
+      /* Dynamic content panel: bottom side, full width */
+      .sphere-content {
+        width: 100%;
+        min-height: auto;
+        padding: 1.5rem;
+        border: 1px solid var(--border);
+        border-radius: var(--radius-lg);
+        background: rgba(10, 10, 10, 0.4);
+        backdrop-filter: blur(20px);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        order: 1;
+      }
+
+      .sphere-content-inner {
+        width: 100%;
+        animation: contentFade 0.5s ease;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .sphere-content-inner .sc-icon {
+        width: 3rem;
+        height: 3rem;
+        border: 1px solid var(--border);
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        color: var(--gold);
+        margin-bottom: 1rem;
+      }
+
+      .sphere-content-inner h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        text-align: center;
+      }
+
+      .sphere-content-inner .sc-desc {
+        font-size: 0.82rem;
+        font-weight: 300;
+        line-height: 1.6;
+        color: var(--ash);
+        margin-bottom: 1rem;
+        text-align: left;
+      }
+
+      /* Highlights: single column on mobile */
+      .sphere-content-inner .sc-highlights {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.4rem;
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+
+      .sphere-content-inner .sc-highlights li {
+        font-size: 0.8rem;
+        color: var(--ash);
+      }
+
+      .sphere-content-inner .sc-highlights li i {
+        color: var(--gold);
+      }
+
+      /* Touch-friendly button: full width, larger tap area */
+      .sphere-content-inner .btn {
+        width: 100%;
+        padding: 1rem;
+        justify-content: center;
+        font-size: 0.95rem;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      /* Ensure no horizontal scrolling */
+      .sphere-wrapper,
+      .sphere-content {
+        max-width: 100vw;
+        overflow-x: hidden;
+      }
+
+      /* Arc animations: maintain smoothness */
+      .sphere-arc-glow {
+        stroke-dasharray: 800;
+        stroke-dashoffset: 800;
+        transition: stroke-dashoffset 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .sphere-arc-glow.visible {
+        stroke-dashoffset: 0;
+      }
+
+      /* Active indicator travels smoothly along curve */
+      .sphere-active-dot {
+        fill: #8B5CF6;
+        filter: url(#glow);
+        transition: cx 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+                    cy 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+    }
+
+    /* Tablet */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .sphere-wrapper { gap: 2rem; }
+      .sphere-container { width: 200px; }
+      .sphere-node { width: 40px; height: 40px; }
+      .sphere-node:hover { width: 46px; height: 46px; }
+      .sphere-node i { font-size: 0.9rem; }
+      .sphere-node .node-label { left: 50px; font-size: 0.6rem; }
+      .sphere-content { padding: 2rem; }
+    }
+
+    /* Timeline */
+    .timeline {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 1.5rem;
+      position: relative;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      top: 2rem; left: 3rem; right: 3rem;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .timeline .step { text-align: center; position: relative; }
+
+    .timeline .step .circle {
+      width: 4rem; height: 4rem;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.25rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--gold);
+      position: relative;
+      z-index: 1;
+      background: rgba(5, 5, 5, 0.6);
+      backdrop-filter: blur(8px);
+      transition: all var(--transition);
+    }
+
+    .timeline .step:hover .circle {
+      background: rgba(212, 175, 55, 0.1);
+      border-color: var(--gold);
+      box-shadow: 0 0 25px var(--gold-glow);
+    }
+
+    .timeline .step h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .timeline .step p {
+      font-size: 0.8rem;
+      color: var(--ash);
+      margin-top: 0.35rem;
+      font-weight: 300;
+    }
+
+    @media (max-width: 1024px) {
+      .timeline::before { display: none; }
+      .timeline { grid-template-columns: repeat(3, 1fr); }
+    }
+
+
+    /* Industries - Infinite Marquee */
+    .industries-track {
+      overflow: hidden;
+      mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    }
+
+    .industries-inner {
+      display: flex;
+      gap: 1.5rem;
+      width: max-content;
+      animation: scrollIndustries 40s linear infinite;
+    }
+
+    .industries-inner:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes scrollIndustries {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .ind-card {
+      flex-shrink: 0;
+      width: 220px;
+      text-align: center;
+      padding: 2rem 1.5rem;
+    }
+
+    .ind-card i {
+      font-size: 1.5rem;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .ind-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .ind-card p {
+      font-size: 0.8rem;
+      color: var(--ash);
+      margin-top: 0.5rem;
+      font-weight: 300;
+    }
+
+    /* Features */
+    .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gutter); }
+
+    .feature-card {
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+
+    .feature-card .icon {
+      width: 3.25rem; height: 3.25rem;
+      border-radius: 2px;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 1.25rem;
+      font-size: 1.25rem;
+      color: var(--gold);
+    }
+
+    .feature-card h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature-card p {
+      font-size: 0.85rem;
+      font-weight: 300;
+      line-height: 1.7;
+      color: var(--ash);
+    }
+
+    /* FAQ */
+    .faq-list { max-width: 720px; margin: 0 auto; }
+
+    .faq-item {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 0.75rem;
+      overflow: hidden;
+      background: transparent;
+      backdrop-filter: blur(8px);
+      transition: border-color var(--transition);
+    }
+
+    .faq-item:hover {
+      border-color: rgba(212, 175, 55, 0.2);
+    }
+
+    .faq-question {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.35rem 1.75rem;
+      background: none;
+      border: none;
+      color: var(--starlight);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      cursor: pointer;
+      text-align: left;
+      transition: color var(--transition);
+    }
+
+    .faq-question i {
+      transition: transform var(--transition);
+      color: var(--gold);
+      font-size: 0.8rem;
+    }
+
+    .faq-question.open i { transform: rotate(180deg); }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.4s ease;
+      padding: 0 1.75rem;
+    }
+
+    .faq-answer.open {
+      max-height: 300px;
+      padding: 0 1.75rem 1.35rem;
+    }
+
+    .faq-answer p {
+      font-size: 0.875rem;
+      font-weight: 300;
+      line-height: 1.8;
+      color: var(--ash);
+    }
+
+    /* Contact */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      gap: var(--gutter);
+      align-items: start;
+    }
+
+    .contact-info .card-item {
+      padding: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact-info .card-item h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-info .card-item p {
+      font-size: 0.85rem;
+      font-weight: 300;
+      color: var(--ash);
+      line-height: 1.6;
+    }
+
+    .contact-info .card-item i {
+      color: var(--gold);
+      font-size: 1.15rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .contact-form { padding: 2.5rem; }
+
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+
+    .form-group { margin-bottom: 1.5rem; }
+
+    .form-group label {
+      display: block;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--ash);
+      margin-bottom: 0.625rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.75rem 0;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid var(--outline);
+      color: var(--starlight);
+      font-family: 'Inter', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 400;
+      outline: none;
+      transition: border-color var(--transition);
+      border-radius: 0;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-bottom-color: var(--gold);
+    }
+
+    .form-group input.error,
+    .form-group select.error,
+    .form-group textarea.error {
+      border-bottom-color: var(--error);
+    }
+
+    .form-group .error-msg {
+      color: var(--error);
+      font-size: 0.7rem;
+      font-weight: 500;
+      margin-top: 0.35rem;
+      display: none;
+    }
+
+    .form-group .error-msg.show { display: block; }
+
+    .form-group textarea { resize: vertical; min-height: 100px; }
+
+    .form-full { grid-column: 1 / -1; }
+
+    .form-group select option { background: var(--obsidian); color: var(--starlight); }
+
+    .success-msg {
+      display: none;
+      text-align: center;
+      padding: 3rem;
+    }
+
+    .success-msg.show { display: block; }
+
+    .success-msg i {
+      font-size: 3rem;
+      color: #22c55e;
+      margin-bottom: 1rem;
+    }
+
+    .success-msg h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .success-msg p {
+      font-size: 0.9rem;
+      font-weight: 300;
+      color: var(--ash);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 5rem 0 2rem;
+    }
+
+    footer .grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    footer h4 {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+    }
+
+    footer p {
+      font-size: 0.85rem;
+      font-weight: 300;
+      line-height: 1.8;
+      color: var(--ash);
+      max-width: 360px;
+    }
+
+    footer ul li { margin-bottom: 0.625rem; }
+
+    footer ul li a {
+      font-size: 0.85rem;
+      font-weight: 400;
+      color: var(--ash);
+      transition: color var(--transition);
+    }
+
+    footer ul li a:hover { color: var(--gold); }
+
+    .social-links {
+      display: flex;  
+      gap: 0.75rem;
+      margin-top: 1.5rem;
+    }
+
+    .social-links a {
+      width: 2.5rem; height: 2.5rem;
+      border-radius: 2px;
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--ash);
+      transition: all var(--transition);
+      font-size: 1rem;
+      background: transparent;
+    }
+
+    .social-links a:hover {
+      color: var(--gold);
+      border-color: var(--gold);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+      font-weight: 400;
+      color: var(--outline);
+    }
+
+    .footer-bottom a {
+      color: var(--outline);
+      transition: color var(--transition);
+    }
+
+    .footer-bottom a:hover { color: var(--gold); }
+
+    /* Animations */
+    .fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .fade-in.visible { opacity: 1; transform: translateY(0); }
+    .fade-in-left { opacity: 0; transform: translateX(-30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .fade-in-left.visible { opacity: 1; transform: translateX(0); }
+    .fade-in-right { opacity: 0; transform: translateX(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .fade-in-right.visible { opacity: 1; transform: translateX(0); }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; }
+    }
+
+    /* Mobile */
+    @media (max-width: 1024px) {
+      .section { padding: var(--section-gap-mobile) 0; }
+      .hero .container { grid-template-columns: 1fr; text-align: center; gap: 3rem; }
+      .hero p { margin-left: auto; margin-right: auto; }
+      .hero-btns { justify-content: center; }
+      .hero-stats { justify-content: center; }
+      .hero-dashboard { max-width: 480px; margin: 0 auto; }
+      .hero h1 { font-size: 2.75rem; }
+      .grid-4 { grid-template-columns: repeat(2, 1fr); }
+      .grid-3 { grid-template-columns: repeat(2, 1fr); }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .feature-grid { grid-template-columns: repeat(2, 1fr); }
+      .contact-grid { grid-template-columns: 1fr; }
+      footer .grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      .section { padding: var(--section-gap-mobile) 0; }
+      .section-title h2 { font-size: 1.75rem; }
+      .hero h1 { font-size: 2.75rem; }
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0; right: 0;
+        background: rgba(5, 5, 5, 0.96);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid var(--border);
+        padding: 1.5rem;
+        gap: 1.25rem;
+      }
+      .menu-toggle { display: block; }
+      .grid-4, .grid-3 { grid-template-columns: 1fr; }
+      .feature-grid { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+      .stat-card { padding: 2rem 1.5rem; }
+      .stat-card .num { font-size: 2.25rem; }
+      .timeline { grid-template-columns: 1fr 1fr; }
+      .form-grid { grid-template-columns: 1fr; }
+      footer .grid { grid-template-columns: 1fr; gap: 2rem; }
+      .footer-bottom { flex-direction: column; gap: 0.5rem; text-align: center; }
+      .hero-dashboard { display: none; }
+      .card-padded { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="logogolden.svg" alt="" width="32" height="32" style="border-radius:2px;display:block"><span>NiftyFlow</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#solutions">Solutions</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="btn btn-primary" style="color: #3c2f00;">Book Consultation</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div>
+        <div class="hero-badge">
+          <span class="dot"></span>
+          AI Automation Agency &amp; Software Studio
+        </div>
+        <h1>Automate Your Business<br>With <span class="gold">AI</span></h1>
+        <p>Reduce manual work, increase productivity, and scale operations using AI-powered automation, intelligent assistants, and custom software solutions.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary"><i class="fas fa-arrow-right"></i> Get Started</a>
+          <a href="#services" class="btn btn-ghost"><i class="fas fa-eye"></i> View Services</a>
+        </div>
+      </div>
+      <div class="hero-dashboard">
+        <div class="dashboard-card glow">
+          <div class="dots"><span></span><span></span><span></span></div>
+          <div class="dashboard-grid">
+            <div class="box"><div class="val gold">24</div><div class="lbl">Active Agents</div></div>
+            <div class="box"><div class="val gold">12.4K</div><div class="lbl">Tasks Done</div></div>
+            <div class="box"><div class="val gold">99.9%</div><div class="lbl">Uptime</div></div>
+          </div>
+          <div class="dashboard-bar">
+            <div class="row"><span>Workflow Automation</span><span class="pct">+32%</span></div>
+            <div class="track"><div class="fill" style="width:76%"></div></div>
+            <div class="row"><span>AI Lead Generation</span><span class="pct">+47%</span></div>
+            <div class="track"><div class="fill" style="width:63%"></div></div>
+            <div class="row"><span>Cost Reduction</span><span class="pct">-70%</span></div>
+            <div class="track"><div class="fill" style="width:85%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-title fade-in">
+        <span class="label">What We Do</span>
+        <h2>Comprehensive <span class="gold">AI Services</span></h2>
+        <p>End-to-end AI automation and software solutions for modern businesses.</p>
+      </div>
+
+      <!-- Semi-Sphere Navigation -->
+      <div class="sphere-wrapper">
+        <div class="sphere-container" id="sphereContainer">
+          <svg class="sphere-svg" viewBox="0 0 280 480" preserveAspectRatio="xMidYMid meet">
+            <defs>
+              <linearGradient id="arcGradient" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#8B5CF6" />
+                <stop offset="50%" stop-color="#3B82F6" />
+                <stop offset="100%" stop-color="#8B5CF6" />
+              </linearGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                <feMerge>
+                  <feMergeNode in="coloredBlur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+              <filter id="glowStrong">
+                <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
+                <feMerge>
+                  <feMergeNode in="coloredBlur"/>
+                  <feMergeNode in="coloredBlur"/>
+                  <feMergeNode in="SourceGraphic"/>
+                </feMerge>
+              </filter>
+            </defs>
+            <path class="sphere-arc-bg" id="sphereArcBg" d="" />
+            <path class="sphere-arc-glow" id="sphereArcGlow" d="" />
+            <circle class="sphere-active-dot" id="sphereActiveDot" r="7" />
+          </svg>
+          <div class="sphere-nodes" id="sphereNodes"></div>
+          <div class="sphere-center-glow"></div>
+        </div>
+        <div class="sphere-content" id="sphereContent">
+          <div class="sphere-content-inner">
+            <div class="sc-icon" id="scIcon"><i class="fas fa-robot"></i></div>
+            <h3 id="scTitle">AI Automation</h3>
+            <p class="sc-desc" id="scDesc">Transform your operations with intelligent workflow automation. Our AI-powered systems handle repetitive tasks, streamline processes, and free your team to focus on strategic work.</p>
+            <ul class="sc-highlights" id="scHighlights"></ul>
+            <a href="#contact" class="btn btn-primary" style="align-self:flex-start;margin-top:1.5rem"><i class="fas fa-arrow-right"></i> Book a Consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INDUSTRIES ============ -->
+  <section class="section" id="solutions" style="background: var(--charcoal);">
+    <div class="container">
+      <div class="section-title fade-in">
+        <span class="label">Industries</span>
+        <h2>Serving <span class="gold">Every Industry</span></h2>
+        <p>Tailored AI solutions for diverse business sectors.</p>
+      </div>
+      <div class="industries-track">
+        <div class="industries-inner">
+          <div class="card ind-card"><i class="fas fa-landmark"></i><h3>Finance</h3><p>Trading bots, risk management, portfolio tools</p></div>
+          <div class="card ind-card"><i class="fas fa-heartbeat"></i><h3>Healthcare</h3><p>Patient management, AI diagnostic assistants</p></div>
+          <div class="card ind-card"><i class="fas fa-shopping-cart"></i><h3>E-commerce</h3><p>Inventory automation, support bots, recommendations</p></div>
+          <div class="card ind-card"><i class="fas fa-building"></i><h3>Real Estate</h3><p>Lead gen bots, property management automation</p></div>
+          <div class="card ind-card"><i class="fas fa-graduation-cap"></i><h3>Education</h3><p>AI tutoring, automated grading, engagement</p></div>
+          <div class="card ind-card"><i class="fas fa-truck"></i><h3>Logistics</h3><p>Route optimization, fleet management, tracking</p></div>
+          <div class="card ind-card"><i class="fas fa-cloud"></i><h3>SaaS</h3><p>Subscription mgmt, user onboarding automation</p></div>
+          <div class="card ind-card"><i class="fas fa-industry"></i><h3>Manufacturing</h3><p>Supply chain, predictive maintenance, QC</p></div>
+          <div class="card ind-card"><i class="fas fa-landmark"></i><h3>Finance</h3><p>Trading bots, risk management, portfolio tools</p></div>
+          <div class="card ind-card"><i class="fas fa-heartbeat"></i><h3>Healthcare</h3><p>Patient management, AI diagnostic assistants</p></div>
+          <div class="card ind-card"><i class="fas fa-shopping-cart"></i><h3>E-commerce</h3><p>Inventory automation, support bots, recommendations</p></div>
+          <div class="card ind-card"><i class="fas fa-building"></i><h3>Real Estate</h3><p>Lead gen bots, property management automation</p></div>
+          <div class="card ind-card"><i class="fas fa-graduation-cap"></i><h3>Education</h3><p>AI tutoring, automated grading, engagement</p></div>
+          <div class="card ind-card"><i class="fas fa-truck"></i><h3>Logistics</h3><p>Route optimization, fleet management, tracking</p></div>
+          <div class="card ind-card"><i class="fas fa-cloud"></i><h3>SaaS</h3><p>Subscription mgmt, user onboarding automation</p></div>
+          <div class="card ind-card"><i class="fas fa-industry"></i><h3>Manufacturing</h3><p>Supply chain, predictive maintenance, QC</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="section-title fade-in">
+        <span class="label">Our Process</span>
+        <h2>From Idea to <span class="gold">Impact</span></h2>
+        <p>A proven 6-step methodology that delivers results predictably.</p>
+      </div>
+      <div class="timeline">
+        <div class="step fade-in"><div class="circle">01</div><h4>Discovery</h4><p>Understand goals &amp; challenges</p></div>
+        <div class="step fade-in"><div class="circle">02</div><h4>Strategy</h4><p>Tailored roadmap &amp; milestones</p></div>
+        <div class="step fade-in"><div class="circle">03</div><h4>Development</h4><p>Build with cutting-edge tech</p></div>
+        <div class="step fade-in"><div class="circle">04</div><h4>Testing</h4><p>Rigorous QA &amp; security checks</p></div>
+        <div class="step fade-in"><div class="circle">05</div><h4>Deployment</h4><p>Zero-downtime launch</p></div>
+        <div class="step fade-in"><div class="circle">06</div><h4>Optimization</h4><p>Continuous improvement</p></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============ WHY CHOOSE US ============ -->
+  <section class="section" id="whyus">
+    <div class="container">
+      <div class="section-title fade-in">
+        <span class="label">Why Choose Us</span>
+        <h2>Built for <span class="gold">Excellence</span></h2>
+      </div>
+      <div class="feature-grid">
+        <div class="card card-padded feature-card fade-in"><div class="icon"><i class="fas fa-shield-alt"></i></div><h3>Enterprise Grade</h3><p>Secure, scalable solutions built for enterprise requirements with enterprise-grade architecture.</p></div>
+        <div class="card card-padded feature-card fade-in"><div class="icon"><i class="fas fa-microchip"></i></div><h3>AI-First Development</h3><p>Every solution leverages cutting-edge AI and machine learning for maximum impact.</p></div>
+        <div class="card card-padded feature-card fade-in"><div class="icon"><i class="fas fa-rocket"></i></div><h3>Fast Delivery</h3><p>Agile methodology ensures rapid development and deployment within weeks, not months.</p></div>
+        <div class="card card-padded feature-card fade-in"><div class="icon"><i class="fas fa-lock"></i></div><h3>Secure Architecture</h3><p>Enterprise-grade security, encryption, and compliance with industry standards.</p></div>
+        <div class="card card-padded feature-card fade-in"><div class="icon"><i class="fas fa-headset"></i></div><h3>Dedicated Support</h3><p>24/7 dedicated support team with priority assistance and regular performance reviews.</p></div>
+        <div class="card card-padded feature-card fade-in"><div class="icon"><i class="fas fa-expand-arrows-alt"></i></div><h3>Scalable Systems</h3><p>Solutions that grow with your business from startup to enterprise scale seamlessly.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section" id="faq" style="background: var(--charcoal);">
+    <div class="container">
+      <div class="section-title fade-in">
+        <span class="label">FAQ</span>
+        <h2>Got <span class="gold">Questions?</span></h2>
+        <p>Everything you need to know about working with NIFTYFLOW.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item fade-in">
+          <button class="faq-question">What services does NIFTYFLOW offer? <i class="fas fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>We provide AI automation, custom AI assistants, trading bots, business process automation, custom software development, web &amp; mobile apps, and data analytics solutions for businesses of all sizes.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question">How quickly can you implement an AI solution? <i class="fas fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Timeline depends on complexity. Simple automations can be deployed in 1-2 weeks, while enterprise solutions typically take 4-8 weeks. We provide a detailed timeline during the discovery call.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question">Do you offer custom AI agent development? <i class="fas fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Yes. We build custom AI agents tailored to your specific business needs — from executive assistants to customer support bots, sales agents, and industry-specific AI solutions.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question">What industries do you serve? <i class="fas fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>We serve finance, healthcare, real estate, e-commerce, education, SaaS, manufacturing, logistics, and more. Our solutions are customizable for any industry.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question">How much does it cost to work with NIFTYFLOW? <i class="fas fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Pricing varies based on project scope. We offer custom quotes after understanding your requirements. Contact us for a free consultation and tailored proposal.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question">Do you provide ongoing support and maintenance? <i class="fas fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Yes. We offer dedicated support plans including 24/7 monitoring, regular updates, performance optimization, and priority assistance for all deployed solutions.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question">Can you integrate with existing tools and software? <i class="fas fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Absolutely. We integrate with CRM systems, ERP platforms, communication tools, and any API-enabled software to create seamless automated workflows.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question">Is my data secure with your solutions? <i class="fas fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Security is paramount. We implement enterprise-grade encryption, secure infrastructure, access controls, and comply with industry standards to protect your data.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question">Do you offer white-label solutions? <i class="fas fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Yes. We provide white-label AI automation solutions for agencies and consultancies looking to expand their service offerings under their own brand.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-question">How do I get started? <i class="fas fa-chevron-down"></i></button>
+          <div class="faq-answer"><p>Schedule a free consultation call through our contact form. We'll discuss your needs, demonstrate relevant solutions, and provide a clear roadmap and quote.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-title fade-in">
+        <span class="label">Contact</span>
+        <h2>Let's Build Something <span class="gold">Amazing</span></h2>
+        <p>Book a free consultation or send us a message. We'll get back within 24 hours.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info fade-in">
+          <div class="card card-item"><i class="fas fa-envelope"></i><h4>Email Us</h4><p><a href="mailto:niftyflow.service@gmail.com" style="color:var(--ash)">niftyflow.service@gmail.com</a></p></div>
+          <div class="card card-item"><i class="fas fa-phone"></i><h4>Call Us</h4><p><a href="tel:+918087616404" style="color:var(--ash)">8087616404</a>, <a href="tel:+917016094080" style="color:var(--ash)">7016094080</a></p></div>
+        </div>
+        <form class="card contact-form fade-in" id="contactForm" novalidate>
+          <div class="success-msg" id="successMsg">
+            <i class="fas fa-check-circle"></i>
+            <h3>Message Sent!</h3>
+            <p>We'll review your request and get back to you within 24 hours.</p>
+          </div>
+          <div id="formFields">
+            <div class="form-grid">
+              <div class="form-group"><label for="name">Name *</label><input type="text" id="name" placeholder="Your name" required /><div class="error-msg">Please enter your name</div></div>
+              <div class="form-group"><label for="email">Email *</label><input type="email" id="email" placeholder="you@company.com" required /><div class="error-msg">Please enter a valid email</div></div>
+            </div>
+            <div class="form-grid">
+              <div class="form-group"><label for="phone">Phone</label><input type="tel" id="phone" placeholder="+91 00000 00000" /></div>
+              <div class="form-group"><label for="company">Company</label><input type="text" id="company" placeholder="Your company" /></div>
+            </div>
+            <div class="form-group"><label for="service">Service Required *</label>
+              <select id="service" required><option value="">Select a service...</option><option>AI Automation</option><option>AI Assistants</option><option>Trading Bots</option><option>Business Automation</option><option>Custom Software</option><option>Web Development</option><option>Mobile Apps</option><option>Data Analytics</option><option>Other</option></select>
+              <div class="error-msg">Please select a service</div>
+            </div>
+            <div class="form-group"><label for="budget">Project Budget (INR)</label>
+              <select id="budget"><option value="">Select budget...</option><option>Under ₹50,000</option><option>₹50,000 - ₹1,50,000</option><option>₹1,50,000 - ₹5,00,000</option><option>₹5,00,000 - ₹15,00,000</option><option>₹15,00,000+</option></select>
+            </div>
+            <div class="form-group"><label for="message">Message *</label><textarea id="message" rows="4" placeholder="Tell us about your project..." required></textarea><div class="error-msg">Please enter your message</div></div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center"><i class="fas fa-paper-plane"></i> Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div>
+          <a href="#" class="logo" style="margin-bottom:1rem;display:inline-flex"><img src="logogolden.svg" alt="" width="32" height="32" style="border-radius:2px;display:block"> <span style="color:var(--starlight)">NIFTY</span><span style="color:var(--gold)">FLOW</span></a>
+          <p>AI Automation Agency &amp; Software Development Studio. We help businesses automate operations, deploy AI agents, and scale with custom technology solutions.</p>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/nifty-flow-a02b40412/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/niftyflow.in" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com/@niftyflow" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div><h4>Quick Links</h4><ul><li><a href="#services">Services</a></li><li><a href="#solutions">Solutions</a></li><li><a href="#contact">Contact</a></li></ul></div>
+        <div><h4>Services</h4><ul><li><a href="#services">AI Automation</a></li><li><a href="#services">AI Assistants</a></li><li><a href="#services">Trading Bots</a></li><li><a href="#services">Software Dev</a></li><li><a href="#services">Cloud &amp; DevOps</a></li></ul></div>
+        <div><h4>Contact</h4><ul><li><i class="fas fa-envelope" style="color:var(--gold);margin-right:0.5rem"></i><a href="mailto:niftyflow.service@gmail.com">niftyflow.service@gmail.com</a></li><li style="margin-top:0.5rem"><i class="fas fa-phone" style="color:var(--gold);margin-right:0.5rem"></i><a href="tel:+918087616404" style="color:var(--ash)">8087616404</a>, <a href="tel:+917016094080" style="color:var(--ash)">7016094080</a></li></ul></div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 NIFTYFLOW. All Rights Reserved.</span>
+        <span><a href="#">Privacy Policy</a> &middot; <a href="#">Terms of Service</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ JAVASCRIPT ============ -->
+  <script>
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 30);
+    });
+
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      menuToggle.innerHTML = navLinks.classList.contains('open')
+        ? '<i class="fas fa-times"></i>'
+        : '<i class="fas fa-bars"></i>';
+    });
+    navLinks.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const answer = btn.nextElementSibling;
+        const isOpen = answer.classList.contains('open');
+        document.querySelectorAll('.faq-answer.open').forEach(a => {
+          a.classList.remove('open');
+          a.previousElementSibling.classList.remove('open');
+        });
+        if (!isOpen) {
+          answer.classList.add('open');
+          btn.classList.add('open');
+        }
+      });
+    });
+
+    const TELEGRAM_BOT_TOKEN = 'token';
+    const TELEGRAM_CHAT_ID = 'chatid';
+
+    const form = document.getElementById('contactForm');
+    const formFields = document.getElementById('formFields');
+    const successMsg = document.getElementById('successMsg');
+
+    function showError(input, msg) {
+      const group = input.closest('.form-group');
+      input.classList.add('error');
+      const err = group.querySelector('.error-msg');
+      if (err) err.classList.add('show');
+      if (msg && err) err.textContent = msg;
+    }
+
+    function clearError(input) {
+      const group = input.closest('.form-group');
+      input.classList.remove('error');
+      const err = group.querySelector('.error-msg');
+      if (err) err.classList.remove('show');
+    }
+
+    function validateEmail(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+
+    function getFormData() {
+      return {
+        name: document.getElementById('name').value.trim(),
+        email: document.getElementById('email').value.trim(),
+        phone: document.getElementById('phone').value.trim(),
+        company: document.getElementById('company').value.trim(),
+        service: document.getElementById('service').value,
+        budget: document.getElementById('budget').value || 'Not specified',
+        message: document.getElementById('message').value.trim(),
+        timestamp: new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })
+      };
+    }
+
+    function saveToExcel(data) {
+      const stored = JSON.parse(localStorage.getItem('niftyflow_leads') || '[]');
+      stored.push(data);
+      localStorage.setItem('niftyflow_leads', JSON.stringify(stored));
+
+      fetch('https://docs.google.com/forms/d/e/1FAIpQLSfGQ35QRryQGoxWyi_fA9E_WQ5f5HHxc5RunZgtU4vyI5w2nQ/viewform', {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({
+          'entry.FIELD1': data.name,
+          'entry.FIELD2': data.email,
+          'entry.FIELD3': data.phone,
+          'entry.FIELD4': data.company,
+          'entry.FIELD5': data.service,
+          'entry.FIELD6': data.budget,
+          'entry.FIELD7': data.message,
+          'entry.FIELD8': data.timestamp
+        })
+      }).catch(() => {});
+    }
+
+    function downloadExcel() {
+      const stored = JSON.parse(localStorage.getItem('niftyflow_leads') || '[]');
+      if (!stored.length) { alert('No leads to export.'); return; }
+      const ws = XLSX.utils.json_to_sheet(stored);
+      const wb = XLSX.utils.book_new();
+      XLSX.utils.book_append_sheet(wb, ws, 'Leads');
+      XLSX.writeFile(wb, 'NIFTYFLOW_Leads.xlsx');
+    }
+
+    function sendToTelegram(data) {
+      if (TELEGRAM_BOT_TOKEN === 'YOUR_BOT_TOKEN_HERE') return;
+      const msg = `\u{1F4E8} New Lead from NIFTYFLOW\n\n\u{1F464} Name: ${data.name}\n\u{2709}\uFE0F Email: ${data.email}\n\u{1F4DE} Phone: ${data.phone || '\u2014'}\n\u{1F3E2} Company: ${data.company || '\u2014'}\n\u{1F6E0}\uFE0F Service: ${data.service}\n\u{1F4B0} Budget: ${data.budget}\n\u{1F4DD} Message: ${data.message}\n\u{1F552} Time: ${data.timestamp}`;
+      fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ chat_id: TELEGRAM_CHAT_ID, text: msg })
+      }).catch(() => {});
+    }
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      let valid = true;
+
+      const name = document.getElementById('name');
+      const email = document.getElementById('email');
+      const service = document.getElementById('service');
+      const message = document.getElementById('message');
+
+      [name, email, service, message].forEach(clearError);
+
+      if (!name.value.trim()) { showError(name, 'Please enter your name'); valid = false; }
+      if (!email.value.trim() || !validateEmail(email.value.trim())) { showError(email, 'Please enter a valid email'); valid = false; }
+      if (!service.value) { showError(service, 'Please select a service'); valid = false; }
+      if (!message.value.trim()) { showError(message, 'Please enter your message'); valid = false; }
+
+      if (valid) {
+        const data = getFormData();
+        sendToTelegram(data);
+
+        formFields.style.display = 'none';
+        successMsg.classList.add('show');
+        form.reset();
+        setTimeout(() => {
+          successMsg.classList.remove('show');
+          formFields.style.display = 'block';
+        }, 5000);
+      }
+    });
+
+    document.querySelectorAll('#contactForm input, #contactForm select, #contactForm textarea').forEach(el => {
+      el.addEventListener('input', () => clearError(el));
+      el.addEventListener('change', () => clearError(el));
+    });
+
+    // --- Semi-Sphere Navigation ---
+    const sphereServices = [
+      { id: 'ai-automation', icon: 'fa-robot', title: 'AI Automation', desc: 'Transform your operations with intelligent workflow automation. Our AI-powered systems handle repetitive tasks, streamline processes, and free your team to focus on strategic work.', items: ['Workflow Automation', 'Business Process Automation', 'CRM Automation', 'Email &amp; Lead Gen', 'WhatsApp Automation', 'Customer Support'] },
+      { id: 'ai-assistants', icon: 'fa-brain', title: 'AI Assistants', desc: 'Deploy intelligent AI assistants that act as force multipliers for your team. From executive support to customer service, our agents handle complex tasks with human-like understanding.', items: ['Executive AI Assistants', 'Personal AI Assistants', 'Research Assistants', 'Customer Service Agents', 'Internal Company Assistants'] },
+      { id: 'ai-bots', icon: 'fa-robot', title: 'AI Bots', desc: 'Build custom AI bots that automate sales, marketing, HR, and e-commerce operations. Our bots engage customers, qualify leads, and execute tasks autonomously around the clock.', items: ['Sales Bots', 'Marketing Bots', 'HR &amp; Recruitment Bots', 'E-commerce Bots', 'Customer Support Bots'] },
+      { id: 'trading', icon: 'fa-chart-line', title: 'Trading Solutions', desc: 'Develop sophisticated algorithmic trading systems with real-time market analysis, risk management, and automated execution. Our solutions help you trade smarter, not harder.', items: ['Stock Trading Bots', 'Crypto Trading Bots', 'Market Analysis Systems', 'Portfolio Management', 'Backtesting &amp; Risk Mgmt'] },
+      { id: 'software', icon: 'fa-code', title: 'Software Development', desc: 'From stunning websites to enterprise SaaS platforms, we build custom software solutions tailored to your business needs using modern, scalable technology stacks.', items: ['Business Websites &amp; Landing Pages', 'SaaS Platforms &amp; Web Apps', 'Admin Dashboards &amp; CRM', 'ERP Systems &amp; Mobile Apps', 'API Development'] },
+      { id: 'cloud', icon: 'fa-cloud', title: 'Cloud &amp; Infrastructure', desc: 'Architect and manage your cloud infrastructure with DevOps best practices. We ensure your systems are secure, scalable, and optimized for peak performance.', items: ['Cloud Deployment', 'DevOps Automation', 'CI/CD Pipelines', 'Database Architecture', 'Server Management'] }
+    ];
+
+    const svgNS = 'http://www.w3.org/2000/svg';
+    const sphereNodesEl = document.getElementById('sphereNodes');
+    const arcBg = document.getElementById('sphereArcBg');
+    const arcGlow = document.getElementById('sphereArcGlow');
+    const activeDot = document.getElementById('sphereActiveDot');
+    const scIcon = document.getElementById('scIcon');
+    const scTitle = document.getElementById('scTitle');
+    const scDesc = document.getElementById('scDesc');
+    const scHighlights = document.getElementById('scHighlights');
+
+    const CX = 30, CY = 240, R = 200;
+    const VIEW_W = 280, VIEW_H = 480;
+    const startAngle = -78, endAngle = 78;
+    const total = sphereServices.length;
+    const step = (endAngle - startAngle) / (total - 1);
+
+    function getPos(index) {
+      const angle = startAngle + index * step;
+      const rad = angle * Math.PI / 180;
+      const absX = CX + R * Math.cos(rad);
+      const absY = CY + R * Math.sin(rad);
+      return { x: (absX / VIEW_W) * 100 + '%', y: (absY / VIEW_H) * 100 + '%', angle: angle, absX: absX, absY: absY };
+    }
+
+    function buildArcPath(fromAngle, toAngle) {
+      const from = { x: CX + R * Math.cos(fromAngle * Math.PI / 180), y: CY + R * Math.sin(fromAngle * Math.PI / 180) };
+      const to = { x: CX + R * Math.cos(toAngle * Math.PI / 180), y: CY + R * Math.sin(toAngle * Math.PI / 180) };
+      return 'M ' + from.x.toFixed(1) + ',' + from.y.toFixed(1) + ' A ' + R + ',' + R + ' 0 0,1 ' + to.x.toFixed(1) + ',' + to.y.toFixed(1);
+    }
+
+    const arcPath = buildArcPath(startAngle, endAngle);
+    arcBg.setAttribute('d', arcPath);
+    arcGlow.setAttribute('d', arcPath);
+
+    setTimeout(() => { arcGlow.classList.add('visible'); }, 300);
+
+    function updateContent(index) {
+      const s = sphereServices[index];
+      scIcon.innerHTML = '<i class="fas ' + s.icon + '"></i>';
+      scTitle.textContent = s.title;
+      scDesc.textContent = s.desc;
+      scHighlights.innerHTML = s.items.map(function(item) { return '<li><i class="fas fa-check"></i> ' + item + '</li>'; }).join('');
+
+      const inner = document.querySelector('.sphere-content-inner');
+      inner.style.animation = 'none';
+      void inner.offsetWidth;
+      inner.style.animation = 'contentFade 0.5s ease';
+    }
+
+    let activeIndex = 0;
+
+    function setActive(index) {
+      if (index === activeIndex) return;
+      activeIndex = index;
+
+      document.querySelectorAll('.sphere-node').forEach(function(n, i) {
+        n.classList.toggle('active', i === index);
+      });
+
+      var pos = getPos(index);
+      activeDot.setAttribute('cx', pos.absX.toFixed(1));
+      activeDot.setAttribute('cy', pos.absY.toFixed(1));
+
+      updateContent(index);
+    }
+
+    sphereServices.forEach(function(s, i) {
+      var pos = getPos(i);
+      var node = document.createElement('div');
+      node.className = 'sphere-node' + (i === 0 ? ' active' : '');
+      node.style.left = pos.x;
+      node.style.top = pos.y;
+      node.innerHTML = '<i class="fas ' + s.icon + '"></i><span class="node-num">0' + (i + 1) + '</span><span class="node-label">' + s.title + '</span>';
+      node.addEventListener('click', function() { setActive(i); });
+      sphereNodesEl.appendChild(node);
+    });
+
+    setActive(0);
+
+    window.addEventListener('resize', function() {
+      document.querySelectorAll('.sphere-node').forEach(function(n, i) {
+        var pos = getPos(i);
+        n.style.left = pos.x;
+        n.style.top = pos.y;
+      });
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        const id = a.getAttribute('href');
+        if (id === '#') return;
+        const target = document.querySelector(id);
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

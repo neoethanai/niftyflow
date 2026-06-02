@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>NIFTYFLOW</title>
+<meta name="description" content="AI automation for businesses that need to move." />
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Mono:wght@300;400;500&family=Instrument+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="icon" type="image/svg+xml" href="assets/images/logogolden.svg">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; font-size: 16px; background: #0a0a08; }
+  body {
+    font-family: 'Instrument Sans', sans-serif;
+    background: #0a0a08;
+    color: #f0ede6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::-webkit-scrollbar { width: 3px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #d4af37; }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* ─── Nav ─── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1.5rem 5%;
+    background: linear-gradient(to bottom, rgba(10,10,8,0.8), transparent);
+    pointer-events: none;
+  }
+  nav > * { pointer-events: auto; }
+  .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 1rem;
+    letter-spacing: -0.02em;
+  }
+  .nav-cta {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #d4af37;
+    padding: 0.45rem 1.2rem;
+    border: 1px solid rgba(212,175,55,0.2);
+    border-radius: 100px;
+    transition: all 0.3s;
+  }
+  .nav-cta:hover {
+    background: rgba(212,175,55,0.1);
+    border-color: rgba(212,175,55,0.4);
+  }
+
+  /* ─── Hero ─── */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem 5% 4rem;
+    position: relative;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 80% 50% at 50% 40%, rgba(212,175,55,0.04), transparent 70%);
+    pointer-events: none;
+  }
+  .hero-line {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.8rem, 7vw, 6rem);
+    font-weight: 900;
+    line-height: 1.04;
+    letter-spacing: -0.04em;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: rise 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  .hero-line:nth-child(1) { animation-delay: 0.1s; }
+  .hero-line:nth-child(2) { animation-delay: 0.3s; }
+  .hero-line:nth-child(3) { animation-delay: 0.5s; }
+  @keyframes rise {
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .hero-line .dim { color: #8a8678; }
+  .hero-line .accent { color: #d4af37; }
+  .hero-line .slash { color: rgba(212,175,55,0.3); margin: 0 0.2em; font-weight: 300; }
+  .hero-foot {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    opacity: 0;
+    animation: rise 0.8s 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+  .btn-primary {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    background: #d4af37;
+    color: #0a0a08;
+    padding: 0.8rem 1.8rem;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .btn-primary:hover {
+    background: #f0ede6;
+    transform: translateY(-2px);
+  }
+  .hero-foot .hint {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.12em;
+    color: #8a8678;
+  }
+
+  /* ─── Sections ─── */
+  section {
+    padding: 0;
+    position: relative;
+  }
+  .panel {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem 8%;
+  }
+  .panel-dark { background: #0a0a08; }
+  .panel-charcoal { background: #0f0e0c; }
+
+  /* ─── Panel: Problem ─── */
+  .problem-statement {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.2rem, 5vw, 4rem);
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+  }
+  .problem-statement .muted { color: #8a8678; }
+  .problem-list {
+    margin-top: 3rem;
+    max-width: 640px;
+  }
+  .problem-item {
+    display: flex;
+    gap: 1.2rem;
+    align-items: flex-start;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(240,237,230,0.04);
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  .problem-item.v { opacity: 1; transform: translateY(0); transition: opacity 0.8s, transform 0.8s; }
+  .problem-item:nth-child(1).v { transition-delay: 0.1s; }
+  .problem-item:nth-child(2).v { transition-delay: 0.2s; }
+  .problem-item:nth-child(3).v { transition-delay: 0.3s; }
+  .problem-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.55rem;
+    color: #d4af37;
+    letter-spacing: 0.1em;
+    min-width: 2rem;
+    padding-top: 0.2rem;
+  }
+  .problem-item p {
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: #b5b0a6;
+    font-weight: 300;
+  }
+  .problem-item strong { color: #f0ede6; font-weight: 500; }
+
+  /* ─── Panel: Services ─── */
+  .services-intro {
+    margin-bottom: 3rem;
+    opacity: 0; transform: translateY(20px);
+  }
+  .services-intro.v { opacity: 1; transform: translateY(0); transition: opacity 0.8s, transform 0.8s; }
+  .services-intro .eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #d4af37;
+    margin-bottom: 0.8rem;
+  }
+  .services-intro h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 900;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+  }
+  .services-intro h2 .accent { color: #d4af37; }
+  .service-row {
+    display: flex;
+    gap: 2rem;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid rgba(240,237,230,0.04);
+    align-items: flex-start;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  .service-row.v { opacity: 1; transform: translateY(0); transition: opacity 0.8s, transform 0.8s; }
+  .service-row:nth-child(2).v { transition-delay: 0.08s; }
+  .service-row:nth-child(3).v { transition-delay: 0.16s; }
+  .service-row:nth-child(4).v { transition-delay: 0.24s; }
+  .service-row:nth-child(5).v { transition-delay: 0.32s; }
+  .service-row:nth-child(6).v { transition-delay: 0.4s; }
+  .service-row:nth-child(7).v { transition-delay: 0.48s; }
+  .service-name {
+    min-width: 9rem;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #f0ede6;
+  }
+  .service-desc {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: #8a8678;
+    font-weight: 300;
+    max-width: 28rem;
+  }
+
+  /* ─── Panel: Portfolio ─── */
+  .port-intro {
+    margin-bottom: 3rem;
+    opacity: 0; transform: translateY(20px);
+  }
+  .port-intro.v { opacity: 1; transform: translateY(0); transition: opacity 0.8s, transform 0.8s; }
+  .port-intro .eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.55rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #d4af37;
+    margin-bottom: 0.8rem;
+  }
+  .port-intro h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 900;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+  }
+  .port-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(240,237,230,0.04);
+    opacity: 0; transform: translateY(20px);
+  }
+  .port-item.v { opacity: 1; transform: translateY(0); transition: opacity 0.8s, transform 0.8s; }
+  .port-item:nth-child(2).v { transition-delay: 0.1s; }
+  .port-item:nth-child(3).v { transition-delay: 0.2s; }
+  .port-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    padding: 0.4rem 0;
+  }
+  .port-header h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .port-toggle {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.8rem;
+    color: #d4af37;
+    transition: transform 0.3s;
+    opacity: 0.5;
+  }
+  .port-toggle.open { transform: rotate(180deg); opacity: 1; }
+  .port-detail {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, margin 0.3s;
+    margin-top: 0;
+  }
+  .port-detail.open {
+    max-height: 300px;
+    margin-top: 0.6rem;
+  }
+  .port-detail p {
+    font-size: 0.8rem;
+    color: #b5b0a6;
+    line-height: 1.7;
+    font-weight: 300;
+    max-width: 30rem;
+    margin-bottom: 0.6rem;
+  }
+  .port-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .port-tags span {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.45rem;
+    letter-spacing: 0.08em;
+    padding: 0.15rem 0.5rem;
+    background: rgba(240,237,230,0.04);
+    border: 1px solid rgba(240,237,230,0.06);
+    border-radius: 100px;
+    color: #8a8678;
+  }
+
+  /* ─── Panel: Contact ─── */
+  .contact-inner {
+    max-width: 560px;
+  }
+  .contact-inner h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 900;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    margin-bottom: 2.5rem;
+  }
+  .contact-inner h2 .accent { color: #d4af37; }
+  .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+  .form-group { margin-bottom: 0.8rem; }
+  .form-group label {
+    display: block;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.5rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #8a8678;
+    margin-bottom: 0.3rem;
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.65rem 1rem;
+    background: rgba(240,237,230,0.03);
+    border: 1px solid rgba(240,237,230,0.06);
+    border-radius: 0;
+    color: #f0ede6;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 0.8rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus { border-color: rgba(212,175,55,0.3); background: rgba(240,237,230,0.05); }
+  .form-group input.error,
+  .form-group select.error,
+  .form-group textarea.error { border-color: #c0392b; }
+  .form-group .error-msg { color: #c0392b; font-size: 0.6rem; margin-top: 0.2rem; display: none; }
+  .form-group .error-msg.show { display: block; }
+  .form-group textarea { resize: vertical; min-height: 70px; }
+  .form-group select {
+    color: #8a8678;
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgba(240,237,230,0.03) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='5' viewBox='0 0 8 5'%3E%3Cpath d='M1 1l3 3 3-3' fill='none' stroke='%238a8678' stroke-width='1'/%3E%3C/svg%3E") no-repeat right 1rem center;
+    padding-right: 2.5rem;
+  }
+  .form-group select:valid { color: #f0ede6; }
+  .form-group select option { background: #0a0a08; color: #f0ede6; }
+  .form-full { grid-column: 1 / -1; }
+  .success-msg { display: none; text-align: center; padding: 2.5rem 1rem; }
+  .success-msg.show { display: block; }
+  .success-msg h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; margin-bottom: 0.4rem; }
+  .success-msg p { color: #8a8678; font-size: 0.8rem; }
+  .contact-links {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    font-size: 0.75rem;
+    color: #8a8678;
+    border-top: 1px solid rgba(240,237,230,0.04);
+  }
+  .contact-links a { color: #b5b0a6; transition: color 0.2s; }
+  .contact-links a:hover { color: #d4af37; }
+
+  /* ─── Footer ─── */
+  footer {
+    padding: 2rem 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-top: 1px solid rgba(240,237,230,0.03);
+  }
+  footer .copy {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.5rem;
+    letter-spacing: 0.08em;
+    color: #5a5852;
+  }
+  footer .social {
+    display: flex;
+    gap: 1rem;
+  }
+  footer .social a {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.5rem;
+    letter-spacing: 0.08em;
+    color: #5a5852;
+    transition: color 0.2s;
+  }
+  footer .social a:hover { color: #d4af37; }
+
+  /* ─── Responsive ─── */
+  @media (max-width: 700px) {
+    nav { padding: 1.2rem 5%; }
+    .hero { padding: 5rem 5% 3rem; }
+    .panel { padding: 4rem 6%; min-height: auto; }
+    .service-row { flex-direction: column; gap: 0.3rem; }
+    .service-name { min-width: auto; }
+    .form-grid { grid-template-columns: 1fr; }
+    footer { flex-direction: column; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="#">NIFTYFLOW</a>
+  <a class="nav-cta" href="#contact">Book a Call</a>
+</nav>
+
+<section class="hero">
+  <div>
+    <div class="hero-line">AI Automation <span class="dim">for</span> Businesses</div>
+    <div class="hero-line"><span class="accent">That Need</span></div>
+    <div class="hero-line"><span class="accent">To Move.</span></div>
+    <div class="hero-foot">
+      <a href="#contact" class="btn-primary">Book a Free Strategy Call</a>
+      <span class="hint">— No commitment, 30 minutes</span>
+    </div>
+  </div>
+</section>
+
+<section class="panel panel-charcoal" id="problem">
+  <div>
+    <div class="problem-statement">You're bleeding <span class="accent">time.</span></div>
+    <div class="problem-statement" style="font-size:clamp(1rem,2vw,1.4rem);font-weight:300;color:#8a8678;margin-top:0.8rem;font-family:'Instrument Sans',sans-serif;">
+      Your team is stuck doing work software should do.
+    </div>
+    <div class="problem-list">
+      <div class="problem-item"><span class="problem-num">01</span><p><strong>Wasted hours</strong> — drowning in manual approvals and busywork instead of strategic decisions.</p></div>
+      <div class="problem-item"><span class="problem-num">02</span><p><strong>Lost leads</strong> — slow responses costing you more than half your pipeline.</p></div>
+      <div class="problem-item"><span class="problem-num">03</span><p><strong>Repetitive drag</strong> — your best people burned out on tasks that add zero value.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="panel panel-dark" id="services">
+  <div>
+    <div class="services-intro">
+      <p class="eyebrow">Capabilities</p>
+      <h2>Six systems. <span class="accent">One approach.</span></h2>
+    </div>
+    <div class="service-row">
+      <div class="service-name">Workflow Automation</div>
+      <div class="service-desc">Connect your tools, automate repetitive tasks, and eliminate manual busywork across operations.</div>
+    </div>
+    <div class="service-row">
+      <div class="service-name">Voice &amp; Communication</div>
+      <div class="service-desc">Voice agents that handle calls, qualify leads, and never miss a follow-up.</div>
+    </div>
+    <div class="service-row">
+      <div class="service-name">Financial Automation</div>
+      <div class="service-desc">Auto-generated invoices, payment reminders, and bookkeeping sync.</div>
+    </div>
+    <div class="service-row">
+      <div class="service-name">Support &amp; Engagement</div>
+      <div class="service-desc">Instant, human-like responses on website, WhatsApp, or Telegram — 24/7.</div>
+    </div>
+    <div class="service-row">
+      <div class="service-name">Lead Generation</div>
+      <div class="service-desc">Scale outreach with AI prospecting, enrichment, and personalized campaigns.</div>
+    </div>
+    <div class="service-row">
+      <div class="service-name">Custom Software &amp; AI Infrastructure</div>
+      <div class="service-desc">Full-stack apps, custom AI agents, private deployment, RAG systems — built to spec.</div>
+    </div>
+  </div>
+</section>
+
+<section class="panel panel-charcoal" id="portfolio">
+  <div>
+    <div class="port-intro">
+      <p class="eyebrow">Capability Demos</p>
+      <h2>Built <span class="accent">&amp; Running.</span></h2>
+    </div>
+    <div class="port-item">
+      <div class="port-header" onclick="togglePort(this)">
+        <h3>Personal AI Finance Agent</h3>
+        <span class="port-toggle">&#8595;</span>
+      </div>
+      <div class="port-detail">
+        <p>A conversational AI assistant on Telegram that tracks income and expenses, categorizes transactions, and answers natural-language queries about your money.</p>
+        <div class="port-tags"><span>AI Agent</span><span>Telegram</span><span>Finance</span></div>
+      </div>
+    </div>
+    <div class="port-item">
+      <div class="port-header" onclick="togglePort(this)">
+        <h3>Autonomous Algorithmic Trading Bot</h3>
+        <span class="port-toggle">&#8595;</span>
+      </div>
+      <div class="port-detail">
+        <p>A self-running system that monitors live markets, generates signals, places orders via broker API, and enforces risk rules.</p>
+        <div class="port-tags"><span>Algo Trading</span><span>Finance</span></div>
+      </div>
+    </div>
+    <div class="port-item">
+      <div class="port-header" onclick="togglePort(this)">
+        <h3>AI Lead Outreach Pipeline</h3>
+        <span class="port-toggle">&#8595;</span>
+      </div>
+      <div class="port-detail">
+        <p>End-to-end pipeline that scrapes prospect data, drafts personalized cold emails, schedules follow-ups, and logs everything to CRM.</p>
+        <div class="port-tags"><span>AI</span><span>Lead Gen</span><span>CRM</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="panel panel-dark" id="contact">
+  <div class="contact-inner">
+    <h2>Let's <span class="accent">talk.</span></h2>
+    <div class="success-msg" id="successMsg">
+      <h3>Message sent.</h3>
+      <p>We'll get back to you within 24 hours.</p>
+    </div>
+    <div id="formFields">
+      <div class="form-grid">
+        <div class="form-group"><label for="name">Name *</label><input type="text" id="name" placeholder="Your name" required /><div class="error-msg">Required</div></div>
+        <div class="form-group"><label for="email">Email *</label><input type="email" id="email" placeholder="you@company.com" required /><div class="error-msg">Valid email required</div></div>
+      </div>
+      <div class="form-grid">
+        <div class="form-group"><label for="phone">Phone</label><input type="tel" id="phone" placeholder="+91 00000 00000" /></div>
+        <div class="form-group"><label for="service">Service</label>
+          <select id="service">
+            <option value="">Select...</option>
+            <option>Workflow Automation</option>
+            <option>Voice &amp; Communication</option>
+            <option>Financial Automation</option>
+            <option>Support &amp; Engagement</option>
+            <option>Lead Generation</option>
+            <option>Custom Software</option>
+            <option>Not Sure</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group form-full"><label for="message">Message *</label><textarea id="message" rows="3" placeholder="What would you like to automate?" required></textarea><div class="error-msg">Required</div></div>
+      <button type="submit" onclick="handleSubmit(event)" class="btn-primary" style="width:100%;justify-content:center">&#8594; Send Message</button>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:niftyflow.service@gmail.com">niftyflow.service@gmail.com</a>
+      <a href="tel:+918087616404">+91 80876 16404</a>
+      <a href="https://wa.me/918087616404">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="copy">&copy; 2026 NIFTYFLOW</span>
+  <div class="social">
+    <a href="https://www.linkedin.com/in/nifty-flow-a02b40412/" target="_blank">LinkedIn</a>
+    <a href="https://instagram.com/niftyflow.in" target="_blank">Instagram</a>
+    <a href="https://youtube.com/@niftyflow" target="_blank">YouTube</a>
+  </div>
+</footer>
+
+<script>
+  // ─── Scroll reveal ───
+  const revealEls = document.querySelectorAll('.problem-item, .service-row, .services-intro, .port-intro, .port-item');
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) e.target.classList.add('v');
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  revealEls.forEach(el => obs.observe(el));
+
+  // ─── Portfolio toggle ───
+  function togglePort(header) {
+    const item = header.parentElement;
+    const detail = item.querySelector('.port-detail');
+    const toggle = header.querySelector('.port-toggle');
+    const isOpen = detail.classList.contains('open');
+    document.querySelectorAll('.port-detail.open').forEach(d => {
+      d.classList.remove('open');
+      d.parentElement.querySelector('.port-toggle').classList.remove('open');
+    });
+    if (!isOpen) {
+      detail.classList.add('open');
+      toggle.classList.add('open');
+    }
+  }
+
+  // ─── Form ───
+  const KEY = '7e2a04ce-6371-40e7-a2f2-08ca91e05c9c';
+
+  function showError(input) {
+    input.classList.add('error');
+    const err = input.closest('.form-group')?.querySelector('.error-msg');
+    if (err) err.classList.add('show');
+  }
+  function clearError(input) {
+    input.classList.remove('error');
+    const err = input.closest('.form-group')?.querySelector('.error-msg');
+    if (err) err.classList.remove('show');
+  }
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    const name = document.getElementById('name');
+    const email = document.getElementById('email');
+    const message = document.getElementById('message');
+    [name, email, message].forEach(clearError);
+    let valid = true;
+    if (!name.value.trim()) { showError(name); valid = false; }
+    if (!email.value.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())) { showError(email); valid = false; }
+    if (!message.value.trim()) { showError(message); valid = false; }
+    if (valid) {
+      const fd = new FormData();
+      fd.append('access_key', KEY);
+      fd.append('name', name.value.trim());
+      fd.append('email', email.value.trim());
+      fd.append('phone', document.getElementById('phone').value.trim());
+      fd.append('service', document.getElementById('service').value);
+      fd.append('message', message.value.trim());
+      try { await fetch('https://api.web3forms.com/submit', { method: 'POST', body: fd }); } catch (err) {}
+      document.getElementById('formFields').style.display = 'none';
+      document.getElementById('successMsg').classList.add('show');
+      setTimeout(() => {
+        document.getElementById('successMsg').classList.remove('show');
+        document.getElementById('formFields').style.display = 'block';
+        document.querySelectorAll('#formFields input, #formFields select, #formFields textarea').forEach(el => el.value = '');
+      }, 5000);
+    }
+  }
+
+  document.querySelectorAll('input, select, textarea').forEach(el => {
+    el.addEventListener('input', () => clearError(el));
+    el.addEventListener('change', () => clearError(el));
+  });
+
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', (e) => {
+      const id = a.getAttribute('href');
+      if (id === '#') return;
+      const target = document.querySelector(id);
+      if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+    });
+  });
+</script>
+</body>
+</html>

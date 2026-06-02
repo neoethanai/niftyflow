@@ -1,0 +1,2011 @@
+2026-04-20 07:55:53,867 - INFO -  Harshil Divyakant Khatri tried to execute program at | Current Time: 2026-04-20 07:55:53
+2026-04-20 07:55:53,873 - INFO -  Jinal Parag Khatri tried to execute program at | Current Time: 2026-04-20 07:55:53
+2026-04-20 07:55:58,401 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 07:55:58,402 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 07:55:58,402 - INFO - \U0001f6ab HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 07:55:58,407 - INFO - LOCAL - BUYER_ONLY | \u2139\ufe0f Instrument token for NIFTY 50: 260105 at current time 2026-04-20 07:55:46
+2026-04-20 07:55:58,408 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 07:55:58,410 - INFO - \u2139\ufe0f HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 07:55:58,410 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 07:55:58,411 - INFO - \u2139\ufe0f HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 07:55:58,412 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 07:55:58,454 - INFO - \u2705HDK_NIFTYBANK_GOD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 07:55:58,454 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | LOCAL - BUYER_ONLY Lot size is 30
+2026-04-20 07:55:58,454 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 07:55:58,454 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 07:56:03,771 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 07:56:03,772 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 07:56:03,772 - INFO - \U0001f6ab HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 07:56:03,773 - INFO - LOCAL - BUYER_ONLY | \u2139\ufe0f Instrument token for NIFTY 50: 260105 at current time 2026-04-20 07:55:46
+2026-04-20 07:56:03,773 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 07:56:03,775 - INFO - \u2139\ufe0f HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 07:56:03,775 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 07:56:03,776 - INFO - \u2139\ufe0f HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 07:56:03,776 - INFO - HDK_NIFTYBANK_HD_NH_H01_M |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 07:56:03,784 - INFO - \u2705HDK_NIFTYBANK_HD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 07:56:03,784 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | LOCAL - BUYER_ONLY Lot size is 30
+2026-04-20 07:56:03,784 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 07:56:03,784 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 07:56:07,996 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 07:56:07,996 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 07:56:07,996 - INFO - \U0001f6ab HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 07:56:07,999 - INFO - LOCAL - BUYER_ONLY | \u2139\ufe0f Instrument token for NIFTY 50: 260105 at current time 2026-04-20 07:55:46
+2026-04-20 07:56:07,999 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 07:56:08,001 - INFO - \u2139\ufe0f HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 07:56:08,001 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 07:56:08,002 - INFO - \u2139\ufe0f HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 07:56:08,003 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 07:56:08,011 - INFO - \u2705HDK_NIFTYBANK_RLY_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 07:56:08,011 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | LOCAL - BUYER_ONLY Lot size is 30
+2026-04-20 07:56:08,011 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 07:56:08,013 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 07:56:29,751 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 07:56:29,752 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 07:56:29,752 - INFO - \U0001f6ab HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 07:56:29,755 - INFO - LOCAL - BUYER_ONLY | \u2139\ufe0f Instrument token for NIFTY 50: 256265 at current time 2026-04-20 07:55:46
+2026-04-20 07:56:29,755 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 07:56:29,756 - INFO - \u2139\ufe0f HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 07:56:29,756 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 07:56:29,757 - INFO - \u2139\ufe0f HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 07:56:29,758 - INFO - HDK_NIFTY_GOD_NH_H01_W |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 07:56:29,768 - INFO - \u2705HDK_NIFTY_GOD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 07:56:29,768 - INFO - HDK_NIFTY_GOD_NH_H01_W | LOCAL - BUYER_ONLY Lot size is 65
+2026-04-20 07:56:29,768 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 07:56:29,768 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 07:56:34,763 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 07:56:34,763 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 07:56:34,763 - INFO - \U0001f6ab HDK_NIFTY_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 07:56:34,765 - INFO - LOCAL - BUYER_ONLY | \u2139\ufe0f Instrument token for NIFTY 50: 256265 at current time 2026-04-20 07:55:46
+2026-04-20 07:56:34,766 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 07:56:34,768 - INFO - \u2139\ufe0f HDK_NIFTY_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 07:56:34,768 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 07:56:34,769 - INFO - \u2139\ufe0f HDK_NIFTY_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 07:56:34,770 - INFO - HDK_NIFTY_HD_NH_H01_W |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 07:56:34,778 - INFO - \u2705HDK_NIFTY_HD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 07:56:34,778 - INFO - HDK_NIFTY_HD_NH_H01_W | LOCAL - BUYER_ONLY Lot size is 65
+2026-04-20 07:56:34,778 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 07:56:34,778 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 07:56:39,674 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 07:56:39,674 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 07:56:39,674 - INFO - \U0001f6ab HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 07:56:39,675 - INFO - LOCAL - BUYER_ONLY | \u2139\ufe0f Instrument token for NIFTY 50: 256265 at current time 2026-04-20 07:55:46
+2026-04-20 07:56:39,675 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 07:56:39,949 - INFO - \U0001f4cc HDK_NIFTY_RLY_NH_H01_W  |   HDK LOCAL - BUYER_ONLY  | Resumed open position: BUY | NIFTY26APR24200PE @ \u20b9229.2 | Qty: 65 | Hedge Symbol: - @ \u20b90.0 | Hedge Qty: 0
+2026-04-20 07:56:40,968 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 07:56:41,265 - INFO - \U0001f4cc HDK_NIFTY_RLY_NH_H01_W  | HDK LOCAL - BUYER_ONLY  | Resumed open position: BUY | NIFTY26APR24200PE @ \u20b9229.2 | Qty: 65 | Hedge Symbol: - @ \u20b90.0 | Hedge Qty: 0
+2026-04-20 07:56:41,266 - INFO - HDK_NIFTY_RLY_NH_H01_W |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 07:56:41,273 - INFO - \u2705HDK_NIFTY_RLY_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 07:56:41,273 - INFO - HDK_NIFTY_RLY_NH_H01_W | LOCAL - BUYER_ONLY Lot size is 65
+2026-04-20 07:56:41,273 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 07:56:41,273 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 07:56:44,432 - INFO - HDK_SENSEX_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 07:56:44,432 - INFO - HDK_SENSEX_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 07:56:44,432 - INFO - \U0001f6ab HDK_SENSEX_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 07:56:44,433 - INFO - LOCAL - BUYER_ONLY | \u2139\ufe0f Instrument token for NIFTY 50: 265 at current time 2026-04-20 07:55:46
+2026-04-20 07:56:44,433 - INFO - HDK_SENSEX_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 07:56:44,435 - INFO - \u2139\ufe0f HDK_SENSEX_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 07:56:44,435 - INFO - HDK_SENSEX_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 07:56:44,436 - INFO - \u2139\ufe0f HDK_SENSEX_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 07:56:44,437 - INFO - HDK_SENSEX_GOD_NH_H01_W |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 07:56:44,446 - INFO - \u2705HDK_SENSEX_GOD_NH_H01_W | Lot size retrieved: 20 for expiry NEXT_WEEK
+2026-04-20 07:56:44,446 - INFO - HDK_SENSEX_GOD_NH_H01_W | LOCAL - BUYER_ONLY Lot size is 20
+2026-04-20 07:56:44,446 - INFO - HDK_SENSEX_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 07:56:44,446 - INFO - HDK_SENSEX_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 07:56:51,748 - INFO - HDK_SENSEX_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 07:56:51,748 - INFO - HDK_SENSEX_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 07:56:51,749 - INFO - \U0001f6ab HDK_SENSEX_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 07:56:51,752 - INFO - LOCAL - BUYER_ONLY | \u2139\ufe0f Instrument token for NIFTY 50: 265 at current time 2026-04-20 07:55:46
+2026-04-20 07:56:51,753 - INFO - HDK_SENSEX_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 07:56:51,754 - INFO - \u2139\ufe0f HDK_SENSEX_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 07:56:51,755 - INFO - HDK_SENSEX_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 07:56:51,756 - INFO - \u2139\ufe0f HDK_SENSEX_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 07:56:51,757 - INFO - HDK_SENSEX_HD_NH_H01_W |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 07:56:51,766 - INFO - \u2705HDK_SENSEX_HD_NH_H01_W | Lot size retrieved: 20 for expiry NEXT_WEEK
+2026-04-20 07:56:51,766 - INFO - HDK_SENSEX_HD_NH_H01_W | LOCAL - BUYER_ONLY Lot size is 20
+2026-04-20 07:56:51,767 - INFO - HDK_SENSEX_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 07:56:51,767 - INFO - HDK_SENSEX_HD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 07:56:57,472 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 07:56:57,472 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 07:56:57,472 - INFO - \U0001f6ab HDK_SENSEX_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 07:56:57,473 - INFO - LOCAL - BUYER_ONLY | \u2139\ufe0f Instrument token for NIFTY 50: 265 at current time 2026-04-20 07:55:46
+2026-04-20 07:56:57,473 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 07:56:57,474 - INFO - \u2139\ufe0f HDK_SENSEX_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 07:56:57,474 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 07:56:57,475 - INFO - \u2139\ufe0f HDK_SENSEX_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 07:56:57,476 - INFO - HDK_SENSEX_RLY_NH_H01_W |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 07:56:57,484 - INFO - \u2705HDK_SENSEX_RLY_NH_H01_W | Lot size retrieved: 20 for expiry NEXT_WEEK
+2026-04-20 07:56:57,485 - INFO - HDK_SENSEX_RLY_NH_H01_W | LOCAL - BUYER_ONLY Lot size is 20
+2026-04-20 07:56:57,485 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 07:56:57,485 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 08:25:04,747 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 08:25:16,060 - ERROR - Error fetching LTP from positions NIFTY26APR24200PE: HTTPSConnectionPool(host='api.kite.trade', port=443): Max retries exceeded with url: /portfolio/positions (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CA1739F250>: Failed to resolve 'api.kite.trade' ([Errno 11001] getaddrinfo failed)"))
+2026-04-20 08:25:16,060 - INFO - \U0001f4cc HDK_NIFTY_RLY_NH_H01_W  | HDK LOCAL - BUYER_ONLY  | Resumed open position: BUY | NIFTY26APR24200PE @ \u20b9229.2 | Qty: 65 | Hedge Symbol: - @ \u20b90.0 | Hedge Qty: 0
+2026-04-20 08:32:55,881 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 08:32:56,156 - INFO - \U0001f4cc HDK_NIFTY_RLY_NH_H01_W  | HDK LOCAL - BUYER_ONLY  | Resumed open position: BUY | NIFTY26APR24200PE @ \u20b9229.2 | Qty: 65 | Hedge Symbol: - @ \u20b90.0 | Hedge Qty: 0
+2026-04-20 08:34:02,177 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 08:34:02,398 - INFO - \U0001f4cc HDK_NIFTY_RLY_NH_H01_W  | HDK LOCAL - BUYER_ONLY  | Resumed open position: BUY | NIFTY26APR24200PE @ \u20b9229.2 | Qty: 65 | Hedge Symbol: - @ \u20b90.0 | Hedge Qty: 0
+2026-04-20 08:34:32,999 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 08:34:33,275 - INFO - \U0001f4cc HDK_NIFTY_RLY_NH_H01_W  | HDK LOCAL - BUYER_ONLY  | Resumed open position: BUY | NIFTY26APR24200PE @ \u20b9229.2 | Qty: 65 | Hedge Symbol: - @ \u20b90.0 | Hedge Qty: 0
+2026-04-20 08:37:39,175 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 08:37:39,436 - INFO - \U0001f4cc HDK_NIFTY_RLY_NH_H01_W  | HDK LOCAL - BUYER_ONLY  | Resumed open position: BUY | NIFTY26APR24200PE @ \u20b9229.2 | Qty: 65 | Hedge Symbol: - @ \u20b90.0 | Hedge Qty: 0
+2026-04-20 09:11:49,942 - INFO - HDK_NIFTY_RLY_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 09:11:50,187 - INFO - \U0001f4cc HDK_NIFTY_RLY_NH_H01_W  | HDK LOCAL - BUYER_ONLY  | Resumed open position: BUY | NIFTY26APR24200PE @ \u20b9229.2 | Qty: 65 | Hedge Symbol: - @ \u20b90.0 | Hedge Qty: 0
+2026-04-20 09:37:21,351 - INFO -  Harshil Divyakant Khatri tried to execute program at | Current Time: 2026-04-20 09:37:17
+2026-04-20 09:37:21,614 - INFO -  Jinal Parag Khatri tried to execute program at | Current Time: 2026-04-20 09:37:17
+2026-04-20 09:37:32,106 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 09:37:32,107 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 09:37:32,110 - INFO - 🚫 HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 09:37:32,115 - INFO - LOCAL - BUYER_ONLY | ℹ️ Instrument token for NIFTY 50: 260105 at current time 2026-04-20 09:37:04
+2026-04-20 09:37:32,116 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 09:37:32,117 - INFO - ℹ️ HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 09:37:32,117 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 09:37:32,118 - INFO - ℹ️ HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 09:37:32,119 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 09:37:32,881 - INFO - ✅HDK_NIFTYBANK_GOD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 09:37:32,881 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | LOCAL - BUYER_ONLY Lot size is 30
+2026-04-20 09:37:32,881 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 09:37:32,881 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 09:37:32,884 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_intraday_cutoff
+2026-04-20 09:37:32,884 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _prepare_signal_context
+2026-04-20 09:37:32,884 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _fetch_historical_data_or_wait
+2026-04-20 09:37:35,364 - INFO - LOCAL - BUYER_ONLY Inside def _apply_strategy
+2026-04-20 09:37:35,873 - INFO - LOCAL - BUYER_ONLY Inside def _pick_latest_signal_row
+2026-04-20 09:37:36,126 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _log_signal_snapshot
+2026-04-20 09:37:37,115 - INFO - 🕒HDK_NIFTYBANK_GOD_NH_H01_M | Signal Received at Current Time: 2026-04-20 09:37:36
+                         date      open  ...  buySignal  sellSignal
+450 2026-04-20 09:15:00+05:30  56704.05  ...      False       False
+451 2026-04-20 09:20:00+05:30  56654.20  ...      False       False
+452 2026-04-20 09:25:00+05:30  56843.20  ...      False       False
+453 2026-04-20 09:30:00+05:30  56860.75  ...      False       False
+454 2026-04-20 09:35:00+05:30  56793.90  ...      False       False
+
+[5 rows x 15 columns]
+2026-04-20 09:37:37,125 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | GOD | Candle time 2026-04-20 09:35 | Close: 56828.35 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 09:37:36
+2026-04-20 09:37:37,125 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 09:37:37,348 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56828.35 | latest :date          2026-04-20 09:35:00+05:30
+open                            56793.9
+high                            56838.3
+low                            56772.25
+close                          56828.35
+volume                                0
+ema1                       56740.678586
+ema2                       56631.895636
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 454, dtype: object
+2026-04-20 09:37:37,348 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 09:37:37,349 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56828.35 | latest :date          2026-04-20 09:35:00+05:30
+open                            56793.9
+high                            56838.3
+low                            56772.25
+close                          56828.35
+volume                                0
+ema1                       56740.678586
+ema2                       56631.895636
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 454, dtype: object
+2026-04-20 09:37:37,349 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 09:37:37,349 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56828.35
+2026-04-20 09:37:37,354 - INFO - ⏳ HDK_NIFTYBANK_GOD_NH_H01_M |  Waiting until next candle at 09:40:10
+2026-04-20 09:37:41,602 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 09:37:41,605 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 09:37:41,605 - INFO - 🚫 HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 09:37:41,610 - INFO - LOCAL - BUYER_ONLY | ℹ️ Instrument token for NIFTY 50: 260105 at current time 2026-04-20 09:37:04
+2026-04-20 09:37:41,610 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 09:37:41,611 - INFO - ℹ️ HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 09:37:41,611 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 09:37:41,612 - INFO - ℹ️ HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 09:37:41,623 - INFO - HDK_NIFTYBANK_HD_NH_H01_M |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 09:37:42,125 - INFO - ✅HDK_NIFTYBANK_HD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 09:37:42,125 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | LOCAL - BUYER_ONLY Lot size is 30
+2026-04-20 09:37:42,126 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 09:37:42,126 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 09:37:42,126 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_intraday_cutoff
+2026-04-20 09:37:42,126 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _prepare_signal_context
+2026-04-20 09:37:42,126 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _fetch_historical_data_or_wait
+2026-04-20 09:37:45,117 - INFO - LOCAL - BUYER_ONLY Inside def _apply_strategy
+2026-04-20 09:37:45,860 - INFO - LOCAL - BUYER_ONLY Inside def _pick_latest_signal_row
+2026-04-20 09:37:45,864 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _log_signal_snapshot
+2026-04-20 09:37:46,114 - INFO - 🕒HDK_NIFTYBANK_HD_NH_H01_M | Signal Received at Current Time: 2026-04-20 09:37:45
+                         date          open  ...  sellSignal  trend
+450 2026-04-20 09:15:00+05:30  56581.369250  ...       False      1
+451 2026-04-20 09:20:00+05:30  56607.178375  ...       False      1
+452 2026-04-20 09:25:00+05:30  56681.026688  ...       False      1
+453 2026-04-20 09:30:00+05:30  56769.263344  ...       False      1
+454 2026-04-20 09:35:00+05:30  56788.919172  ...       False      1
+
+[5 rows x 12 columns]
+2026-04-20 09:37:46,121 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDSTRATEGY | Candle time 2026-04-20 09:35 | Close: 56808.200000000004 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 09:37:45
+2026-04-20 09:37:46,121 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 09:37:46,127 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : None | close : 56808.200000000004 | latest :date          2026-04-20 09:35:00+05:30
+open                       56788.919172
+high                            56838.3
+low                            56772.25
+close                           56808.2
+volume                                0
+sma                          56454.5645
+buyat                           56869.6
+sellat                          56713.5
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 454, dtype: object
+2026-04-20 09:37:46,349 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 09:37:46,350 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : None | close : 56808.200000000004 | latest :date          2026-04-20 09:35:00+05:30
+open                       56788.919172
+high                            56838.3
+low                            56772.25
+close                           56808.2
+volume                                0
+sma                          56454.5645
+buyat                           56869.6
+sellat                          56713.5
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 454, dtype: object
+2026-04-20 09:37:46,350 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 09:37:46,350 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : None | close : 56808.200000000004
+2026-04-20 09:37:46,352 - INFO - ⏳ HDK_NIFTYBANK_HD_NH_H01_M |  Waiting until next candle at 09:40:10
+2026-04-20 09:37:50,631 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 09:37:50,634 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 09:37:50,636 - INFO - 🚫 HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 09:37:50,849 - INFO - LOCAL - BUYER_ONLY | ℹ️ Instrument token for NIFTY 50: 260105 at current time 2026-04-20 09:37:04
+2026-04-20 09:37:50,850 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 09:37:50,851 - INFO - ℹ️ HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 09:37:50,851 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 09:37:50,852 - INFO - ℹ️ HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 09:37:50,854 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 09:37:51,854 - INFO - ✅HDK_NIFTYBANK_RLY_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 09:37:51,860 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | LOCAL - BUYER_ONLY Lot size is 30
+2026-04-20 09:37:51,860 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 09:37:51,860 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 09:37:51,866 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_intraday_cutoff
+2026-04-20 09:37:51,866 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _prepare_signal_context
+2026-04-20 09:37:51,866 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _fetch_historical_data_or_wait
+2026-04-20 09:37:57,867 - INFO - LOCAL - BUYER_ONLY Inside def _apply_strategy
+2026-04-20 09:37:59,114 - INFO - LOCAL - BUYER_ONLY Inside def _pick_latest_signal_row
+2026-04-20 09:38:02,599 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK LOCAL - BUYER_ONLY Inside def _log_signal_snapshot
+2026-04-20 09:38:12,622 - INFO - 🕒HDK_NIFTYBANK_RLY_NH_H01_M | Signal Received at Current Time: 2026-04-20 09:38:02
+                         date      open      high  ...  buySignal  sellSignal  trend
+450 2026-04-20 09:15:00+05:30  56704.05  56825.35  ...      False       False      1
+451 2026-04-20 09:20:00+05:30  56654.20  56867.55  ...      False       False      1
+452 2026-04-20 09:25:00+05:30  56843.20  56909.50  ...      False       False      1
+453 2026-04-20 09:30:00+05:30  56860.75  56869.60  ...      False       False      1
+454 2026-04-20 09:35:00+05:30  56793.90  56838.30  ...      False       False      1
+
+[5 rows x 11 columns]
+2026-04-20 09:38:12,874 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | RAILWAY_TRACK | Candle time 2026-04-20 09:35 | Close: 56828.35 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 09:38:02
+2026-04-20 09:38:12,874 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 09:38:13,118 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56828.35 | latest :date          2026-04-20 09:35:00+05:30
+open                            56793.9
+high                            56838.3
+low                            56772.25
+close                          56828.35
+volume                                0
+emaHigh                    56668.829413
+emaLow                     56566.017168
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 454, dtype: object
+2026-04-20 09:38:13,120 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 09:38:13,123 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56828.35 | latest :date          2026-04-20 09:35:00+05:30
+open                            56793.9
+high                            56838.3
+low                            56772.25
+close                          56828.35
+volume                                0
+emaHigh                    56668.829413
+emaLow                     56566.017168
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 454, dtype: object
+2026-04-20 09:38:13,127 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 09:38:13,127 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56828.35
+2026-04-20 09:38:13,354 - INFO - ⏳ HDK_NIFTYBANK_RLY_NH_H01_M |  Waiting until next candle at 09:40:10
+2026-04-20 09:38:17,123 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def live_trading
+2026-04-20 09:38:17,127 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _log_trade_mode
+2026-04-20 09:38:17,128 - INFO - 🚫 HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 09:38:19,134 - INFO - LOCAL - BUYER_ONLY | ℹ️ Instrument token for NIFTY 50: 256265 at current time 2026-04-20 09:37:04
+2026-04-20 09:38:19,355 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _load_trade_state
+2026-04-20 09:38:19,599 - INFO - ℹ️ HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY  |   No open position. Waiting for next signal...
+2026-04-20 09:38:19,623 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _refresh_trade_state_in_loop
+2026-04-20 09:38:19,848 - INFO - ℹ️ HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY No open position. Waiting for next signal...
+2026-04-20 09:38:19,858 - INFO - HDK_NIFTY_GOD_NH_H01_W |LOCAL - BUYER_ONLY Inside def _refresh_runtime_config
+2026-04-20 09:38:48,609 - INFO - ✅HDK_NIFTY_GOD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 09:38:49,112 - INFO - HDK_NIFTY_GOD_NH_H01_W | LOCAL - BUYER_ONLY Lot size is 65
+2026-04-20 09:38:49,124 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_no_new_trade
+2026-04-20 09:38:49,124 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _handle_market_availability
+2026-04-20 09:38:49,127 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _should_stop_for_intraday_cutoff
+2026-04-20 09:38:49,127 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _prepare_signal_context
+2026-04-20 09:38:49,127 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK LOCAL - BUYER_ONLY Inside def _fetch_historical_data_or_wait
+2026-04-20 09:39:05,600 - INFO - LOCAL - BUYER_ONLY Inside def _apply_strategy
+2026-04-20 09:41:05,628 - INFO -  Jinal Parag Khatri tried to execute program at | Current Time: 2026-04-20 09:41:03
+2026-04-20 09:41:05,898 - INFO -  Harshil Divyakant Khatri tried to execute program at | Current Time: 2026-04-20 09:41:03
+2026-04-20 09:41:19,889 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def live_trading
+2026-04-20 09:41:19,890 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_trade_mode
+2026-04-20 09:41:19,891 - INFO - 🚫 HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 09:41:19,897 - INFO - GCP Buyers - UAT | ℹ️ Instrument token for NIFTY 50: 260105 at current time 2026-04-20 09:40:53
+2026-04-20 09:41:19,898 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _load_trade_state
+2026-04-20 09:41:19,900 - INFO - ℹ️ HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT  |   No open position. Waiting for next signal...
+2026-04-20 09:41:19,900 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 09:41:19,901 - INFO - ℹ️ HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 09:41:19,906 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 09:41:20,906 - INFO - ✅HDK_NIFTYBANK_GOD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 09:41:20,906 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 09:41:20,908 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 09:41:20,908 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 09:41:20,908 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 09:41:20,908 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 09:41:20,908 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 09:41:24,898 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 09:41:25,158 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 09:41:25,383 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 09:41:26,123 - INFO - 🕒HDK_NIFTYBANK_GOD_NH_H01_M | Signal Received at Current Time: 2026-04-20 09:41:25
+                         date      open  ...  buySignal  sellSignal
+451 2026-04-20 09:20:00+05:30  56654.20  ...      False       False
+452 2026-04-20 09:25:00+05:30  56843.20  ...      False       False
+453 2026-04-20 09:30:00+05:30  56860.75  ...      False       False
+454 2026-04-20 09:35:00+05:30  56793.90  ...      False       False
+455 2026-04-20 09:40:00+05:30  56794.05  ...      False       False
+
+[5 rows x 15 columns]
+2026-04-20 09:41:26,127 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | GOD | Candle time 2026-04-20 09:40 | Close: 56818.65 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 09:41:25
+2026-04-20 09:41:26,127 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 09:41:26,132 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56818.65 | latest :date          2026-04-20 09:40:00+05:30
+open                           56794.05
+high                            56822.0
+low                             56792.2
+close                          56818.65
+volume                                0
+ema1                       56752.008036
+ema2                       56646.691743
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 455, dtype: object
+2026-04-20 09:41:26,132 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 09:41:26,133 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56818.65 | latest :date          2026-04-20 09:40:00+05:30
+open                           56794.05
+high                            56822.0
+low                             56792.2
+close                          56818.65
+volume                                0
+ema1                       56752.008036
+ema2                       56646.691743
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 455, dtype: object
+2026-04-20 09:41:26,134 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 09:41:26,134 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56818.65
+2026-04-20 09:41:26,139 - INFO - ⏳ HDK_NIFTYBANK_GOD_NH_H01_M |  Waiting until next candle at 09:45:10
+2026-04-20 09:41:28,923 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def live_trading
+2026-04-20 09:41:28,931 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_trade_mode
+2026-04-20 09:41:28,932 - INFO - 🚫 HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 09:41:29,148 - INFO - GCP Buyers - UAT | ℹ️ Instrument token for NIFTY 50: 260105 at current time 2026-04-20 09:40:53
+2026-04-20 09:41:29,149 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _load_trade_state
+2026-04-20 09:41:29,151 - INFO - ℹ️ HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT  |   No open position. Waiting for next signal...
+2026-04-20 09:41:29,151 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 09:41:29,152 - INFO - ℹ️ HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 09:41:29,153 - INFO - HDK_NIFTYBANK_HD_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 09:41:29,434 - INFO - ✅HDK_NIFTYBANK_HD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 09:41:29,434 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 09:41:29,434 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 09:41:29,434 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 09:41:29,434 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 09:41:29,434 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 09:41:29,434 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 09:41:33,393 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 09:41:35,144 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 09:41:35,375 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 09:41:36,125 - INFO - 🕒HDK_NIFTYBANK_HD_NH_H01_M | Signal Received at Current Time: 2026-04-20 09:41:35
+                         date          open  ...  sellSignal  trend
+451 2026-04-20 09:20:00+05:30  56607.178375  ...       False      1
+452 2026-04-20 09:25:00+05:30  56681.026688  ...       False      1
+453 2026-04-20 09:30:00+05:30  56769.263344  ...       False      1
+454 2026-04-20 09:35:00+05:30  56788.919172  ...       False      1
+455 2026-04-20 09:40:00+05:30  56793.247086  ...       False      1
+
+[5 rows x 12 columns]
+2026-04-20 09:41:36,125 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDSTRATEGY | Candle time 2026-04-20 09:40 | Close: 56812.0875 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 09:41:35
+2026-04-20 09:41:36,126 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 09:41:36,128 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : None | close : 56812.0875 | latest :date          2026-04-20 09:40:00+05:30
+open                       56793.247086
+high                            56844.0
+low                             56792.2
+close                        56812.0875
+volume                                0
+sma                         56465.00325
+buyat                           56847.1
+sellat                         56755.65
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 455, dtype: object
+2026-04-20 09:41:36,128 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 09:41:36,129 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : None | close : 56812.0875 | latest :date          2026-04-20 09:40:00+05:30
+open                       56793.247086
+high                            56844.0
+low                             56792.2
+close                        56812.0875
+volume                                0
+sma                         56465.00325
+buyat                           56847.1
+sellat                         56755.65
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 455, dtype: object
+2026-04-20 09:41:36,129 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 09:41:36,129 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : None | close : 56812.0875
+2026-04-20 09:41:36,132 - INFO - ⏳ HDK_NIFTYBANK_HD_NH_H01_M |  Waiting until next candle at 09:45:10
+2026-04-20 09:41:38,662 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def live_trading
+2026-04-20 09:41:38,877 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_trade_mode
+2026-04-20 09:41:38,878 - INFO - 🚫 HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 09:41:38,885 - INFO - GCP Buyers - UAT | ℹ️ Instrument token for NIFTY 50: 260105 at current time 2026-04-20 09:40:53
+2026-04-20 09:41:38,885 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _load_trade_state
+2026-04-20 09:41:38,886 - INFO - ℹ️ HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT  |   No open position. Waiting for next signal...
+2026-04-20 09:41:38,886 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 09:41:38,887 - INFO - ℹ️ HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 09:41:38,899 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 09:41:39,925 - INFO - ✅HDK_NIFTYBANK_RLY_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 09:41:39,926 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 09:41:39,927 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 09:41:39,927 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 09:41:40,122 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 09:41:40,122 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 09:41:40,122 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 09:41:44,146 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 09:41:59,624 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 09:42:38,391 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 09:45:19,395 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 09:45:27,645 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 09:45:50,393 - INFO - ℹ️ HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 09:45:56,623 - INFO - ℹ️ HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 09:46:10,876 - INFO - HDK_NIFTYBANK_HD_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 09:46:18,396 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 09:50:17,137 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def live_trading
+2026-04-20 09:50:17,391 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_trade_mode
+2026-04-20 09:50:18,874 - INFO - 🚫 HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 09:50:19,138 - INFO - ✅HDK_NIFTYBANK_GOD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 09:50:19,142 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 09:50:19,144 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 09:50:19,144 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 09:50:19,146 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 09:50:19,146 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 09:50:19,650 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 09:50:24,128 - INFO - ✅HDK_NIFTYBANK_HD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 09:50:24,894 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 09:50:25,640 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 09:50:25,640 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 09:50:25,642 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 09:50:25,643 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 09:50:25,643 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 09:50:26,396 - INFO - GCP Buyers - UAT | ℹ️ Instrument token for NIFTY 50: 256265 at current time 2026-04-20 09:40:53
+2026-04-20 09:50:26,640 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _load_trade_state
+2026-04-20 09:50:26,902 - INFO - ℹ️ HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT  |   No open position. Waiting for next signal...
+2026-04-20 09:50:26,902 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 09:50:27,402 - INFO - ℹ️ HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 09:50:27,876 - INFO - HDK_NIFTY_GOD_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 09:51:23,640 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 09:51:26,391 - INFO - 🕒HDK_NIFTYBANK_RLY_NH_H01_M | Signal Received at Current Time: 2026-04-20 09:42:42
+                         date      open      high  ...  buySignal  sellSignal  trend
+451 2026-04-20 09:20:00+05:30  56654.20  56867.55  ...      False       False      1
+452 2026-04-20 09:25:00+05:30  56843.20  56909.50  ...      False       False      1
+453 2026-04-20 09:30:00+05:30  56860.75  56869.60  ...      False       False      1
+454 2026-04-20 09:35:00+05:30  56793.90  56847.10  ...      False       False      1
+455 2026-04-20 09:40:00+05:30  56794.05  56844.00  ...      False       False      1
+
+[5 rows x 11 columns]
+2026-04-20 09:51:28,390 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | RAILWAY_TRACK | Candle time 2026-04-20 09:40 | Close: 56818.1 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 09:42:42
+2026-04-20 09:51:29,643 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 09:51:33,379 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 09:51:36,143 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56818.1 | latest :date          2026-04-20 09:40:00+05:30
+open                           56794.05
+high                            56844.0
+low                             56792.2
+close                           56818.1
+volume                                0
+emaHigh                    56686.270602
+emaLow                     56586.128005
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 455, dtype: object
+2026-04-20 09:51:37,143 - INFO - ✅HDK_NIFTY_GOD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 09:51:40,147 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 09:51:41,390 - INFO - HDK_NIFTY_GOD_NH_H01_W | GCP Buyers - UAT Lot size is 65
+2026-04-20 09:51:43,881 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 09:51:46,398 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 09:51:49,399 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 09:51:50,647 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 09:51:52,873 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 09:52:10,627 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56818.1 | latest :date          2026-04-20 09:40:00+05:30
+open                           56794.05
+high                            56844.0
+low                             56792.2
+close                           56818.1
+volume                                0
+emaHigh                    56686.270602
+emaLow                     56586.128005
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 455, dtype: object
+2026-04-20 09:52:15,880 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 09:52:18,136 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56818.1
+2026-04-20 09:52:41,402 - INFO - ⏳ HDK_NIFTYBANK_RLY_NH_H01_M |  Waiting until next candle at 09:55:10
+2026-04-20 09:55:23,899 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 09:56:08,388 - INFO - ℹ️ HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 09:56:23,138 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:04:13,877 - ERROR - HDK | Failed to fetch data after 3 2026-04-20 09:52:06.152954 attempts: HTTPSConnectionPool(host='api.kite.trade', port=443): Max retries exceeded with url: /instruments/historical/256265/5minute?from=2026-04-09&to=2026-04-20&interval=5minute&continuous=0&oi=0 (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+2026-04-20 10:08:53,876 - WARNING - ⚠️ HDK_NIFTY_GOD_NH_H01_W  | HDK GCP Buyers - UAT Not enough candles. Waiting...
+2026-04-20 10:09:59,632 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 10:11:00,625 - INFO - ℹ️ HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 10:11:23,879 - INFO - HDK_NIFTY_GOD_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:29:19,147 - INFO - ✅HDK_NIFTYBANK_RLY_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 10:29:22,128 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 10:29:25,373 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:29:28,398 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:29:38,650 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:29:43,902 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:29:52,642 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:30:37,133 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def live_trading
+2026-04-20 10:30:43,630 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_trade_mode
+2026-04-20 10:30:48,138 - INFO - 🚫 HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 10:33:57,123 - INFO - GCP Buyers - UAT | ℹ️ Instrument token for NIFTY 50: 256265 at current time 2026-04-20 09:40:53
+2026-04-20 10:34:07,632 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _load_trade_state
+2026-04-20 10:35:00,141 - INFO - ℹ️ HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT  |   No open position. Waiting for next signal...
+2026-04-20 10:35:08,895 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 10:35:39,873 - INFO - ℹ️ HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 10:36:28,899 - INFO - ✅HDK_NIFTY_GOD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 10:37:09,151 - INFO - HDK_NIFTY_GOD_NH_H01_W | GCP Buyers - UAT Lot size is 65
+2026-04-20 10:37:27,642 - INFO - HDK_NIFTY_HD_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:37:41,887 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:37:49,873 - ERROR - ❌ HDK GCP Buyers - UAT | No instruments file found for NIFTY 50. Skipping this config.
+2026-04-20 10:37:49,153 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:37:55,136 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:37:58,897 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:37:58,897 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:38:45,637 - ERROR - ❌ HDK GCP Buyers - UAT | No instruments file found for SENSEX. Skipping this config.
+2026-04-20 10:39:15,900 - ERROR - HDK | Failed to fetch data after 3 2026-04-20 10:30:05.893481 attempts: HTTPSConnectionPool(host='api.kite.trade', port=443): Max retries exceeded with url: /instruments/historical/260105/5minute?from=2026-04-09&to=2026-04-20&interval=5minute&continuous=0&oi=0 (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:992)')))
+2026-04-20 10:39:27,885 - WARNING - ⚠️ HDK_NIFTYBANK_RLY_NH_H01_M  | HDK GCP Buyers - UAT Not enough candles. Waiting...
+2026-04-20 10:40:41,124 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 10:46:38,877 - INFO - ℹ️ HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 10:47:16,644 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:48:57,878 - ERROR - HDK | Failed to fetch data after 3 2026-04-20 10:38:06.396598 attempts: HTTPSConnectionPool(host='api.kite.trade', port=443): Max retries exceeded with url: /instruments/historical/256265/5minute?from=2026-04-09&to=2026-04-20&interval=5minute&continuous=0&oi=0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f684a751fd0>: Failed to resolve 'api.kite.trade' ([Errno -3] Temporary failure in name resolution)"))
+2026-04-20 10:49:28,400 - WARNING - ⚠️ HDK_NIFTY_GOD_NH_H01_W  | HDK GCP Buyers - UAT Not enough candles. Waiting...
+2026-04-20 10:49:38,628 - ERROR - ❌ HDK GCP Buyers - UAT | No instruments file found for SENSEX. Skipping this config.
+2026-04-20 10:50:02,650 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:50:36,873 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 10:50:49,639 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:50:50,150 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:50:50,379 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:50:50,897 - INFO - ℹ️ HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 10:50:51,377 - INFO - HDK_NIFTY_GOD_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:50:51,396 - INFO - ✅HDK_NIFTY_HD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 10:50:52,140 - INFO - HDK_NIFTY_HD_NH_H01_W | GCP Buyers - UAT Lot size is 65
+2026-04-20 10:50:52,140 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:50:52,140 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:50:52,143 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:50:52,143 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:50:52,143 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:50:52,897 - INFO - ✅HDK_NIFTY_GOD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 10:50:52,898 - INFO - HDK_NIFTY_GOD_NH_H01_W | GCP Buyers - UAT Lot size is 65
+2026-04-20 10:50:52,898 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:50:52,898 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:50:53,131 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:50:53,131 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:50:53,132 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:50:53,142 - INFO - ✅HDK_NIFTYBANK_RLY_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 10:50:53,143 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 10:50:53,143 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:50:53,143 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:50:53,143 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:50:53,143 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:50:53,143 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:50:53,896 - INFO - 🕒HDK_NIFTYBANK_HD_NH_H01_M | Signal Received at Current Time: 2026-04-20 10:50:50
+                         date          open  ...  sellSignal  trend
+453 2026-04-20 09:30:00+05:30  56769.263344  ...       False      1
+454 2026-04-20 09:35:00+05:30  56788.919172  ...       False      1
+455 2026-04-20 09:40:00+05:30  56793.247086  ...       False      1
+456 2026-04-20 09:45:00+05:30  56761.054793  ...        True     -1
+457 2026-04-20 09:50:00+05:30  56702.152396  ...       False     -1
+
+[5 rows x 12 columns]
+2026-04-20 10:50:53,896 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDSTRATEGY | Candle time 2026-04-20 09:45 | Close: 56643.25 | Buy: False | Sell: True | Trend: -1 | Current Time: 2026-04-20 10:50:50
+2026-04-20 10:50:53,896 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 10:50:53,901 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : None | close : 56643.25 | latest :date          2026-04-20 09:45:00+05:30
+open                       56761.054793
+high                       56761.054793
+low                            56599.85
+close                          56643.25
+volume                                0
+sma                            56470.12
+buyat                           56869.6
+sellat                          56713.5
+buySignal                         False
+sellSignal                         True
+trend                                -1
+Name: 456, dtype: object
+2026-04-20 10:50:54,625 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 10:50:54,627 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : None | close : 56643.25 | latest :date          2026-04-20 09:45:00+05:30
+open                       56761.054793
+high                       56761.054793
+low                            56599.85
+close                          56643.25
+volume                                0
+sma                            56470.12
+buyat                           56869.6
+sellat                          56713.5
+buySignal                         False
+sellSignal                         True
+trend                                -1
+Name: 456, dtype: object
+2026-04-20 10:50:54,627 - INFO - HDK GCP Buyers - UAT Inside def _should_stop_before_new_entry
+2026-04-20 10:50:54,634 - INFO - ℹ️ HDK_NIFTYBANK_HD_NH_H01_M | HDK | MONTHLY_STOPLOSS not activated.
+2026-04-20 10:50:54,634 - INFO - GCP Buyers - UAT Inside def _find_option_with_retry
+2026-04-20 10:50:55,147 - INFO - 🕒HDK_NIFTYBANK_GOD_NH_H01_M | Signal Received at Current Time: 2026-04-20 10:50:50
+                         date      open  ...  buySignal  sellSignal
+453 2026-04-20 09:30:00+05:30  56860.75  ...      False       False
+454 2026-04-20 09:35:00+05:30  56793.90  ...      False       False
+455 2026-04-20 09:40:00+05:30  56794.05  ...      False       False
+456 2026-04-20 09:45:00+05:30  56647.95  ...      False       False
+457 2026-04-20 09:50:00+05:30  56646.25  ...      False       False
+
+[5 rows x 15 columns]
+2026-04-20 10:50:55,147 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | GOD | Candle time 2026-04-20 09:50 | Close: 56632.9 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 10:50:50
+2026-04-20 10:50:55,148 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 10:50:56,133 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56632.9 | latest :date          2026-04-20 09:50:00+05:30
+open                           56646.25
+high                            56647.2
+low                            56627.35
+close                           56632.9
+volume                                0
+ema1                       56683.982776
+ema2                       56631.863126
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                          False
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 457, dtype: object
+2026-04-20 10:50:56,133 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 10:50:56,135 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56632.9 | latest :date          2026-04-20 09:50:00+05:30
+open                           56646.25
+high                            56647.2
+low                            56627.35
+close                           56632.9
+volume                                0
+ema1                       56683.982776
+ema2                       56631.863126
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                          False
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 457, dtype: object
+2026-04-20 10:50:56,135 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:50:56,135 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56632.9
+2026-04-20 10:50:56,137 - INFO - ⏳ HDK_NIFTYBANK_GOD_NH_H01_M |  Waiting until next candle at 10:55:10
+2026-04-20 10:50:59,893 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 10:51:00,873 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:51:00,876 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:51:00,886 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 10:51:00,895 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:51:01,125 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:51:01,146 - INFO - 🕒HDK_NIFTY_HD_NH_H01_W | Signal Received at Current Time: 2026-04-20 10:51:00
+                         date          open  ...  sellSignal  trend
+465 2026-04-20 10:30:00+05:30  24393.776308  ...       False      1
+466 2026-04-20 10:35:00+05:30  24407.700654  ...       False      1
+467 2026-04-20 10:40:00+05:30  24419.244077  ...       False      1
+468 2026-04-20 10:45:00+05:30  24428.915789  ...       False      1
+469 2026-04-20 10:50:00+05:30  24430.314144  ...       False      1
+
+[5 rows x 12 columns]
+2026-04-20 10:51:01,146 - INFO - HDK_NIFTY_HD_NH_H01_W | HDSTRATEGY | Candle time 2026-04-20 10:50 | Close: 24428.887499999997 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 10:51:00
+2026-04-20 10:51:01,372 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 10:51:01,378 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24428.887499999997 | latest :date          2026-04-20 10:50:00+05:30
+open                       24430.314144
+high                            24432.2
+low                             24425.9
+close                        24428.8875
+volume                                0
+sma                          24340.2135
+buyat                           24439.7
+sellat                         24417.55
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:51:01,389 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 10:51:01,391 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24428.887499999997 | latest :date          2026-04-20 10:50:00+05:30
+open                       24430.314144
+high                            24432.2
+low                             24425.9
+close                        24428.8875
+volume                                0
+sma                          24340.2135
+buyat                           24439.7
+sellat                         24417.55
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:51:01,391 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:51:01,391 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24428.887499999997
+2026-04-20 10:51:01,391 - INFO - ⏳ HDK_NIFTY_HD_NH_H01_W |  Waiting until next candle at 10:55:10
+2026-04-20 10:51:01,402 - INFO - 🕒HDK_NIFTYBANK_RLY_NH_H01_M | Signal Received at Current Time: 2026-04-20 10:51:01
+                         date      open      high  ...  buySignal  sellSignal  trend
+465 2026-04-20 10:30:00+05:30  56899.50  56975.95  ...      False       False      1
+466 2026-04-20 10:35:00+05:30  56943.70  57023.95  ...      False       False      1
+467 2026-04-20 10:40:00+05:30  56995.10  57045.20  ...      False       False      1
+468 2026-04-20 10:45:00+05:30  57026.45  57031.95  ...      False       False      1
+469 2026-04-20 10:50:00+05:30  56998.30  57003.40  ...      False       False      1
+
+[5 rows x 11 columns]
+2026-04-20 10:51:01,633 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | RAILWAY_TRACK | Candle time 2026-04-20 10:50 | Close: 56978.8 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 10:51:01
+2026-04-20 10:51:01,636 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 10:51:01,637 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56978.8 | latest :date          2026-04-20 10:50:00+05:30
+open                            56998.3
+high                            57003.4
+low                             56973.8
+close                           56978.8
+volume                                0
+emaHigh                    56872.490438
+emaLow                     56788.909419
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:51:01,637 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 10:51:01,638 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56978.8 | latest :date          2026-04-20 10:50:00+05:30
+open                            56998.3
+high                            57003.4
+low                             56973.8
+close                           56978.8
+volume                                0
+emaHigh                    56872.490438
+emaLow                     56788.909419
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:51:01,638 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:51:01,638 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56978.8
+2026-04-20 10:51:01,639 - INFO - ⏳ HDK_NIFTYBANK_RLY_NH_H01_M |  Waiting until next candle at 10:55:10
+2026-04-20 10:51:01,642 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 10:51:02,129 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:51:02,131 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:51:02,384 - INFO - 🕒HDK_NIFTY_GOD_NH_H01_W | Signal Received at Current Time: 2026-04-20 10:51:02
+                         date      open  ...  buySignal  sellSignal
+465 2026-04-20 10:30:00+05:30  24409.50  ...      False       False
+466 2026-04-20 10:35:00+05:30  24427.85  ...      False       False
+467 2026-04-20 10:40:00+05:30  24433.60  ...      False       False
+468 2026-04-20 10:45:00+05:30  24439.35  ...      False       False
+469 2026-04-20 10:50:00+05:30  24431.05  ...      False       False
+
+[5 rows x 15 columns]
+2026-04-20 10:51:02,385 - INFO - HDK_NIFTY_GOD_NH_H01_W | GOD | Candle time 2026-04-20 10:50 | Close: 24426.4 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 10:51:02
+2026-04-20 10:51:02,385 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 10:51:02,386 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24426.4 | latest :date          2026-04-20 10:50:00+05:30
+open                           24431.05
+high                            24432.2
+low                             24425.9
+close                           24426.4
+volume                                0
+ema1                       24416.618178
+ema2                       24388.864251
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 469, dtype: object
+2026-04-20 10:51:02,386 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 10:51:02,387 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24426.4 | latest :date          2026-04-20 10:50:00+05:30
+open                           24431.05
+high                            24432.2
+low                             24425.9
+close                           24426.4
+volume                                0
+ema1                       24416.618178
+ema2                       24388.864251
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 469, dtype: object
+2026-04-20 10:51:02,387 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:51:02,387 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24426.4
+2026-04-20 10:51:02,387 - INFO - ⏳ HDK_NIFTY_GOD_NH_H01_W |  Waiting until next candle at 10:55:10
+2026-04-20 10:51:12,898 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def live_trading
+2026-04-20 10:51:12,900 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_trade_mode
+2026-04-20 10:51:12,900 - INFO - 🚫 HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT  | TRADE mode is OFF. Running in SIMULATION mode.
+2026-04-20 10:51:12,902 - INFO - GCP Buyers - UAT | ℹ️ Instrument token for NIFTY 50: 265 at current time 2026-04-20 09:40:53
+2026-04-20 10:51:12,902 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _load_trade_state
+2026-04-20 10:51:13,377 - INFO - ℹ️ HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT  |   No open position. Waiting for next signal...
+2026-04-20 10:51:13,377 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 10:51:13,379 - INFO - ℹ️ HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 10:51:13,384 - INFO - HDK_SENSEX_RLY_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:51:13,897 - INFO - ✅HDK_SENSEX_RLY_NH_H01_W | Lot size retrieved: 20 for expiry NEXT_WEEK
+2026-04-20 10:51:13,897 - INFO - HDK_SENSEX_RLY_NH_H01_W | GCP Buyers - UAT Lot size is 20
+2026-04-20 10:51:13,897 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:51:13,897 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:51:13,904 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:51:13,904 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:51:13,904 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:51:17,373 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 10:51:17,391 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:51:17,629 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:51:18,144 - INFO - 🕒HDK_SENSEX_RLY_NH_H01_W | Signal Received at Current Time: 2026-04-20 10:51:17
+                         date      open      high  ...  buySignal  sellSignal  trend
+465 2026-04-20 10:30:00+05:30  78734.76  78830.94  ...      False       False      1
+466 2026-04-20 10:35:00+05:30  78788.24  78833.38  ...      False       False      1
+467 2026-04-20 10:40:00+05:30  78819.63  78873.48  ...      False       False      1
+468 2026-04-20 10:45:00+05:30  78847.27  78847.27  ...      False       False      1
+469 2026-04-20 10:50:00+05:30  78811.63  78816.02  ...      False       False      1
+
+[5 rows x 11 columns]
+2026-04-20 10:51:18,145 - INFO - HDK_SENSEX_RLY_NH_H01_W | RAILWAY_TRACK | Candle time 2026-04-20 10:50 | Close: 78768.73 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 10:51:17
+2026-04-20 10:51:18,145 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 10:51:18,146 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78768.73 | latest :date          2026-04-20 10:50:00+05:30
+open                           78811.63
+high                           78816.02
+low                            78768.73
+close                          78768.73
+volume                                0
+emaHigh                     78696.21601
+emaLow                     78608.479133
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:51:18,372 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 10:51:18,373 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78768.73 | latest :date          2026-04-20 10:50:00+05:30
+open                           78811.63
+high                           78816.02
+low                            78768.73
+close                          78768.73
+volume                                0
+emaHigh                     78696.21601
+emaLow                     78608.479133
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:51:18,373 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:51:18,374 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78768.73
+2026-04-20 10:51:18,374 - INFO - ⏳ HDK_SENSEX_RLY_NH_H01_W |  Waiting until next candle at 10:55:10
+2026-04-20 10:52:55,893 - INFO - 📤 HDK_NIFTYBANK_HD_NH_H01_M | HDK | SELL Enter Signal Generated : Selling BANKNIFTY26MAY56700PE | Strike: 56700 | Expiry: 2026-05-26 | LTP ₹1055.00
+2026-04-20 10:52:56,127 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE execute_robust_entry
+2026-04-20 10:52:56,128 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | Trying to execute trade : {'OptionSymbol': 'BANKNIFTY26MAY56700PE', 'hedge_option_symbol': '-'}  | reason : Sell signal generated.
+2026-04-20 10:52:56,128 - INFO - ⚠️ HDK_NIFTYBANK_HD_NH_H01_M | Real Trade is set to NO. Skipping actual order placement for BANKNIFTY26MAY56700PE. Returning target qty: 30 and price 0.
+2026-04-20 10:52:57,626 - INFO - 📤HDK_NIFTYBANK_HD_NH_H01_M | Entered without Hedge position BANKNIFTY26MAY56700PE with Avg price: ₹1056.05 | Qty: 30.
+2026-04-20 10:52:57,627 - INFO - INSIDE is_valid_trade_data
+2026-04-20 10:52:57,630 - INFO - Qty : 30 | avg_price : 1056.05 | hedge_price :0 | hedge_required : False
+2026-04-20 10:52:57,630 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | GCP Buyers - UAT Inside def _build_signal_entry_trade
+2026-04-20 10:52:57,632 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | Saving open position: BANKNIFTY26MAY56700PE in 5minute interval
+2026-04-20 10:52:57,647 - INFO - ✅HDK_NIFTYBANK_HD_NH_H01_M | Open position saved successfully: BANKNIFTY26MAY56700PE
+2026-04-20 10:52:59,628 - INFO - 🔴HDK_NIFTYBANK_HD_NH_H01_M | SELL Enter Signal Generated |  Sell BANKNIFTY26MAY56700PE | Avg ₹1056.05 | Qty: 30
+2026-04-20 10:52:59,629 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:52:59,629 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : SELL | close : 56643.25
+2026-04-20 10:52:59,637 - INFO - ⏳ HDK_NIFTYBANK_HD_NH_H01_M |  Waiting until next candle at 10:55:10
+2026-04-20 10:53:03,140 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:53:18,156 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:53:33,881 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:53:44,399 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:53:55,652 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:54:12,883 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:54:26,882 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:54:47,137 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:55:03,400 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:55:11,626 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 10:55:11,900 - INFO - ℹ️ HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 10:55:11,906 - INFO - HDK_NIFTY_HD_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:55:12,622 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 10:55:12,646 - INFO - ℹ️ HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 10:55:12,648 - INFO - HDK_NIFTY_GOD_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:55:14,142 - INFO - ✅HDK_NIFTY_HD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 10:55:14,145 - INFO - HDK_NIFTY_HD_NH_H01_W | GCP Buyers - UAT Lot size is 65
+2026-04-20 10:55:14,145 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:55:14,146 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:55:14,147 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:55:14,138 - INFO - ✅HDK_NIFTY_GOD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 10:55:14,147 - INFO - HDK_NIFTY_GOD_NH_H01_W | GCP Buyers - UAT Lot size is 65
+2026-04-20 10:55:14,148 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:55:14,148 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:55:14,148 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:55:14,148 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:55:14,148 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:55:14,147 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:55:14,148 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:55:14,378 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 10:55:14,382 - INFO - ℹ️ HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 10:55:14,404 - INFO - HDK_SENSEX_RLY_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:55:14,634 - INFO - ✅HDK_SENSEX_RLY_NH_H01_W | Lot size retrieved: 20 for expiry NEXT_WEEK
+2026-04-20 10:55:14,635 - INFO - HDK_SENSEX_RLY_NH_H01_W | GCP Buyers - UAT Lot size is 20
+2026-04-20 10:55:14,635 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:55:14,635 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:55:14,635 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:55:14,635 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:55:14,636 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:55:17,643 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 10:55:18,646 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 10:55:18,654 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 10:55:19,629 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:55:19,887 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:55:20,159 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:55:20,161 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 10:55:20,384 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 10:55:20,385 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:55:20,630 - INFO - 🕒HDK_SENSEX_RLY_NH_H01_W | Signal Received at Current Time: 2026-04-20 10:55:19
+                         date      open      high  ...  buySignal  sellSignal  trend
+465 2026-04-20 10:30:00+05:30  78734.76  78830.94  ...      False       False      1
+466 2026-04-20 10:35:00+05:30  78788.24  78833.38  ...      False       False      1
+467 2026-04-20 10:40:00+05:30  78819.63  78873.48  ...      False       False      1
+468 2026-04-20 10:45:00+05:30  78847.27  78847.27  ...      False       False      1
+469 2026-04-20 10:50:00+05:30  78811.63  78816.02  ...      False       False      1
+
+[5 rows x 11 columns]
+2026-04-20 10:55:20,647 - INFO - HDK_SENSEX_RLY_NH_H01_W | RAILWAY_TRACK | Candle time 2026-04-20 10:50 | Close: 78780.62 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 10:55:19
+2026-04-20 10:55:20,647 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 10:55:20,648 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78780.62 | latest :date          2026-04-20 10:50:00+05:30
+open                           78811.63
+high                           78816.02
+low                            78742.51
+close                          78780.62
+volume                                0
+emaHigh                     78696.21601
+emaLow                      78605.98199
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:55:20,648 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 10:55:20,649 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78780.62 | latest :date          2026-04-20 10:50:00+05:30
+open                           78811.63
+high                           78816.02
+low                            78742.51
+close                          78780.62
+volume                                0
+emaHigh                     78696.21601
+emaLow                      78605.98199
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:55:20,649 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:55:20,649 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78780.62
+2026-04-20 10:55:20,651 - INFO - ⏳ HDK_SENSEX_RLY_NH_H01_W |  Waiting until next candle at 11:00:10
+2026-04-20 10:55:20,893 - INFO - 📌 HDK_NIFTYBANK_HD_NH_H01_M  | HDK GCP Buyers - UAT  | Resumed open position: SELL | BANKNIFTY26MAY56700PE @ ₹1056.05 | Qty: 30 | Hedge Symbol: - @ ₹0.0 | Hedge Qty: 0
+2026-04-20 10:55:20,897 - INFO - ℹ️ HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 10:55:20,901 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:55:21,127 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:55:21,127 - INFO - HDK_NIFTYBANK_HD_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:55:21,140 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:55:21,140 - INFO - 🕒HDK_NIFTY_GOD_NH_H01_W | Signal Received at Current Time: 2026-04-20 10:55:20
+                         date      open  ...  buySignal  sellSignal
+465 2026-04-20 10:30:00+05:30  24409.50  ...      False       False
+466 2026-04-20 10:35:00+05:30  24427.85  ...      False       False
+467 2026-04-20 10:40:00+05:30  24433.60  ...      False       False
+468 2026-04-20 10:45:00+05:30  24439.35  ...      False       False
+469 2026-04-20 10:50:00+05:30  24431.05  ...      False       False
+
+[5 rows x 15 columns]
+2026-04-20 10:55:21,141 - INFO - HDK_NIFTY_GOD_NH_H01_W | GOD | Candle time 2026-04-20 10:50 | Close: 24424.2 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 10:55:20
+2026-04-20 10:55:21,141 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 10:55:21,142 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24424.2 | latest :date          2026-04-20 10:50:00+05:30
+open                           24431.05
+high                            24432.2
+low                             24410.9
+close                           24424.2
+volume                                0
+ema1                       24416.129289
+ema2                       24388.654727
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 469, dtype: object
+2026-04-20 10:55:21,142 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 10:55:21,143 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24424.2 | latest :date          2026-04-20 10:50:00+05:30
+open                           24431.05
+high                            24432.2
+low                             24410.9
+close                           24424.2
+volume                                0
+ema1                       24416.129289
+ema2                       24388.654727
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 469, dtype: object
+2026-04-20 10:55:21,144 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:55:21,144 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24424.2
+2026-04-20 10:55:21,144 - INFO - ⏳ HDK_NIFTY_GOD_NH_H01_W |  Waiting until next candle at 11:00:10
+2026-04-20 10:55:21,627 - INFO - 🕒HDK_NIFTY_HD_NH_H01_W | Signal Received at Current Time: 2026-04-20 10:55:21
+                         date          open  ...  sellSignal  trend
+465 2026-04-20 10:30:00+05:30  24393.776308  ...       False      1
+466 2026-04-20 10:35:00+05:30  24407.700654  ...       False      1
+467 2026-04-20 10:40:00+05:30  24419.244077  ...       False      1
+468 2026-04-20 10:45:00+05:30  24428.915789  ...       False      1
+469 2026-04-20 10:50:00+05:30  24430.314144  ...       False      1
+
+[5 rows x 12 columns]
+2026-04-20 10:55:21,642 - INFO - HDK_NIFTY_HD_NH_H01_W | HDSTRATEGY | Candle time 2026-04-20 10:50 | Close: 24424.587499999998 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 10:55:21
+2026-04-20 10:55:21,650 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 10:55:21,659 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 10:55:21,888 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24424.587499999998 | latest :date          2026-04-20 10:50:00+05:30
+open                       24430.314144
+high                            24432.2
+low                             24410.9
+close                        24424.5875
+volume                                0
+sma                          24340.1275
+buyat                           24388.3
+sellat                      24335.02936
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:55:21,888 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 10:55:21,887 - INFO - ℹ️ HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 10:55:21,891 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 10:55:21,889 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24424.587499999998 | latest :date          2026-04-20 10:50:00+05:30
+open                       24430.314144
+high                            24432.2
+low                             24410.9
+close                        24424.5875
+volume                                0
+sma                          24340.1275
+buyat                           24388.3
+sellat                      24335.02936
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:55:21,894 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:55:21,894 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24424.587499999998
+2026-04-20 10:55:21,895 - INFO - ⏳ HDK_NIFTY_HD_NH_H01_W |  Waiting until next candle at 11:00:10
+2026-04-20 10:55:21,885 - INFO - ✅HDK_NIFTYBANK_HD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 10:55:21,903 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 10:55:21,898 - INFO - ✅HDK_NIFTYBANK_GOD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 10:55:21,904 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:55:22,123 - INFO - ✅HDK_NIFTYBANK_RLY_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 10:55:22,123 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 10:55:22,123 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:55:22,124 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 10:55:22,124 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:55:22,126 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:55:22,126 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 10:55:22,126 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:55:22,126 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:55:22,126 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:55:22,126 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 10:55:22,127 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 10:55:22,127 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:55:22,127 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 10:55:22,127 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:55:22,127 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:55:22,126 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 10:55:24,628 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 10:55:25,391 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 10:55:25,644 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:55:25,878 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:55:26,143 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 10:55:26,376 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:55:26,378 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:55:26,394 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 10:55:26,396 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 10:55:26,881 - INFO - 🕒HDK_NIFTYBANK_HD_NH_H01_M | Signal Received at Current Time: 2026-04-20 10:55:26
+                         date          open  ...  sellSignal  trend
+465 2026-04-20 10:30:00+05:30  56861.676181  ...       False      1
+466 2026-04-20 10:35:00+05:30  56895.813091  ...       False      1
+467 2026-04-20 10:40:00+05:30  56935.719045  ...       False      1
+468 2026-04-20 10:45:00+05:30  56975.565773  ...       False      1
+469 2026-04-20 10:50:00+05:30  56990.245386  ...       False      1
+
+[5 rows x 12 columns]
+2026-04-20 10:55:26,891 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDSTRATEGY | Candle time 2026-04-20 10:50 | Close: 56985.125 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 10:55:26
+2026-04-20 10:55:26,891 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 10:55:26,894 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : SELL | close : 56985.125 | latest :date          2026-04-20 10:50:00+05:30
+open                       56990.245386
+high                            57003.4
+low                            56943.55
+close                         56985.125
+volume                                0
+sma                         56611.93025
+buyat                           57045.2
+sellat                     56935.719045
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:55:27,123 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 10:55:27,124 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : SELL | close : 56985.125 | latest :date          2026-04-20 10:50:00+05:30
+open                       56990.245386
+high                            57003.4
+low                            56943.55
+close                         56985.125
+volume                                0
+sma                         56611.93025
+buyat                           57045.2
+sellat                     56935.719045
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:55:27,133 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:55:27,133 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : SELL | close : 56985.125
+2026-04-20 10:55:27,128 - INFO - 🕒HDK_NIFTYBANK_GOD_NH_H01_M | Signal Received at Current Time: 2026-04-20 10:55:25
+                         date      open  ...  buySignal  sellSignal
+465 2026-04-20 10:30:00+05:30  56899.50  ...      False       False
+466 2026-04-20 10:35:00+05:30  56943.70  ...      False       False
+467 2026-04-20 10:40:00+05:30  56995.10  ...      False       False
+468 2026-04-20 10:45:00+05:30  57026.45  ...      False       False
+469 2026-04-20 10:50:00+05:30  56998.30  ...      False       False
+
+[5 rows x 15 columns]
+2026-04-20 10:55:27,133 - INFO - 🕒HDK_NIFTYBANK_RLY_NH_H01_M | Signal Received at Current Time: 2026-04-20 10:55:26
+                         date      open      high  ...  buySignal  sellSignal  trend
+465 2026-04-20 10:30:00+05:30  56899.50  56975.95  ...      False       False      1
+466 2026-04-20 10:35:00+05:30  56943.70  57023.95  ...      False       False      1
+467 2026-04-20 10:40:00+05:30  56995.10  57045.20  ...      False       False      1
+468 2026-04-20 10:45:00+05:30  57026.45  57031.95  ...      False       False      1
+469 2026-04-20 10:50:00+05:30  56998.30  57003.40  ...      False       False      1
+
+[5 rows x 11 columns]
+2026-04-20 10:55:27,140 - INFO - ⏳ HDK_NIFTYBANK_HD_NH_H01_M |  Waiting until next candle at 11:00:10
+2026-04-20 10:55:27,141 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | RAILWAY_TRACK | Candle time 2026-04-20 10:50 | Close: 56995.25 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 10:55:26
+2026-04-20 10:55:27,141 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | GOD | Candle time 2026-04-20 10:50 | Close: 56995.25 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 10:55:25
+2026-04-20 10:55:27,145 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 10:55:27,145 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 10:55:27,148 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56995.25 | latest :date          2026-04-20 10:50:00+05:30
+open                            56998.3
+high                            57003.4
+low                            56943.55
+close                          56995.25
+volume                                0
+ema1                       56949.153629
+ema2                       56841.817415
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 469, dtype: object
+2026-04-20 10:55:27,148 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 10:55:27,149 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56995.25 | latest :date          2026-04-20 10:50:00+05:30
+open                            56998.3
+high                            57003.4
+low                            56943.55
+close                          56995.25
+volume                                0
+ema1                       56949.153629
+ema2                       56841.817415
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 469, dtype: object
+2026-04-20 10:55:27,149 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:55:27,146 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56995.25 | latest :date          2026-04-20 10:50:00+05:30
+open                            56998.3
+high                            57003.4
+low                            56943.55
+close                          56995.25
+volume                                0
+emaHigh                    56872.490438
+emaLow                     56786.028467
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:55:27,149 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 10:55:27,149 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 56995.25
+2026-04-20 10:55:27,150 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56995.25 | latest :date          2026-04-20 10:50:00+05:30
+open                            56998.3
+high                            57003.4
+low                            56943.55
+close                          56995.25
+volume                                0
+emaHigh                    56872.490438
+emaLow                     56786.028467
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 469, dtype: object
+2026-04-20 10:55:27,154 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 10:55:27,154 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 56995.25
+2026-04-20 10:55:27,154 - INFO - ⏳ HDK_NIFTYBANK_RLY_NH_H01_M |  Waiting until next candle at 11:00:10
+2026-04-20 10:55:27,154 - INFO - ⏳ HDK_NIFTYBANK_GOD_NH_H01_M |  Waiting until next candle at 11:00:10
+2026-04-20 10:55:30,668 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:55:47,382 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:55:57,441 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:56:07,238 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:56:16,306 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:56:32,387 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:56:43,444 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:56:51,533 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:57:07,577 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:57:23,637 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:57:36,709 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:57:45,540 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:58:01,624 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:58:14,656 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:58:26,749 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:58:41,831 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:58:51,901 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:59:02,646 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:59:12,708 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:59:28,440 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:59:44,517 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 10:59:59,679 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:00:08,738 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:00:10,377 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:00:10,379 - INFO - ℹ️ HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 11:00:10,380 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:00:10,584 - INFO - ✅HDK_NIFTYBANK_GOD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 11:00:10,585 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 11:00:10,585 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:00:10,585 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:00:10,587 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:00:10,587 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:00:10,587 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:00:11,288 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:00:11,316 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:00:11,320 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:00:11,356 - INFO - 🕒HDK_NIFTYBANK_GOD_NH_H01_M | Signal Received at Current Time: 2026-04-20 11:00:11
+                         date      open  ...  buySignal  sellSignal
+466 2026-04-20 10:35:00+05:30  56943.70  ...      False       False
+467 2026-04-20 10:40:00+05:30  56995.10  ...      False       False
+468 2026-04-20 10:45:00+05:30  57026.45  ...      False       False
+469 2026-04-20 10:50:00+05:30  56998.30  ...      False       False
+470 2026-04-20 10:55:00+05:30  56995.05  ...      False       False
+
+[5 rows x 15 columns]
+2026-04-20 11:00:11,356 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | GOD | Candle time 2026-04-20 10:55 | Close: 57035.05 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:00:11
+2026-04-20 11:00:11,357 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 11:00:11,357 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 57035.05 | latest :date          2026-04-20 10:55:00+05:30
+open                           56995.05
+high                           57037.95
+low                             56972.8
+close                          57035.05
+volume                                0
+ema1                       56968.198502
+ema2                       56860.198977
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 470, dtype: object
+2026-04-20 11:00:11,357 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 11:00:11,358 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 57035.05 | latest :date          2026-04-20 10:55:00+05:30
+open                           56995.05
+high                           57037.95
+low                             56972.8
+close                          57035.05
+volume                                0
+ema1                       56968.198502
+ema2                       56860.198977
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 470, dtype: object
+2026-04-20 11:00:11,358 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:00:11,358 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 57035.05
+2026-04-20 11:00:11,358 - INFO - ⏳ HDK_NIFTYBANK_GOD_NH_H01_M |  Waiting until next candle at 11:05:10
+2026-04-20 11:00:11,377 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:00:11,378 - INFO - ℹ️ HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 11:00:11,379 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:00:11,385 - INFO - ✅HDK_NIFTYBANK_RLY_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 11:00:11,385 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 11:00:11,385 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:00:11,385 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:00:11,385 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:00:11,385 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:00:11,385 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:00:12,004 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:00:12,008 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:00:12,009 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:00:12,023 - INFO - 🕒HDK_NIFTYBANK_RLY_NH_H01_M | Signal Received at Current Time: 2026-04-20 11:00:12
+                         date      open      high  ...  buySignal  sellSignal  trend
+466 2026-04-20 10:35:00+05:30  56943.70  57023.95  ...      False       False      1
+467 2026-04-20 10:40:00+05:30  56995.10  57045.20  ...      False       False      1
+468 2026-04-20 10:45:00+05:30  57026.45  57031.95  ...      False       False      1
+469 2026-04-20 10:50:00+05:30  56998.30  57003.40  ...      False       False      1
+470 2026-04-20 10:55:00+05:30  56995.05  57037.95  ...      False       False      1
+
+[5 rows x 11 columns]
+2026-04-20 11:00:12,023 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | RAILWAY_TRACK | Candle time 2026-04-20 10:55 | Close: 57035.05 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:00:12
+2026-04-20 11:00:12,023 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 11:00:12,024 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 57035.05 | latest :date          2026-04-20 10:55:00+05:30
+open                           56995.05
+high                           57037.95
+low                             56972.8
+close                          57035.05
+volume                                0
+emaHigh                    56888.248492
+emaLow                     56803.816232
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 470, dtype: object
+2026-04-20 11:00:12,024 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 11:00:12,025 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 57035.05 | latest :date          2026-04-20 10:55:00+05:30
+open                           56995.05
+high                           57037.95
+low                             56972.8
+close                          57035.05
+volume                                0
+emaHigh                    56888.248492
+emaLow                     56803.816232
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 470, dtype: object
+2026-04-20 11:00:12,025 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:00:12,025 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 57035.05
+2026-04-20 11:00:12,025 - INFO - ⏳ HDK_NIFTYBANK_RLY_NH_H01_M |  Waiting until next candle at 11:05:10
+2026-04-20 11:00:14,149 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:00:14,151 - INFO - ℹ️ HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 11:00:14,151 - INFO - HDK_NIFTY_GOD_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:00:14,158 - INFO - ✅HDK_NIFTY_GOD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 11:00:14,158 - INFO - HDK_NIFTY_GOD_NH_H01_W | GCP Buyers - UAT Lot size is 65
+2026-04-20 11:00:14,158 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:00:14,158 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:00:14,158 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:00:14,158 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:00:14,159 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:00:14,603 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:00:14,623 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:00:14,624 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:00:14,640 - INFO - 🕒HDK_NIFTY_GOD_NH_H01_W | Signal Received at Current Time: 2026-04-20 11:00:14
+                         date      open  ...  buySignal  sellSignal
+466 2026-04-20 10:35:00+05:30  24427.85  ...      False       False
+467 2026-04-20 10:40:00+05:30  24433.60  ...      False       False
+468 2026-04-20 10:45:00+05:30  24439.35  ...      False       False
+469 2026-04-20 10:50:00+05:30  24431.05  ...      False       False
+470 2026-04-20 10:55:00+05:30  24425.50  ...      False       False
+
+[5 rows x 15 columns]
+2026-04-20 11:00:14,640 - INFO - HDK_NIFTY_GOD_NH_H01_W | GOD | Candle time 2026-04-20 10:55 | Close: 24430.75 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:00:14
+2026-04-20 11:00:14,640 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 11:00:14,641 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24430.75 | latest :date          2026-04-20 10:55:00+05:30
+open                            24425.5
+high                            24432.5
+low                             24415.8
+close                          24430.75
+volume                                0
+ema1                       24419.533891
+ema2                       24392.741352
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 470, dtype: object
+2026-04-20 11:00:14,641 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 11:00:14,641 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24430.75 | latest :date          2026-04-20 10:55:00+05:30
+open                            24425.5
+high                            24432.5
+low                             24415.8
+close                          24430.75
+volume                                0
+ema1                       24419.533891
+ema2                       24392.741352
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 470, dtype: object
+2026-04-20 11:00:14,642 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:00:14,642 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24430.75
+2026-04-20 11:00:14,642 - INFO - ⏳ HDK_NIFTY_GOD_NH_H01_W |  Waiting until next candle at 11:05:10
+2026-04-20 11:00:16,900 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:00:16,901 - INFO - ℹ️ HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 11:00:16,902 - INFO - HDK_NIFTY_HD_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:00:16,909 - INFO - ✅HDK_NIFTY_HD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 11:00:16,909 - INFO - HDK_NIFTY_HD_NH_H01_W | GCP Buyers - UAT Lot size is 65
+2026-04-20 11:00:16,909 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:00:16,909 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:00:16,909 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:00:16,909 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:00:16,909 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:00:17,314 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:00:17,341 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:00:17,342 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:00:17,356 - INFO - 🕒HDK_NIFTY_HD_NH_H01_W | Signal Received at Current Time: 2026-04-20 11:00:17
+                         date          open  ...  sellSignal  trend
+466 2026-04-20 10:35:00+05:30  24407.700654  ...       False      1
+467 2026-04-20 10:40:00+05:30  24419.244077  ...       False      1
+468 2026-04-20 10:45:00+05:30  24428.915789  ...       False      1
+469 2026-04-20 10:50:00+05:30  24430.314144  ...       False      1
+470 2026-04-20 10:55:00+05:30  24427.563322  ...       False      1
+
+[5 rows x 12 columns]
+2026-04-20 11:00:17,356 - INFO - HDK_NIFTY_HD_NH_H01_W | HDSTRATEGY | Candle time 2026-04-20 10:55 | Close: 24426.1375 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:00:17
+2026-04-20 11:00:17,356 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 11:00:17,357 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24426.1375 | latest :date          2026-04-20 10:55:00+05:30
+open                       24427.563322
+high                            24432.5
+low                             24415.8
+close                        24426.1375
+volume                                0
+sma                            24343.27
+buyat                           24388.3
+sellat                      24335.02936
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 470, dtype: object
+2026-04-20 11:00:17,357 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 11:00:17,357 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24426.1375 | latest :date          2026-04-20 10:55:00+05:30
+open                       24427.563322
+high                            24432.5
+low                             24415.8
+close                        24426.1375
+volume                                0
+sma                            24343.27
+buyat                           24388.3
+sellat                      24335.02936
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 470, dtype: object
+2026-04-20 11:00:17,357 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:00:17,357 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24426.1375
+2026-04-20 11:00:17,357 - INFO - ⏳ HDK_NIFTY_HD_NH_H01_W |  Waiting until next candle at 11:05:10
+2026-04-20 11:00:20,108 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:00:20,455 - INFO - 📌 HDK_NIFTYBANK_HD_NH_H01_M  | HDK GCP Buyers - UAT  | Resumed open position: SELL | BANKNIFTY26MAY56700PE @ ₹1056.05 | Qty: 30 | Hedge Symbol: - @ ₹0.0 | Hedge Qty: 0
+2026-04-20 11:00:20,456 - INFO - HDK_NIFTYBANK_HD_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:00:20,462 - INFO - ✅HDK_NIFTYBANK_HD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 11:00:20,462 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 11:00:20,462 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:00:20,463 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:00:20,463 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:00:20,463 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:00:20,463 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:00:20,891 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:00:20,897 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:00:20,907 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:00:20,908 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:00:20,924 - INFO - 🕒HDK_NIFTYBANK_HD_NH_H01_M | Signal Received at Current Time: 2026-04-20 11:00:20
+                         date          open  ...  sellSignal  trend
+466 2026-04-20 10:35:00+05:30  56895.813091  ...       False      1
+467 2026-04-20 10:40:00+05:30  56935.719045  ...       False      1
+468 2026-04-20 10:45:00+05:30  56975.565773  ...       False      1
+469 2026-04-20 10:50:00+05:30  56990.245386  ...       False      1
+470 2026-04-20 10:55:00+05:30  56987.653943  ...       False      1
+
+[5 rows x 12 columns]
+2026-04-20 11:00:20,925 - INFO - ℹ️ HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 11:00:20,925 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDSTRATEGY | Candle time 2026-04-20 10:55 | Close: 57010.212499999994 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:00:20
+2026-04-20 11:00:20,925 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 11:00:20,926 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : SELL | close : 57010.212499999994 | latest :date          2026-04-20 10:55:00+05:30
+open                       56987.653943
+high                           57037.95
+low                             56972.8
+close                        57010.2125
+volume                                0
+sma                         56625.41225
+buyat                           57045.2
+sellat                     56935.719045
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 470, dtype: object
+2026-04-20 11:00:20,927 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 11:00:20,927 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : SELL | close : 57010.212499999994 | latest :date          2026-04-20 10:55:00+05:30
+open                       56987.653943
+high                           57037.95
+low                             56972.8
+close                        57010.2125
+volume                                0
+sma                         56625.41225
+buyat                           57045.2
+sellat                     56935.719045
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 470, dtype: object
+2026-04-20 11:00:20,927 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:00:20,927 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : SELL | close : 57010.212499999994
+2026-04-20 11:00:20,928 - INFO - ⏳ HDK_NIFTYBANK_HD_NH_H01_M |  Waiting until next candle at 11:05:10
+2026-04-20 11:00:20,928 - INFO - HDK_SENSEX_RLY_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:00:20,939 - INFO - ✅HDK_SENSEX_RLY_NH_H01_W | Lot size retrieved: 20 for expiry NEXT_WEEK
+2026-04-20 11:00:20,939 - INFO - HDK_SENSEX_RLY_NH_H01_W | GCP Buyers - UAT Lot size is 20
+2026-04-20 11:00:20,939 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:00:20,939 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:00:20,939 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:00:20,939 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:00:20,939 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:00:21,644 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:00:21,649 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:00:21,649 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:00:21,662 - INFO - 🕒HDK_SENSEX_RLY_NH_H01_W | Signal Received at Current Time: 2026-04-20 11:00:21
+                         date      open      high  ...  buySignal  sellSignal  trend
+466 2026-04-20 10:35:00+05:30  78788.24  78833.38  ...      False       False      1
+467 2026-04-20 10:40:00+05:30  78819.63  78873.48  ...      False       False      1
+468 2026-04-20 10:45:00+05:30  78847.27  78847.27  ...      False       False      1
+469 2026-04-20 10:50:00+05:30  78811.63  78816.02  ...      False       False      1
+470 2026-04-20 10:55:00+05:30  78781.19  78804.67  ...      False       False      1
+
+[5 rows x 11 columns]
+2026-04-20 11:00:21,662 - INFO - HDK_SENSEX_RLY_NH_H01_W | RAILWAY_TRACK | Candle time 2026-04-20 10:55 | Close: 78801.74 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:00:21
+2026-04-20 11:00:21,662 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 11:00:21,663 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78801.74 | latest :date          2026-04-20 10:55:00+05:30
+open                           78781.19
+high                           78804.67
+low                            78753.81
+close                          78801.74
+volume                                0
+emaHigh                    78706.544962
+emaLow                     78620.060848
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 470, dtype: object
+2026-04-20 11:00:21,663 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 11:00:21,664 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78801.74 | latest :date          2026-04-20 10:55:00+05:30
+open                           78781.19
+high                           78804.67
+low                            78753.81
+close                          78801.74
+volume                                0
+emaHigh                    78706.544962
+emaLow                     78620.060848
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 470, dtype: object
+2026-04-20 11:00:21,664 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:00:21,664 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78801.74
+2026-04-20 11:00:21,664 - INFO - ⏳ HDK_SENSEX_RLY_NH_H01_W |  Waiting until next candle at 11:05:10
+2026-04-20 11:00:21,672 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:00:31,497 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:00:42,580 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:00:50,693 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:01:06,822 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:01:20,878 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:01:35,977 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:01:51,534 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:02:02,601 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:02:17,821 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:02:27,315 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:02:39,467 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:02:48,513 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:03:00,597 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:03:10,767 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:03:20,793 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:03:28,879 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:03:44,048 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:03:52,074 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:04:05,137 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:04:20,282 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:04:30,404 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:04:43,465 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:04:58,504 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:05:08,567 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:05:15,365 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:05:15,367 - INFO - ℹ️ HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 11:05:15,368 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:05:15,597 - INFO - ✅HDK_NIFTYBANK_GOD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 11:05:15,599 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 11:05:15,599 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:05:15,599 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:05:15,601 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:05:15,602 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:05:15,602 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:05:16,014 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:05:16,043 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:05:16,048 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:05:16,089 - INFO - 🕒HDK_NIFTYBANK_GOD_NH_H01_M | Signal Received at Current Time: 2026-04-20 11:05:16
+                         date      open  ...  buySignal  sellSignal
+467 2026-04-20 10:40:00+05:30  56995.10  ...      False       False
+468 2026-04-20 10:45:00+05:30  57026.45  ...      False       False
+469 2026-04-20 10:50:00+05:30  56998.30  ...      False       False
+470 2026-04-20 10:55:00+05:30  56995.05  ...      False       False
+471 2026-04-20 11:00:00+05:30  57038.15  ...      False       False
+
+[5 rows x 15 columns]
+2026-04-20 11:05:16,089 - INFO - HDK_NIFTYBANK_GOD_NH_H01_M | GOD | Candle time 2026-04-20 11:00 | Close: 57035.3 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:05:16
+2026-04-20 11:05:16,089 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 11:05:16,090 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 57035.3 | latest :date          2026-04-20 11:00:00+05:30
+open                           57038.15
+high                           57040.25
+low                             56995.2
+close                           57035.3
+volume                                0
+ema1                       56983.248217
+ema2                       56876.944199
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 471, dtype: object
+2026-04-20 11:05:16,090 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 11:05:16,091 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 57035.3 | latest :date          2026-04-20 11:00:00+05:30
+open                           57038.15
+high                           57040.25
+low                             56995.2
+close                           57035.3
+volume                                0
+ema1                       56983.248217
+ema2                       56876.944199
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 471, dtype: object
+2026-04-20 11:05:16,091 - INFO -  HDK_NIFTYBANK_GOD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:05:16,091 - INFO -   HDK_NIFTYBANK_GOD_NH_H01_M | position : None | close : 57035.3
+2026-04-20 11:05:16,091 - INFO - ⏳ HDK_NIFTYBANK_GOD_NH_H01_M |  Waiting until next candle at 11:10:10
+2026-04-20 11:05:18,031 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:05:18,034 - INFO - ℹ️ HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 11:05:18,034 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:05:18,041 - INFO - ✅HDK_NIFTYBANK_RLY_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 11:05:18,041 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 11:05:18,042 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:05:18,042 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:05:18,042 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:05:18,042 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:05:18,042 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:05:18,442 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:05:18,446 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:05:18,447 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:05:18,461 - INFO - 🕒HDK_NIFTYBANK_RLY_NH_H01_M | Signal Received at Current Time: 2026-04-20 11:05:18
+                         date      open      high  ...  buySignal  sellSignal  trend
+467 2026-04-20 10:40:00+05:30  56995.10  57045.20  ...      False       False      1
+468 2026-04-20 10:45:00+05:30  57026.45  57031.95  ...      False       False      1
+469 2026-04-20 10:50:00+05:30  56998.30  57003.40  ...      False       False      1
+470 2026-04-20 10:55:00+05:30  56995.05  57037.95  ...      False       False      1
+471 2026-04-20 11:00:00+05:30  57038.15  57040.25  ...      False       False      1
+
+[5 rows x 11 columns]
+2026-04-20 11:05:18,461 - INFO - HDK_NIFTYBANK_RLY_NH_H01_M | RAILWAY_TRACK | Candle time 2026-04-20 11:00 | Close: 57035.3 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:05:18
+2026-04-20 11:05:18,461 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 11:05:18,462 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 57035.3 | latest :date          2026-04-20 11:00:00+05:30
+open                           57038.15
+high                           57040.25
+low                             56995.2
+close                           57035.3
+volume                                0
+emaHigh                    56902.724826
+emaLow                     56822.043258
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 471, dtype: object
+2026-04-20 11:05:18,462 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 11:05:18,463 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 57035.3 | latest :date          2026-04-20 11:00:00+05:30
+open                           57038.15
+high                           57040.25
+low                             56995.2
+close                           57035.3
+volume                                0
+emaHigh                    56902.724826
+emaLow                     56822.043258
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 471, dtype: object
+2026-04-20 11:05:18,463 - INFO -  HDK_NIFTYBANK_RLY_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:05:18,463 - INFO -   HDK_NIFTYBANK_RLY_NH_H01_M | position : None | close : 57035.3
+2026-04-20 11:05:18,463 - INFO - ⏳ HDK_NIFTYBANK_RLY_NH_H01_M |  Waiting until next candle at 11:10:10
+2026-04-20 11:05:19,374 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:05:19,375 - INFO - ℹ️ HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 11:05:19,376 - INFO - HDK_NIFTY_HD_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:05:19,383 - INFO - ✅HDK_NIFTY_HD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 11:05:19,383 - INFO - HDK_NIFTY_HD_NH_H01_W | GCP Buyers - UAT Lot size is 65
+2026-04-20 11:05:19,383 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:05:19,383 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:05:19,383 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:05:19,383 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:05:19,383 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:05:19,670 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:05:19,671 - INFO - ℹ️ HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 11:05:19,672 - INFO - HDK_SENSEX_RLY_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:05:19,683 - INFO - ✅HDK_SENSEX_RLY_NH_H01_W | Lot size retrieved: 20 for expiry NEXT_WEEK
+2026-04-20 11:05:19,683 - INFO - HDK_SENSEX_RLY_NH_H01_W | GCP Buyers - UAT Lot size is 20
+2026-04-20 11:05:19,683 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:05:19,683 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:05:19,683 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:05:19,683 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:05:19,683 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:05:19,795 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:05:19,820 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:05:19,821 - INFO - HDK_NIFTY_HD_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:05:19,834 - INFO - 🕒HDK_NIFTY_HD_NH_H01_W | Signal Received at Current Time: 2026-04-20 11:05:19
+                         date          open  ...  sellSignal  trend
+467 2026-04-20 10:40:00+05:30  24419.244077  ...       False      1
+468 2026-04-20 10:45:00+05:30  24428.915789  ...       False      1
+469 2026-04-20 10:50:00+05:30  24430.314144  ...       False      1
+470 2026-04-20 10:55:00+05:30  24427.563322  ...       False      1
+471 2026-04-20 11:00:00+05:30  24426.769161  ...       False      1
+
+[5 rows x 12 columns]
+2026-04-20 11:05:19,834 - INFO - HDK_NIFTY_HD_NH_H01_W | HDSTRATEGY | Candle time 2026-04-20 11:00 | Close: 24428.4125 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:05:19
+2026-04-20 11:05:19,834 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 11:05:19,835 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24428.4125 | latest :date          2026-04-20 11:00:00+05:30
+open                       24426.769161
+high                           24433.35
+low                            24415.85
+close                        24428.4125
+volume                                0
+sma                          24346.2955
+buyat                           24388.3
+sellat                      24335.02936
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 471, dtype: object
+2026-04-20 11:05:19,835 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 11:05:19,836 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24428.4125 | latest :date          2026-04-20 11:00:00+05:30
+open                       24426.769161
+high                           24433.35
+low                            24415.85
+close                        24428.4125
+volume                                0
+sma                          24346.2955
+buyat                           24388.3
+sellat                      24335.02936
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 471, dtype: object
+2026-04-20 11:05:19,836 - INFO -  HDK_NIFTY_HD_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:05:19,836 - INFO -   HDK_NIFTY_HD_NH_H01_W | position : None | close : 24428.4125
+2026-04-20 11:05:19,836 - INFO - ⏳ HDK_NIFTY_HD_NH_H01_W |  Waiting until next candle at 11:10:10
+2026-04-20 11:05:20,089 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:05:20,094 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:05:20,095 - INFO - HDK_SENSEX_RLY_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:05:20,107 - INFO - 🕒HDK_SENSEX_RLY_NH_H01_W | Signal Received at Current Time: 2026-04-20 11:05:20
+                         date      open      high  ...  buySignal  sellSignal  trend
+467 2026-04-20 10:40:00+05:30  78819.63  78873.48  ...      False       False      1
+468 2026-04-20 10:45:00+05:30  78847.27  78847.27  ...      False       False      1
+469 2026-04-20 10:50:00+05:30  78811.63  78816.02  ...      False       False      1
+470 2026-04-20 10:55:00+05:30  78781.19  78805.51  ...      False       False      1
+471 2026-04-20 11:00:00+05:30  78811.57  78811.57  ...      False       False      1
+
+[5 rows x 11 columns]
+2026-04-20 11:05:20,107 - INFO - HDK_SENSEX_RLY_NH_H01_W | RAILWAY_TRACK | Candle time 2026-04-20 11:00 | Close: 78801.89 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:05:20
+2026-04-20 11:05:20,107 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 11:05:20,108 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78801.89 | latest :date          2026-04-20 11:00:00+05:30
+open                           78811.57
+high                           78811.57
+low                             78752.9
+close                          78801.89
+volume                                0
+emaHigh                    78716.619727
+emaLow                     78632.712196
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 471, dtype: object
+2026-04-20 11:05:20,108 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 11:05:20,108 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78801.89 | latest :date          2026-04-20 11:00:00+05:30
+open                           78811.57
+high                           78811.57
+low                             78752.9
+close                          78801.89
+volume                                0
+emaHigh                    78716.619727
+emaLow                     78632.712196
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 471, dtype: object
+2026-04-20 11:05:20,108 - INFO -  HDK_SENSEX_RLY_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:05:20,108 - INFO -   HDK_SENSEX_RLY_NH_H01_W | position : None | close : 78801.89
+2026-04-20 11:05:20,109 - INFO - ⏳ HDK_SENSEX_RLY_NH_H01_W |  Waiting until next candle at 11:10:10
+2026-04-20 11:05:20,666 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:05:20,667 - INFO - ℹ️ HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT No open position. Waiting for next signal...
+2026-04-20 11:05:20,668 - INFO - HDK_NIFTY_GOD_NH_H01_W |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:05:20,674 - INFO - ✅HDK_NIFTY_GOD_NH_H01_W | Lot size retrieved: 65 for expiry NEXT_WEEK
+2026-04-20 11:05:20,675 - INFO - HDK_NIFTY_GOD_NH_H01_W | GCP Buyers - UAT Lot size is 65
+2026-04-20 11:05:20,675 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:05:20,675 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:05:20,675 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:05:20,675 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:05:20,675 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:05:21,074 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:05:21,093 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:05:21,094 - INFO - HDK_NIFTY_GOD_NH_H01_W | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:05:21,109 - INFO - 🕒HDK_NIFTY_GOD_NH_H01_W | Signal Received at Current Time: 2026-04-20 11:05:21
+                         date      open  ...  buySignal  sellSignal
+467 2026-04-20 10:40:00+05:30  24433.60  ...      False       False
+468 2026-04-20 10:45:00+05:30  24439.35  ...      False       False
+469 2026-04-20 10:50:00+05:30  24431.05  ...      False       False
+470 2026-04-20 10:55:00+05:30  24425.50  ...      False       False
+471 2026-04-20 11:00:00+05:30  24431.10  ...      False       False
+
+[5 rows x 15 columns]
+2026-04-20 11:05:21,109 - INFO - HDK_NIFTY_GOD_NH_H01_W | GOD | Candle time 2026-04-20 11:00 | Close: 24433.35 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:05:21
+2026-04-20 11:05:21,109 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _handle_nh_buy_signal
+2026-04-20 11:05:21,110 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24433.35 | latest :date          2026-04-20 11:00:00+05:30
+open                            24431.1
+high                           24433.35
+low                            24415.85
+close                          24433.35
+volume                                0
+ema1                       24422.491792
+ema2                       24396.552833
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 471, dtype: object
+2026-04-20 11:05:21,110 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _handle_nh_sell_signal
+2026-04-20 11:05:21,110 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24433.35 | latest :date          2026-04-20 11:00:00+05:30
+open                            24431.1
+high                           24433.35
+low                            24415.85
+close                          24433.35
+volume                                0
+ema1                       24422.491792
+ema2                       24396.552833
+crossover                         False
+crossunder                        False
+trend                                 1
+twoAbove                           True
+twoBelow                          False
+buySignal                         False
+sellSignal                        False
+Name: 471, dtype: object
+2026-04-20 11:05:21,111 - INFO -  HDK_NIFTY_GOD_NH_H01_W | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:05:21,111 - INFO -   HDK_NIFTY_GOD_NH_H01_W | position : None | close : 24433.35
+2026-04-20 11:05:21,111 - INFO - ⏳ HDK_NIFTY_GOD_NH_H01_W |  Waiting until next candle at 11:10:10
+2026-04-20 11:05:22,925 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:05:23,313 - INFO - 📌 HDK_NIFTYBANK_HD_NH_H01_M  | HDK GCP Buyers - UAT  | Resumed open position: SELL | BANKNIFTY26MAY56700PE @ ₹1056.05 | Qty: 30 | Hedge Symbol: - @ ₹0.0 | Hedge Qty: 0
+2026-04-20 11:05:23,314 - INFO - HDK_NIFTYBANK_HD_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:05:23,320 - INFO - ✅HDK_NIFTYBANK_HD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 11:05:23,320 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 11:05:23,321 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:05:23,321 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:05:23,321 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:05:23,321 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:05:23,321 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
+2026-04-20 11:05:23,841 - INFO - GCP Buyers - UAT Inside def _apply_strategy
+2026-04-20 11:05:23,855 - INFO - GCP Buyers - UAT Inside def _pick_latest_signal_row
+2026-04-20 11:05:23,855 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _log_signal_snapshot
+2026-04-20 11:05:23,868 - INFO - 🕒HDK_NIFTYBANK_HD_NH_H01_M | Signal Received at Current Time: 2026-04-20 11:05:23
+                         date          open  ...  sellSignal  trend
+467 2026-04-20 10:40:00+05:30  56935.719045  ...       False      1
+468 2026-04-20 10:45:00+05:30  56975.565773  ...       False      1
+469 2026-04-20 10:50:00+05:30  56990.245386  ...       False      1
+470 2026-04-20 10:55:00+05:30  56987.653943  ...       False      1
+471 2026-04-20 11:00:00+05:30  56999.033222  ...       False      1
+
+[5 rows x 12 columns]
+2026-04-20 11:05:23,868 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDSTRATEGY | Candle time 2026-04-20 11:00 | Close: 57027.22499999999 | Buy: False | Sell: False | Trend: 1 | Current Time: 2026-04-20 11:05:23
+2026-04-20 11:05:23,868 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_buy_signal
+2026-04-20 11:05:23,869 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : SELL | close : 57027.22499999999 | latest :date          2026-04-20 11:00:00+05:30
+open                       56999.033222
+high                           57040.25
+low                             56995.2
+close                         57027.225
+volume                                0
+sma                          56638.9835
+buyat                           57045.2
+sellat                     56935.719045
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 471, dtype: object
+2026-04-20 11:05:23,869 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _handle_nh_sell_signal
+2026-04-20 11:05:23,869 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : SELL | close : 57027.22499999999 | latest :date          2026-04-20 11:00:00+05:30
+open                       56999.033222
+high                           57040.25
+low                             56995.2
+close                         57027.225
+volume                                0
+sma                          56638.9835
+buyat                           57045.2
+sellat                     56935.719045
+buySignal                         False
+sellSignal                        False
+trend                                 1
+Name: 471, dtype: object
+2026-04-20 11:05:23,870 - INFO -  HDK_NIFTYBANK_HD_NH_H01_M | INSIDE _monitor_nh_position_until_next_candle
+2026-04-20 11:05:23,870 - INFO -   HDK_NIFTYBANK_HD_NH_H01_M | position : SELL | close : 57027.22499999999
+2026-04-20 11:05:23,870 - INFO - ⏳ HDK_NIFTYBANK_HD_NH_H01_M |  Waiting until next candle at 11:10:10
+2026-04-20 11:05:25,249 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:05:38,068 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:05:52,779 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:06:01,817 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:06:18,564 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:06:29,646 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:06:44,687 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:06:55,454 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:07:09,302 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:07:21,157 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:07:32,685 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:07:43,736 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:07:55,809 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:08:05,895 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:08:17,605 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:08:28,718 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:08:39,876 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:08:48,057 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:08:59,210 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:09:08,286 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:09:22,313 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:09:33,367 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:09:50,229 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:10:01,297 - INFO - ℹ️ Checking TRADE_STOPLOSS for HDK_NIFTYBANK_HD_NH_H01_M interval on trade BANKNIFTY26MAY56700PE
+2026-04-20 11:10:11,643 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _refresh_trade_state_in_loop
+2026-04-20 11:10:12,000 - INFO - 📌 HDK_NIFTYBANK_HD_NH_H01_M  | HDK GCP Buyers - UAT  | Resumed open position: SELL | BANKNIFTY26MAY56700PE @ ₹1056.05 | Qty: 30 | Hedge Symbol: - @ ₹0.0 | Hedge Qty: 0
+2026-04-20 11:10:12,001 - INFO - HDK_NIFTYBANK_HD_NH_H01_M |GCP Buyers - UAT Inside def _refresh_runtime_config
+2026-04-20 11:10:12,019 - INFO - ✅HDK_NIFTYBANK_HD_NH_H01_M | Lot size retrieved: 30 for expiry LAST
+2026-04-20 11:10:12,019 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | GCP Buyers - UAT Lot size is 30
+2026-04-20 11:10:12,019 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_no_new_trade
+2026-04-20 11:10:12,019 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _handle_market_availability
+2026-04-20 11:10:12,019 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _should_stop_for_intraday_cutoff
+2026-04-20 11:10:12,019 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _prepare_signal_context
+2026-04-20 11:10:12,019 - INFO - HDK_NIFTYBANK_HD_NH_H01_M | HDK GCP Buyers - UAT Inside def _fetch_historical_data_or_wait
